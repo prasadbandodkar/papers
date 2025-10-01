@@ -1,0 +1,612 @@
+{
+  "references": [
+    {
+      "index": 0,
+      "pmid": "6084826",
+      "authors": "Sandson J., Albert M. L.",
+      "title": "Varieties of perseveration",
+      "journal": "Neuropsychologia",
+      "year": "1984"
+    },
+    {
+      "index": 1,
+      "pmid": "31133825",
+      "authors": "Goodman J., Packard M. G.",
+      "title": "There is more than one kind of extinction learning",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": "2019"
+    },
+    {
+      "index": 2,
+      "pmid": "32970967",
+      "authors": "Bouton M. E., Maren S., McNally G. P.",
+      "title": "Behavioral and neurobiological mechanisms of pavlovian and instrumental extinction learning",
+      "journal": "Physiological reviews",
+      "year": "2021"
+    },
+    {
+      "index": 3,
+      "pmid": "9054347",
+      "authors": "Schultz W., Dayan P., Montague P. R.",
+      "title": "A neural substrate of prediction and reward",
+      "journal": "Science",
+      "year": "1997"
+    },
+    {
+      "index": 4,
+      "pmid": "N/A",
+      "authors": "Watabe-Uchida M., Eshel N., Uchida N.",
+      "title": "Neural circuitry of reward prediction error",
+      "journal": "Annual review of neuroscience",
+      "year": "2017"
+    },
+    {
+      "index": 5,
+      "pmid": "29760524",
+      "authors": "Berke J. D.",
+      "title": "What does dopamine mean?",
+      "journal": "Nature neuroscience",
+      "year": "2018"
+    },
+    {
+      "index": 6,
+      "pmid": "31171839",
+      "authors": "Cox J., Witten I. B.",
+      "title": "Striatal circuits for reward learning and decision-making",
+      "journal": "Nature Reviews Neuroscience",
+      "year": "2019"
+    },
+    {
+      "index": 7,
+      "pmid": "31942076",
+      "authors": "Dabney W., et al.",
+      "title": "A distributional code for value in dopamine-based reinforcement learning",
+      "journal": "Nature",
+      "year": "2020"
+    },
+    {
+      "index": 8,
+      "pmid": "26595651",
+      "authors": "Hamid A. A., et al.",
+      "title": "Mesolimbic dopamine signals the value of work",
+      "journal": "Nature neuroscience",
+      "year": "2016"
+    },
+    {
+      "index": 9,
+      "pmid": "26322583",
+      "authors": "Eshel N., et al.",
+      "title": "Arithmetic and local circuitry underlying dopamine prediction errors",
+      "journal": "Nature",
+      "year": "2015"
+    },
+    {
+      "index": 10,
+      "pmid": "26365765",
+      "authors": "Tian J., Uchida N.",
+      "title": "Habenula lesions reveal that multiple mechanisms underlie dopamine prediction errors",
+      "journal": "Neuron",
+      "year": "2015"
+    },
+    {
+      "index": 11,
+      "pmid": "27618675",
+      "authors": "Tian J., et al.",
+      "title": "Distributed and mixed information in monosynaptic inputs to dopamine neurons",
+      "journal": "Neuron",
+      "year": "2016"
+    },
+    {
+      "index": 12,
+      "pmid": "19389999",
+      "authors": "Tsai H. C., et al.",
+      "title": "Phasic firing in dopaminergic neurons is sufficient for behavioral conditioning",
+      "journal": "Science",
+      "year": "2009"
+    },
+    {
+      "index": 13,
+      "pmid": "22153370",
+      "authors": "Witten I. B., et al.",
+      "title": "Recombinase-driver rat lines: tools, techniques, and optogenetic application to dopamine-mediated reinforcement",
+      "journal": "Neuron",
+      "year": "2011"
+    },
+    {
+      "index": 14,
+      "pmid": "23708143",
+      "authors": "Steinberg E. E., et al.",
+      "title": "A causal link between prediction errors, dopamine neurons and learning",
+      "journal": "Nature neuroscience",
+      "year": "2013"
+    },
+    {
+      "index": 15,
+      "pmid": "29103933",
+      "authors": "Chang C. Y., Gardner M., Di Tillio M. G., Schoenbaum G.",
+      "title": "Optogenetic blockade of dopamine transients prevents learning induced by changes in reward features",
+      "journal": "Current Biology",
+      "year": "2017"
+    },
+    {
+      "index": 16,
+      "pmid": "28368385",
+      "authors": "Sharpe M. J., et al.",
+      "title": "Dopamine transients are sufficient and necessary for acquisition of model-based associations",
+      "journal": "Nature Neuroscience",
+      "year": "2017"
+    },
+    {
+      "index": 17,
+      "pmid": "30038277",
+      "authors": "Saunders B. T., Richard J. M., Margolis E. B., Janak P. H.",
+      "title": "Dopamine neurons create Pavlovian conditioned stimuli with circuit-defined motivational properties",
+      "journal": "Nature neuroscience",
+      "year": "2018"
+    },
+    {
+      "index": 18,
+      "pmid": "34529938",
+      "authors": "Kutlu M. G., et al.",
+      "title": "Dopamine release in the nucleus accumbens core signals perceived saliency",
+      "journal": "Current Biology",
+      "year": "2021"
+    },
+    {
+      "index": 19,
+      "pmid": "36480599",
+      "authors": "Jeong H., et al.",
+      "title": "Mesolimbic dopamine release conveys causal associations",
+      "journal": "Science",
+      "year": "2022"
+    },
+    {
+      "index": 20,
+      "pmid": "36653450",
+      "authors": "Coddington L. T., Lindo S. E., Dudman J. T.",
+      "title": "Mesolimbic dopamine adapts the rate of learning from action",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 21,
+      "pmid": "N/A",
+      "authors": "Danjo T., Yoshimi K., Funabiki K., Yawata S., Nakanishi S.",
+      "title": "Aversive behavior induced by optogenetic inactivation of ventral tegmental area dopamine neurons is mediated by dopamine D2 receptors in the nucleus accumbens",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2014"
+    },
+    {
+      "index": 22,
+      "pmid": "26642092",
+      "authors": "Chang C. Y., et al.",
+      "title": "Brief optogenetic inhibition of dopamine neurons mimics endogenous negative reward prediction errors",
+      "journal": "Nature neuroscience",
+      "year": "2016"
+    },
+    {
+      "index": 23,
+      "pmid": "33888609",
+      "authors": "van Zessen R., et al.",
+      "title": "Cue and reward evoked dopamine activity is necessary for maintaining learned Pavlovian associations",
+      "journal": "Journal of Neuroscience",
+      "year": "2021"
+    },
+    {
+      "index": 24,
+      "pmid": "N/A",
+      "authors": "Schultz W.",
+      "title": "Predictive reward signal of dopamine neurons",
+      "journal": "Journal of neurophysiology",
+      "year": "1998"
+    },
+    {
+      "index": 25,
+      "pmid": "22258508",
+      "authors": "Cohen J. Y., Haesler S., Vong L., Lowell B. B., Uchida N.",
+      "title": "Neuron-type specific signals for reward and punishment in the ventral tegmental area",
+      "journal": "nature",
+      "year": "2012"
+    },
+    {
+      "index": 26,
+      "pmid": "31142844",
+      "authors": "Engelhard B., et al.",
+      "title": "Specialized coding of sensory, motor and cognitive variables in VTA dopamine neurons",
+      "journal": "Nature",
+      "year": "2019"
+    },
+    {
+      "index": 27,
+      "pmid": "34086726",
+      "authors": "Fleming W., Jewell S., Engelhard B., Witten D. M., Witten I. B.",
+      "title": "Inferring spikes from calcium imaging in dopamine neurons",
+      "journal": "PloS one",
+      "year": "2021"
+    },
+    {
+      "index": 28,
+      "pmid": "37100911",
+      "authors": "Okray Z., et al.",
+      "title": "Multisensory learning binds neurons into a cross-modal memory engram",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 29,
+      "pmid": "31932769",
+      "authors": "Lee K., et al.",
+      "title": "Temporally restricted dopaminergic control of reward-conditioned movements",
+      "journal": "Nature neuroscience",
+      "year": "2020"
+    },
+    {
+      "index": 30,
+      "pmid": "32214250",
+      "authors": "Iino Y., et al.",
+      "title": "Dopamine D2 receptors in discrimination learning and spine enlargement",
+      "journal": "Nature",
+      "year": "2020"
+    },
+    {
+      "index": 31,
+      "pmid": "31320556",
+      "authors": "Marshel J. H., et al.",
+      "title": "Cortical layer–specific critical dynamics triggering perception",
+      "journal": "Science",
+      "year": "2019"
+    },
+    {
+      "index": 32,
+      "pmid": "36669484",
+      "authors": "Fan L. Z., et al.",
+      "title": "All-optical physiology resolves a synaptic basis for behavioral timescale plasticity",
+      "journal": "Cell",
+      "year": "2023"
+    },
+    {
+      "index": 33,
+      "pmid": "18815248",
+      "authors": "Pan W.-X., Schmidt R., Wickens J. R., Hyland B. I.",
+      "title": "Tripartite mechanism of extinction suggested by dopamine neuron activity and temporal difference model",
+      "journal": "Journal of Neuroscience",
+      "year": "2008"
+    },
+    {
+      "index": 34,
+      "pmid": "22445344",
+      "authors": "Tan K. R., et al.",
+      "title": "GABA neurons of the VTA drive conditioned place aversion",
+      "journal": "Neuron",
+      "year": "2012"
+    },
+    {
+      "index": 35,
+      "pmid": "22445345",
+      "authors": "Van Zessen R., Phillips J. L., Budygin E. A., Stuber G. D.",
+      "title": "Activation of VTA GABA neurons disrupts reward consumption",
+      "journal": "Neuron",
+      "year": "2012"
+    },
+    {
+      "index": 36,
+      "pmid": "23178810",
+      "authors": "Brown M. T., et al.",
+      "title": "Ventral tegmental area GABA projections pause accumbal cholinergic interneurons to enhance associative learning",
+      "journal": "Nature",
+      "year": "2012"
+    },
+    {
+      "index": 37,
+      "pmid": "N/A",
+      "authors": "Yoo J. H., et al.",
+      "title": "Ventral tegmental area glutamate neurons co-release GABA and promote positive reinforcement",
+      "journal": "Nature communications",
+      "year": "2016"
+    },
+    {
+      "index": 38,
+      "pmid": "N/A",
+      "authors": "Root D. H., et al.",
+      "title": "Distinct signaling by ventral tegmental area glutamate, GABA, and combinatorial glutamate-GABA neurons in motivated behavior",
+      "journal": "Cell Reports",
+      "year": "2020"
+    },
+    {
+      "index": 39,
+      "pmid": "36260661",
+      "authors": "Zhou W.-L., et al.",
+      "title": "Activity of a direct VTA to ventral pallidum GABA pathway encodes unconditioned reward value and sustains motivation for reward",
+      "journal": "Science Advances",
+      "year": "2022"
+    },
+    {
+      "index": 40,
+      "pmid": "22114279",
+      "authors": "Parker J. G., et al.",
+      "title": "Attenuating GABAA receptor signaling in dopamine neurons selectively enhances reward learning and alters risk preference in mice",
+      "journal": "Journal of Neuroscience",
+      "year": "2011"
+    },
+    {
+      "index": 41,
+      "pmid": "28385956",
+      "authors": "Shields B. C., et al.",
+      "title": "Deconstructing behavioral neuropharmacology with cellular specificity",
+      "journal": "Science",
+      "year": "2017"
+    },
+    {
+      "index": 42,
+      "pmid": "38212549",
+      "authors": "Shields B. C., et al.",
+      "title": "DART. 2: bidirectional synaptic pharmacology with thousandfold cellular specificity",
+      "journal": "Nature Methods",
+      "year": "2024"
+    },
+    {
+      "index": 43,
+      "pmid": "20445035",
+      "authors": "Lobb C. J., Wilson C. J., Paladini C. A.",
+      "title": "A dynamic role for GABA receptors on the firing pattern of midbrain dopaminergic neurons",
+      "journal": "Journal of neurophysiology",
+      "year": "2010"
+    },
+    {
+      "index": 44,
+      "pmid": "30421719",
+      "authors": "Salinas-Hernández X. I., et al.",
+      "title": "Dopamine neurons drive fear extinction learning by signaling the omission of expected aversive outcomes",
+      "journal": "Elife",
+      "year": "2018"
+    },
+    {
+      "index": 45,
+      "pmid": "N/A",
+      "authors": "Pan W.-X., Coddington L. T., Dudman J. T.",
+      "title": "Dissociable contributions of phasic dopamine activity to reward and prediction",
+      "journal": "Cell Reports",
+      "year": "2021"
+    },
+    {
+      "index": 46,
+      "pmid": "36897945",
+      "authors": "Ishino S., et al.",
+      "title": "Dopamine error signal to actively cope with lack of expected reward",
+      "journal": "Science Advances",
+      "year": "2023"
+    },
+    {
+      "index": 47,
+      "pmid": "6150071",
+      "authors": "Grace A. A., Bunney B. S.",
+      "title": "The control of firing pattern in nigral dopamine neurons: burst firing",
+      "journal": "Journal of neuroscience",
+      "year": "1984"
+    },
+    {
+      "index": 48,
+      "pmid": "22459161",
+      "authors": "Ungless M. A., Grace A. A.",
+      "title": "Are you or aren’t you? Challenges associated with physiologically identifying dopamine neurons",
+      "journal": "Trends in neurosciences",
+      "year": "2012"
+    },
+    {
+      "index": 49,
+      "pmid": "18945898",
+      "authors": "Khaliq Z. M., Bean B. P.",
+      "title": "Dynamic, nonlinear feedback regulation of slow pacemaking by A-type potassium current in ventral tegmental area neurons",
+      "journal": "Journal of Neuroscience",
+      "year": "2008"
+    },
+    {
+      "index": 50,
+      "pmid": "15466298",
+      "authors": "Bouton M. E.",
+      "title": "Context and behavioral processes in extinction",
+      "journal": "Learning & memory",
+      "year": "2004"
+    },
+    {
+      "index": 51,
+      "pmid": "4575029",
+      "authors": "Lubow R. E.",
+      "title": "Latent inhibition",
+      "journal": "Psychological bulletin",
+      "year": "1973"
+    },
+    {
+      "index": 52,
+      "pmid": "758977",
+      "authors": "Mogenson G. J., Wu M., Machanda S.",
+      "title": "Locomotor activity initiated by microinfusions of picrotoxin into the ventral tegmental area",
+      "journal": "Brain research",
+      "year": "1979"
+    },
+    {
+      "index": 53,
+      "pmid": "574606",
+      "authors": "Arnt J., Scheel-Kruger J.",
+      "title": "GABA in the ventral tegmental area: differential regional effects on locomotion, aggression and food intake after microinjection of GABA agonists and antagonists",
+      "journal": "Life Sci",
+      "year": "1979"
+    },
+    {
+      "index": 54,
+      "pmid": "460540",
+      "authors": "Tanner T.",
+      "title": "GABA-induced locomotor activity in the rat, after bilateral injection into the ventral tegmental area",
+      "journal": "Neuropharmacology",
+      "year": "1979"
+    },
+    {
+      "index": 55,
+      "pmid": "23055478",
+      "authors": "Barrot M., et al.",
+      "title": "Braking dopamine systems: a new GABA master structure for mesolimbic and nigrostriatal functions",
+      "journal": "Journal of Neuroscience",
+      "year": "2012"
+    },
+    {
+      "index": 56,
+      "pmid": "36922596",
+      "authors": "Zhang Y., et al.",
+      "title": "Fast and sensitive GCaMP calcium indicators for imaging neural populations",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 57,
+      "pmid": "27007845",
+      "authors": "Zalocusky K. A., et al.",
+      "title": "Nucleus accumbens D2R cells signal prior outcomes and control risky decision-making",
+      "journal": "Nature",
+      "year": "2016"
+    },
+    {
+      "index": 58,
+      "pmid": "38175903",
+      "authors": "Sasaki R., et al.",
+      "title": "Balancing risk-return decisions by manipulating the mesofrontal circuits in primates",
+      "journal": "Science",
+      "year": "2024"
+    },
+    {
+      "index": 59,
+      "pmid": "27292535",
+      "authors": "Takahashi Y. K., Langdon A. J., Niv Y., Schoenbaum G.",
+      "title": "Temporal specificity of reward prediction errors signaled by putative dopamine neurons in rat VTA depends on ventral striatum",
+      "journal": "Neuron",
+      "year": "2016"
+    },
+    {
+      "index": 60,
+      "pmid": "30323275",
+      "authors": "Coddington L. T., Dudman J. T.",
+      "title": "The timing of action determines reward prediction signals in identified midbrain dopamine neurons",
+      "journal": "Nat Neurosci",
+      "year": "2018"
+    },
+    {
+      "index": 61,
+      "pmid": "18687967",
+      "authors": "Shen W., Flajolet M., Greengard P., Surmeier D. J.",
+      "title": "Dichotomous dopaminergic control of striatal synaptic plasticity",
+      "journal": "Science",
+      "year": "2008"
+    },
+    {
+      "index": 62,
+      "pmid": "25258080",
+      "authors": "Yagishita S., et al.",
+      "title": "A critical time window for dopamine actions on the structural plasticity of dendritic spines",
+      "journal": "Science",
+      "year": "2014"
+    },
+    {
+      "index": 63,
+      "pmid": "33361810",
+      "authors": "Lee S. J., et al.",
+      "title": "Cell-type-specific asynchronous modulation of PKA by dopamine in learning",
+      "journal": "Nature",
+      "year": "2021"
+    },
+    {
+      "index": 64,
+      "pmid": "27760002",
+      "authors": "Matsumoto H., Tian J., Uchida N., Watabe-Uchida M.",
+      "title": "Midbrain dopamine neurons signal aversion in a reward-context-dependent manner",
+      "journal": "Elife",
+      "year": "2016"
+    },
+    {
+      "index": 65,
+      "pmid": "2397362",
+      "authors": "Morice R.",
+      "title": "Cognitive inflexibility and pre-frontal dysfunction in schizophrenia and mania",
+      "journal": "The British Journal of Psychiatry",
+      "year": "1990"
+    },
+    {
+      "index": 66,
+      "pmid": "N/A",
+      "authors": "Steuber E. R., McGuire J. F.",
+      "title": "A systematic review of fear learning, extinction learning, and reversal learning in obsessive-compulsive disorder: implications for treatment",
+      "journal": "The Journal of Clinical Psychiatry",
+      "year": "2022"
+    },
+    {
+      "index": 67,
+      "pmid": "30568192",
+      "authors": "Pascoli V., et al.",
+      "title": "Stochastic synaptic plasticity underlying compulsion in a model of addiction",
+      "journal": "Nature",
+      "year": "2018"
+    },
+    {
+      "index": 68,
+      "pmid": "19955362",
+      "authors": "Rutledge R. B., et al.",
+      "title": "Dopaminergic drugs modulate learning rates and perseveration in Parkinson's patients in a dynamic foraging task",
+      "journal": "Journal of Neuroscience",
+      "year": "2009"
+    },
+    {
+      "index": 69,
+      "pmid": "26197178",
+      "authors": "Bargmann C. I.",
+      "title": "How the New Neuroscience Will Advance Medicine",
+      "journal": "JAMA",
+      "year": "2015"
+    },
+    {
+      "index": 70,
+      "pmid": "36632413",
+      "authors": "Weaver I. A., Yousefzadeh S. A., Tadross M. R.",
+      "title": "An open-source head-fixation and implant-protection system for mice",
+      "journal": "HardwareX",
+      "year": "2023"
+    },
+    {
+      "index": 71,
+      "pmid": "28169219",
+      "authors": "Siegle J. H., et al.",
+      "title": "Open Ephys: an open-source, plugin-based platform for multichannel electrophysiology",
+      "journal": "Journal of neural engineering",
+      "year": "2017"
+    },
+    {
+      "index": 72,
+      "pmid": "21115042",
+      "authors": "Dzirasa K., Fuentes R., Kumar S., Potes J. M., Nicolelis M. A.",
+      "title": "Chronic in vivo multi-circuit neurophysiological recordings in mice",
+      "journal": "Journal of neuroscience methods",
+      "year": "2011"
+    },
+    {
+      "index": 73,
+      "pmid": "29557782",
+      "authors": "Yger P., et al.",
+      "title": "A spike sorting toolbox for up to thousands of electrodes validated with ground truth recordings in vitro and in vivo",
+      "journal": "Elife",
+      "year": "2018"
+    },
+    {
+      "index": 74,
+      "pmid": "31217592",
+      "authors": "Ho J., Tumkaya T., Aryal S., Choi H., Claridge-Chang A.",
+      "title": "Moving beyond P values: data analysis with estimation graphics",
+      "journal": "Nature methods",
+      "year": "2019"
+    },
+    {
+      "index": 75,
+      "pmid": "31570887",
+      "authors": "Berg S., et al.",
+      "title": "Ilastik: interactive machine learning for (bio) image analysis",
+      "journal": "Nature methods",
+      "year": "2019"
+    }
+  ]
+}

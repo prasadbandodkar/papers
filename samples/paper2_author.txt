@@ -1,0 +1,77 @@
+PMC ID
+======
+PMC11482880
+
+
+TITLE
+=====
+miR126-mediated impaired vascular integrity in Rett syndrome
+
+
+JOURNAL
+=======
+bioRxiv
+
+
+PUBLICATION DATE
+===============
+2024-10-13
+
+
+AUTHORS
+=======
+Author 1:
+Name: Tatsuya Osaki
+Affiliations:
+  - 1.Picower Institute of Learning and Memory, Massachusetts Institute of Technology, Cambridge, United States
+  - 2.Whitehead Institute for Biomedical Research, Massachusetts Institute of Technology, Cambridge, United States
+Email: osaki@mit.edu
+ORCID: http://orcid.org/0000-0001-7174-0629
+(Corresponding Author)
+
+Author 2:
+Name: Zhengpeng Wan
+Affiliations:
+  - 3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States
+  - 4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States
+ORCID: http://orcid.org/0000-0001-5626-7722
+
+Author 3:
+Name: Koji Haratani
+Affiliations:
+  - 5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA
+
+Author 4:
+Name: Ylliah Jin
+Affiliations:
+  - 3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States
+  - 4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States
+
+Author 5:
+Name: Marco Campisi
+Affiliations:
+  - 5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA
+
+Author 6:
+Name: David A. Barbie
+Affiliations:
+  - 5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA
+ORCID: http://orcid.org/0000-0002-5422-4275
+
+Author 7:
+Name: Roger Kamm
+Affiliations:
+  - 3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States
+  - 4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States
+Email: osaki@mit.edu
+(Corresponding Author)
+
+Author 8:
+Name: Mriganka Sur
+Affiliations:
+  - 1.Picower Institute of Learning and Memory, Massachusetts Institute of Technology, Cambridge, United States
+Email: osaki@mit.edu
+ORCID: http://orcid.org/0000-0003-2442-5671
+(Corresponding Author)
+
+

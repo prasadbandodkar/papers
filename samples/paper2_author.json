@@ -1,0 +1,80 @@
+{
+  "pmc_id": "11482880",
+  "title": "miR126-mediated impaired vascular integrity in Rett syndrome",
+  "journal": "bioRxiv",
+  "publication_date": "2024-10-13",
+  "authors": [
+    {
+      "name": "Tatsuya Osaki",
+      "affiliations": [
+        "1.Picower Institute of Learning and Memory, Massachusetts Institute of Technology, Cambridge, United States",
+        "2.Whitehead Institute for Biomedical Research, Massachusetts Institute of Technology, Cambridge, United States"
+      ],
+      "email": "osaki@mit.edu",
+      "is_corresponding": true,
+      "orcid": "http://orcid.org/0000-0001-7174-0629"
+    },
+    {
+      "name": "Zhengpeng Wan",
+      "affiliations": [
+        "3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States",
+        "4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0001-5626-7722"
+    },
+    {
+      "name": "Koji Haratani",
+      "affiliations": [
+        "5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA"
+      ],
+      "email": null,
+      "is_corresponding": false
+    },
+    {
+      "name": "Ylliah Jin",
+      "affiliations": [
+        "3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States",
+        "4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States"
+      ],
+      "email": null,
+      "is_corresponding": false
+    },
+    {
+      "name": "Marco Campisi",
+      "affiliations": [
+        "5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA"
+      ],
+      "email": null,
+      "is_corresponding": false
+    },
+    {
+      "name": "David A. Barbie",
+      "affiliations": [
+        "5.Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0002-5422-4275"
+    },
+    {
+      "name": "Roger Kamm",
+      "affiliations": [
+        "3.Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States",
+        "4.Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States"
+      ],
+      "email": "osaki@mit.edu",
+      "is_corresponding": true
+    },
+    {
+      "name": "Mriganka Sur",
+      "affiliations": [
+        "1.Picower Institute of Learning and Memory, Massachusetts Institute of Technology, Cambridge, United States"
+      ],
+      "email": "osaki@mit.edu",
+      "is_corresponding": true,
+      "orcid": "http://orcid.org/0000-0003-2442-5671"
+    }
+  ]
+}

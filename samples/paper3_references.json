@@ -1,0 +1,324 @@
+{
+  "references": [
+    {
+      "index": 0,
+      "pmid": "N/A",
+      "authors": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    {
+      "index": 1,
+      "pmid": "36484427",
+      "authors": "Bai Y, Zhou J, Zhu H, Tao Y, Wang L, Yang L, et al",
+      "title": "Isoliquiritigenin inhibits microglia-mediated neuroinflammation in models of Parkinson's disease via JNK/AKT/NFκB signaling pathway",
+      "journal": "Phytother Res",
+      "year": "2023"
+    },
+    {
+      "index": 2,
+      "pmid": "N/A",
+      "authors": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    {
+      "index": 3,
+      "pmid": "35714925",
+      "authors": "Bi A, Wang Y, Chen L, Yin Z, Luo L",
+      "title": "γ-Glutamylcysteine attenuates amyloid-β oligomers-induced neuroinflammation in microglia via blocking NF-κB signaling pathway",
+      "journal": "Chem Biol Interact",
+      "year": "2022"
+    },
+    {
+      "index": 4,
+      "pmid": "N/A",
+      "authors": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    {
+      "index": 5,
+      "pmid": "25765319",
+      "authors": "Descalzi G, Ikegami D, Ushijima T, Nestler EJ, Zachariou V, Narita M",
+      "title": "Epigenetic mechanisms of chronic pain",
+      "journal": "Trends Neurosci",
+      "year": "2015"
+    },
+    {
+      "index": 6,
+      "pmid": "33662422",
+      "authors": "Ferraz CR, Carvalho TT, Fattori V, Saraiva-Santos T, Pinho-Ribeiro FA, Borghi SM, et al",
+      "title": "Jararhagin, a snake venom metalloproteinase, induces mechanical hyperalgesia in mice with the neuroinflammatory contribution of spinal cord microglia and astrocytes",
+      "journal": "Int J Biol Macromol",
+      "year": "2021"
+    },
+    {
+      "index": 7,
+      "pmid": "24577438",
+      "authors": "Grace PM, Hutchinson MR, Maier SF, Watkins LR",
+      "title": "Pathological pain and the neuroimmune interface",
+      "journal": "Nat Rev Immunol",
+      "year": "2014"
+    },
+    {
+      "index": 8,
+      "pmid": "31911829",
+      "authors": "Gui X, Wang H, Wu L, Tian S, Wang X, Zheng H, et al",
+      "title": "Botulinum toxin type A promotes microglial M2 polarization and suppresses chronic constriction injury-induced neuropathic pain through the P2X7 receptor",
+      "journal": "Cell Biosci",
+      "year": "2020"
+    },
+    {
+      "index": 9,
+      "pmid": "32211150",
+      "authors": "Gui X, Wang H, Wu L, Tian S, Wang X, Zheng H, et al",
+      "title": "Botulinum toxin type A promotes microglial M2 polarization and suppresses chronic constriction injury-induced neuropathic pain through the P2X7 receptor",
+      "journal": "Cell Biosci",
+      "year": "2020"
+    },
+    {
+      "index": 10,
+      "pmid": "25727991",
+      "authors": "Guo L, Li S, Zhao Y, Qian P, Ji F, Qian L, et al",
+      "title": "Silencing angiopoietin-like protein 4 (ANGPTL4) protects against lipopolysaccharide-induced acute lung injury via regulating SIRT1/NF-kB pathway",
+      "journal": "J Cell Physiol",
+      "year": "2015"
+    },
+    {
+      "index": 11,
+      "pmid": "32353516",
+      "authors": "Han C, Yan P, He T, Cheng J, Zheng W, Zheng LT, et al",
+      "title": "PHLDA1 promotes microglia-mediated neuroinflammation via regulating K63-linked ubiquitination of TRAF6",
+      "journal": "Brain Behav Immun",
+      "year": "2020"
+    },
+    {
+      "index": 12,
+      "pmid": "32205121",
+      "authors": "He L, Han G, Wu S, Du S, Zhang Y, Liu W, et al",
+      "title": "Toll-like receptor 7 contributes to neuropathic pain by activating NF-κB in primary sensory neurons",
+      "journal": "Brain Behav Immun",
+      "year": "2020"
+    },
+    {
+      "index": 13,
+      "pmid": "N/A",
+      "authors": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    {
+      "index": 14,
+      "pmid": "35836229",
+      "authors": "Hua T, Yang M, Song H, Kong E, Deng M, Li Y, et al",
+      "title": "Huc-MSCs-derived exosomes attenuate inflammatory pain by regulating microglia pyroptosis and autophagy via the miR-146a-5p/TRAF6 axis",
+      "journal": "J Nanobiotechnology",
+      "year": "2022"
+    },
+    {
+      "index": 15,
+      "pmid": "28301400",
+      "authors": "Iyengar S, Ossipov MH, Johnson KW",
+      "title": "The role of calcitonin gene–related peptide in peripheral and central pain mechanisms including migraine",
+      "journal": "Pain",
+      "year": "2017"
+    },
+    {
+      "index": 16,
+      "pmid": "35468584",
+      "authors": "Jiang R, Xu J, Zhang Y, Liu J, Wang Y, Chen M, et al",
+      "title": "Ligustrazine alleviates psoriasis-like inflammation through inhibiting TRAF6/c-JUN/NFκB signaling pathway in keratinocyte",
+      "journal": "Biomed Pharmacother",
+      "year": "2022"
+    },
+    {
+      "index": 17,
+      "pmid": "30606213",
+      "authors": "Jing F, Zhang Y, Long T, He W, Qin G, Zhang D, et al",
+      "title": "P2Y12 receptor mediates microglial activation via RhoA/ROCK pathway in the trigeminal nucleus caudalis in a mouse model of chronic migraine",
+      "journal": "J Neuroinflammation",
+      "year": "2019"
+    },
+    {
+      "index": 18,
+      "pmid": "33059746",
+      "authors": "Kong F, Jiang X, Wang R, Zhai S, Zhang Y, Wang D",
+      "title": "Forsythoside B attenuates memory impairment and neuroinflammation via inhibition on NF-κB signaling in Alzheimer's disease",
+      "journal": "J Neuroinflammation",
+      "year": "2020"
+    },
+    {
+      "index": 19,
+      "pmid": "37032648",
+      "authors": "Li X, Shi H, Zhang D, Jing B, Chen Z, Zheng Y, et al",
+      "title": "Paeonol alleviates neuropathic pain by modulating microglial M1 and M2 polarization via the RhoA/p38MAPK signaling pathway",
+      "journal": "CNS Neurosci Ther",
+      "year": "2023"
+    },
+    {
+      "index": 20,
+      "pmid": "31766605",
+      "authors": "Liu L, Li J, Huo D, Peng Z, Yang R, Fu J, et al",
+      "title": "Meningitic Escherichia coli induction of ANGPTL4 in brain microvascular endothelial cells contributes to blood–brain barrier disruption via arhgap5/rhoa/myl5 signaling cascade",
+      "journal": "Pathogens",
+      "year": "2019"
+    },
+    {
+      "index": 21,
+      "pmid": "29031854",
+      "authors": "Lu Q, Lu P, Chen W, Lu L, Zheng Z",
+      "title": "ANGPTL-4 induces diabetic retinal inflammation by activating Profilin-1",
+      "journal": "Exp Eye Res",
+      "year": "2018"
+    },
+    {
+      "index": 22,
+      "pmid": "33694132",
+      "authors": "Lu Y, Cao DL, Ma LJ, Gao YJ",
+      "title": "TRAF6 Contributes to CFA-Induced Spinal Microglial Activation and Chronic Inflammatory Pain in Mice",
+      "journal": "Cell Mol Neurobiol",
+      "year": "2022"
+    },
+    {
+      "index": 23,
+      "pmid": "34767456",
+      "authors": "O'Neill TJ, Seeholzer T, Gewies A, Gehring T, Giesert F, Hamp I, et al",
+      "title": "TRAF6 prevents fatal inflammation by homeostatic suppression of MALT1 protease",
+      "journal": "Sci Immunol.",
+      "year": "2021"
+    },
+    {
+      "index": 24,
+      "pmid": "33417949",
+      "authors": "Qiu Z, Yang J, Deng G, Li D, Zhang S",
+      "title": "Angiopoietin-like 4 promotes angiogenesis and neurogenesis in a mouse model of acute ischemic stroke",
+      "journal": "Brain Res Bull",
+      "year": "2021"
+    },
+    {
+      "index": 25,
+      "pmid": "30975169",
+      "authors": "Sayo A, Konishi H, Kobayashi M, Kano K, Kobayashi H, Hibi H, et al",
+      "title": "GPR34 in spinal microglia exacerbates neuropathic pain in mice",
+      "journal": "J Neuroinflammation",
+      "year": "2019"
+    },
+    {
+      "index": 26,
+      "pmid": "28587921",
+      "authors": "Silva RL, Lopes AH, Guimarães RM, Cunha TM",
+      "title": "CXCL1/CXCR2 signaling in pathological pain: role in peripheral and central sensitization",
+      "journal": "Neurobiol Dis",
+      "year": "2017"
+    },
+    {
+      "index": 27,
+      "pmid": "25130721",
+      "authors": "Tatsumi E, Yamanaka H, Kobayashi K, Yagi H, Sakagami M, Noguchi K",
+      "title": "RhoA/ROCK pathway mediates p38 MAPK activation and morphological changes downstream of P2Y12/13 receptors in spinal microglia in neuropathic pain",
+      "journal": "Glia",
+      "year": "2015"
+    },
+    {
+      "index": 28,
+      "pmid": "36706180",
+      "authors": "Tsujikawa S, DeMeulenaere KE, Centeno MV, Ghazisaeidi S, Martin ME, Tapies MR, et al",
+      "title": "Regulation of neuropathic pain by microglial Orai1 channels",
+      "journal": "Sci Adv.",
+      "year": "2023"
+    },
+    {
+      "index": 29,
+      "pmid": "29318394",
+      "authors": "Wang B, Liu S, Fan B, Xu X, Chen Y, Lu R, et al",
+      "title": "PKM2 is involved in neuropathic pain by regulating ERK and STAT3 activation in rat spinal cord",
+      "journal": "J Headache Pain",
+      "year": "2018"
+    },
+    {
+      "index": 30,
+      "pmid": "31900165",
+      "authors": "Wang L, Yin C, Liu T, Abdul M, Zhou Y, Cao J-L, et al",
+      "title": "Pellino1 regulates neuropathic pain as well as microglial activation through the regulation of MAPK/NF-κB signaling in the spinal cord",
+      "journal": "J Neuroinflammation",
+      "year": "2020"
+    },
+    {
+      "index": 31,
+      "pmid": "32114357",
+      "authors": "Yang Y, Tan X, Xu J, Wang T, Liang T, Xu X, et al",
+      "title": "Luteolin alleviates neuroinflammation via downregulating the TLR4/TRAF6/NF-κB pathway after intracerebral hemorrhage",
+      "journal": "Biomed Pharmacother",
+      "year": "2020"
+    },
+    {
+      "index": 32,
+      "pmid": "24853068",
+      "authors": "Yao A, Liu F, Chen K, Tang L, Liu L, Zhang K, et al",
+      "title": "Programmed death 1 deficiency induces the polarization of macrophages/microglia to the M1 phenotype after spinal cord injury in mice",
+      "journal": "Neurotherapeutics",
+      "year": "2014"
+    },
+    {
+      "index": 33,
+      "pmid": "37932534",
+      "authors": "Yu J, Cui J, Zhang X, Xu H, Chen Z, Li Y, et al",
+      "title": "The OX40-TRAF6 axis promotes CTLA-4 degradation to augment antitumor CD8(+) T-cell immunity",
+      "journal": "Cell Mol Immunol",
+      "year": "2023"
+    },
+    {
+      "index": 34,
+      "pmid": "35658977",
+      "authors": "Zhang LQ, Gao SJ, Sun J, Li DY, Wu JY, Song FH, et al",
+      "title": "DKK3 ameliorates neuropathic pain via inhibiting ASK-1/JNK/p-38-mediated microglia polarization and neuroinflammation",
+      "journal": "J Neuroinflammation",
+      "year": "2022"
+    },
+    {
+      "index": 35,
+      "pmid": "37544956",
+      "authors": "Zhang X, Gao R, Zhang C, Teng Y, Chen H, Li Q, et al",
+      "title": "Extracellular RNAs-TLR3 signaling contributes to cognitive impairment after chronic neuropathic pain in mice",
+      "journal": "Signal Transduct Target Ther",
+      "year": "2023"
+    },
+    {
+      "index": 36,
+      "pmid": "31409484",
+      "authors": "Zhao J, Gao Q-Y",
+      "title": "TMEM16F inhibition limits pain-associated behavior and improves motor function by promoting microglia M2 polarization in mice",
+      "journal": "Biochem Biophys Res Commun",
+      "year": "2019"
+    },
+    {
+      "index": 37,
+      "pmid": "29677029",
+      "authors": "Zhao B, Pan Y, Xu H, Song X",
+      "title": "Kindlin-1 regulates astrocyte activation and pain sensitivity in rats with neuropathic pain",
+      "journal": "Reg Anesth Pain Med",
+      "year": "2018"
+    },
+    {
+      "index": 38,
+      "pmid": "N/A",
+      "authors": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    {
+      "index": 39,
+      "pmid": "31541462",
+      "authors": "Zheng J, Dai Q, Han K, Hong W, Jia D, Mo Y, et al",
+      "title": "JNK-IN-8, a c-Jun N-terminal kinase inhibitor, improves functional recovery through suppressing neuroinflammation in ischemic stroke",
+      "journal": "J Cell Physiol",
+      "year": "2020"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+PMC ID
+======
+PMC11100816
+
+
+TITLE
+=====
+Natural phasic inhibition of dopamine neurons signals cognitive rigidity
+
+
+JOURNAL
+=======
+bioRxiv
+
+
+PUBLICATION DATE
+===============
+2024-7-13
+
+
+AUTHORS
+=======
+Author 1:
+Name: Sasha C.V. Burwell
+Affiliations:
+  - 1Department of Neurobiology, Duke University, Durham, NC.
+  - 3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD
+ORCID: http://orcid.org/0000-0003-3553-1365
+
+Author 2:
+Name: Haidun Yan
+Affiliations:
+  - 2Department of Biomedical Engineering, Duke University, NC.
+  - 3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD
+ORCID: http://orcid.org/0000-0003-0916-8865
+
+Author 3:
+Name: Shaun S.X. Lim
+Affiliations:
+  - 2Department of Biomedical Engineering, Duke University, NC.
+  - 3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD
+ORCID: http://orcid.org/0000-0001-9312-6275
+
+Author 4:
+Name: Brenda C. Shields
+Affiliations:
+  - 2Department of Biomedical Engineering, Duke University, NC.
+  - 3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD
+ORCID: http://orcid.org/0000-0001-9036-2686
+
+Author 5:
+Name: Michael R. Tadross
+Affiliations:
+  - 1Department of Neurobiology, Duke University, Durham, NC.
+  - 2Department of Biomedical Engineering, Duke University, NC.
+  - 3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD
+Email: michael.tadross@duke.edu
+ORCID: http://orcid.org/0000-0002-7752-6380
+(Corresponding Author)
+
+

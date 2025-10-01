@@ -1,0 +1,59 @@
+{
+  "pmc_id": "11100816",
+  "title": "Natural phasic inhibition of dopamine neurons signals cognitive rigidity",
+  "journal": "bioRxiv",
+  "publication_date": "2024-7-13",
+  "authors": [
+    {
+      "name": "Sasha C.V. Burwell",
+      "affiliations": [
+        "1Department of Neurobiology, Duke University, Durham, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0003-3553-1365"
+    },
+    {
+      "name": "Haidun Yan",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0003-0916-8865"
+    },
+    {
+      "name": "Shaun S.X. Lim",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0001-9312-6275"
+    },
+    {
+      "name": "Brenda C. Shields",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0001-9036-2686"
+    },
+    {
+      "name": "Michael R. Tadross",
+      "affiliations": [
+        "1Department of Neurobiology, Duke University, Durham, NC.",
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": "michael.tadross@duke.edu",
+      "is_corresponding": true,
+      "orcid": "http://orcid.org/0000-0002-7752-6380"
+    }
+  ]
+}

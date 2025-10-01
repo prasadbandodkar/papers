@@ -1,0 +1,685 @@
+{
+  "title": "Natural phasic inhibition of dopamine neurons signals cognitive rigidity",
+  "journal": "bioRxiv",
+  "publication_date": "2024-7-13",
+  "pmc_id": "11100816",
+  "authors": [
+    {
+      "name": "Sasha C.V. Burwell",
+      "affiliations": [
+        "1Department of Neurobiology, Duke University, Durham, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0003-3553-1365"
+    },
+    {
+      "name": "Haidun Yan",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0003-0916-8865"
+    },
+    {
+      "name": "Shaun S.X. Lim",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0001-9312-6275"
+    },
+    {
+      "name": "Brenda C. Shields",
+      "affiliations": [
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": null,
+      "is_corresponding": false,
+      "orcid": "http://orcid.org/0000-0001-9036-2686"
+    },
+    {
+      "name": "Michael R. Tadross",
+      "affiliations": [
+        "1Department of Neurobiology, Duke University, Durham, NC.",
+        "2Department of Biomedical Engineering, Duke University, NC.",
+        "3Aligning Science Across Parkinson’s (ASAP) Collaborative Research Network, Chevy Chase, MD"
+      ],
+      "email": "michael.tadross@duke.edu",
+      "is_corresponding": true,
+      "orcid": "http://orcid.org/0000-0002-7752-6380"
+    }
+  ],
+  "abstract": "When animals unexpectedly fail, their dopamine neurons undergo phasic inhibition that canonically drives extinction learning—a cognitive-flexibility mechanism for discarding outdated strategies. However, the existing evidence equates natural and artificial phasic inhibition, despite their spatiotemporal differences. Addressing this gap, we targeted a GABAA-receptor antagonist precisely to dopamine neurons, yielding three unexpected findings. First, this intervention blocked natural phasic inhibition selectively, leaving tonic activity unaffected. Second, blocking natural phasic inhibition accelerated extinction learning—opposite to canonical mechanisms. Third, our approach selectively benefitted perseverative mice, restoring rapid extinction without affecting new reward learning. Our findings reveal that extinction learning is rapid by default and slowed by natural phasic inhibition—challenging foundational learning theories, while delineating a synaptic mechanism and therapeutic target for cognitive rigidity.",
+  "body": {
+    "GabazineDART is a cell-specific, GABAA receptor-specific antagonist": "Our approach capitalizes on DART’s ability to precisely block native GABAA receptors on VTADA neurons. To achieve cellular specificity, we use an AAV (adeno-associated viral vector) to express HTP (HaloTag Protein) exclusively on VTADA cells of DAT::Cre mice. HTP expression is stable and does not alter the physiology of VTADA cells (43). At a later time of interest, we apply gabazineDART, a two-headed ligand whose HTL (HaloTag Ligand) is efficiently captured by HTP, positioning the gabazine moiety to antagonize native GABAA receptors only on VTADA cells (Fig. 1A). We co-deliver gabazineDART with a small amount of Alexa647DART to serve as a fluorescent proxy of drug delivery (Fig. 1A). Control mice are treated identically, except for use of a double-dead HTP (ddHTP), which cannot bind the HTL (Fig. 1B).\nIn acute brain slices, dopamine neurons expressing ddHTP were unaffected by gabazineDART, whereas neurons expressing the active +HTP exhibited a rapid and nearly complete block of GABAA-mediated synaptic transmission (Fig. S1A) (43). Regarding receptor specificity, a saturating dose of tethered gabazineDART did not alter excitatory glutamate receptors, nor did it impact the intrinsic pacemaker properties or action-potential waveforms of VTADA cells (Fig. S1B-C). Furthermore, Alexa647DART did not influence VTADA physiology (Fig. S1D). Prior in-vivo tests found no behavioral effects of ambient gabazineDART when infused into the VTA of awake ddHTP mice (43). In +HTP mice, gabazineDART was tethered to VTADA neurons within minutes, with a single dose sufficing for two days of behavior (43). Together, these data validate tethered gabazineDART as a precise, cell-specific antagonist of native GABAA receptors.",
+    "GABAA receptors mediate natural phasic inhibition of VTADA neurons in vivo": "In principle, GABAA receptors could regulate various aspects of VTADA firing (44). We thus recorded VTADA action potentials in awake, head-fixed mice before and after delivery of gabazineDART (Fig. 1C). We examined a panel of tonic, burst, and pause metrics using a sliding-window analysis spanning pre-gabazineDART (15 min), drug infusion/equilibration (75 min), and post-gabazineDART (15 min) periods. In ddHTP mice, all metrics remained stable throughout the recording, indicating negligible effects of ambient gabazineDART (Fig. S2A).\nIn comparing +HTP mice to ddHTP controls, we found that gabazineDART substantially reduced the occurrence of spontaneous pauses. The effect is seen most readily in the main pause metric, %PSI, the percent of interspike intervals longer than twice the median interval. This metric was reduced by gabazineDART in +HTP mice relative to ddHTP controls (two-sided permutation test, P=0.009, Fig. 1D). The effect was robust to adjustments in the definition of a pause, and could not be explained by a symmetrical change in interspike-interval variance (Fig. S2B). All other metrics exhibited no significant difference in +HTP vs ddHTP mice (Fig. 1E-F, Fig. S2C-E). Thus, the main effect of gabazineDART is to prevent natural GABAA-mediated VTADA pauses from occurring.\nHistology confirmed ligand capture and specificity of viral expression: nearly all HTP expressing cells (99.7%) were dopaminergic and most dopaminergic cells in the VTA (~64%) expressed HTP (Fig. S2F-H). We did not opto-tag cells given concerns that overexpression of a second membrane protein could hinder surface trafficking of HTP. Instead, we identified putative dopamine neurons, as others have (45-47), by their unique electrophysiological features (48, 49), criteria known to yield ~12% false-positives (49).\nTo further scrutinize the data, we used our manipulation’s impact on pauses as a proxy for HTP expression and gabazineDART capture on individual cells. Reductions in the number of pauses corresponded with a decrease in pause length (Pearson’s r2=0.28, P=0.0006, Fig. S2I), congruent with a pause-reduction effect. By contrast, no correlations were found with respect to burst parameters (Fig. S2J). Similarly, the median interspike interval showed no correlation to pause reduction (Pearson’s r2=0, P=0.95) while total spikes trended very weakly (Pearson’s r2=0.04, P=0.2, Fig. S2K). Thus, the underlying tonic rhythm was unaffected, while subtle total-spike increments are an expected proxy of pause reduction itself.\nThe absence of even transient changes in tonic firing suggests homeostatic processes operating faster than DART’s 15-min onset, consistent with dynamic setpoint regulation by A-type potassium channels (50). By contrast, millisecond phasic GABA signaling requires postsynaptic GABAA receptors. Thus, gabazineDART selectively blocks phasic inhibition of VTADA neurons while preserving tonic- and burst-firing characteristics.",
+    "Blocking GABAA receptors on VTADA cells accelerates Pavlovian extinction": "Given that gabazineDART prevents natural VTADA pauses, we expected it to slow extinction learning. We tested this in water-deprived mice, trained for 10 days to associate cue A (2.5 kHz tone, 1.5 sec) with sucrose-water reward in a head-fixed configuration (Fig. 2A-B). Anticipatory licking during the cue (prior to reward delivery) served as the primary learning metric (Fig. 2C-D; Fig. S3A). On day 11, mice received gabazineDART and a 2 hr rest before resuming rewarded cue A trials for 15 min. Thereafter, Pavlovian extinction (unrewarded cue A trials) commenced, continuing into the final day (Fig. 2E-F, top). Contrary to expectations, we saw significantly accelerated extinction in +HTP mice compared to ddHTP controls (P=0.0043, two-sided permutation test, Fig. 2G)—opposite the hypothesized direction of influence.\nMice were assayed during their dark (active) circadian phase, each being initially naïve to the task. To avoid frustration from complete reward denial, extinction trials of cue A were randomly interleaved with trials pairing a distinct cue B (11 kHz tone, 1.5 sec) with sucrose-water reward (Fig. 2E-F, bottom), thereby maintaining overall reward availability (51). This design also provided a within-mouse measure of Pavlovian conditioning, canonically driven by VTADA bursts, which we hypothesized would not be impacted by gabazineDART. Confirming this hypothesis, Pavlovian conditioning was unaffected by gabazineDART (P=0.53, +HTP vs ddHTP, two-sided permutation test, Fig. 2H).\nDuring training (days 1-10), we encouraged mice to ignore environmental sounds other than cue A by imposing a timeout for licking during the random (3-13 sec) inter-trial interval (Fig. 2B). This allowed cue B to remain novel (52), while achieving cue discrimination in the majority of mice: 89% (24 of 27) were unresponsive to rare probes of cue B presented on day 10, despite robust anticipatory licking to cue A, thereby satisfying our behavioral inclusion criteria (Fig. S3B).\nFinally, after the session on day 12, we performed brain histology on every mouse to quantify target engagement. Locomotor enhancements, known to occur with VTADA disinhibition (43, 53-56), showed no correlation with gabazineDART target engagement, nor with either form of Pavlovian learning (Fig. S3C-E). By contrast, a significant correlation between Pavlovian extinction and gabazineDART target engagement was seen (Pearson’s r2=0.36, P=0.04, Fig. S3F), underscoring its dose-dependency.",
+    "VTADA neural activity dynamics during Pavlovian behavior": "Given these surprising behavioral findings, we further scrutinized the impact of gabazineDART on VTADA neural dynamics during the Pavlovian assay. Photometry recordings were obtained from medial VTADA neurons that co-expressed HTP and jGCaMP8f (57), a cytosolic protein optimized to detect rapid calcium decrements (Fig. 3A). Histology confirmed fiber placement, AAV co-expression, and ligand capture (Fig. 3B, Fig. S4A). Of 18 mice that met behavioral criteria, 12 mice (6 experimental, 6 control) met a minimum signal-fidelity criterion (Fig. S4B).\nControl mice exhibited a canonical VTADA pause to reward omission (Fig. 3C, black data within yellow boxes). These pauses were prominent during early extinction trials and diminished quickly thereafter, aligning with prior studies (31). We thus focused on the first 4 extinction trials and observed the elimination of pauses in +HTP/gabazineDART mice (Fig. 3C, pink data within yellow boxes), with a significant difference from controls (two-sided permutation test, P=0.001, Fig. 3C). In subsequent trials, VTADA pauses diminished in control mice, becoming statistically indistinguishable from manipulated animals (P=0.658, Fig. 3D).\nWe saw no group differences before ligand infusion, nor post-gabazineDART effects on baseline GCaMP signals (Fig. S4C-E), consistent with the stable tonic firing seen in our electrical recordings (Fig. 1F). Bursts to cue A were not significantly altered (Fig. 3C-D, Fig. S4F-G, gray boxes), also consistent with electrical recordings (Fig. 1E). As reported for unrewarded cues (25), a biphasic burst-pause to cue B appeared during probe (Fig. S4E) and early conditioning (S4H, top); this was unaffected by gabazineDART suggesting no GABAA involvement. During later conditioning, bursts to cue B trended larger but did not reach statistical significance (Fig. S4H, white boxes), consistent with unaltered behavioral conditioning (Fig. 2H).\nOur data adhere to the canonical subtractive mechanism of RPE calculation (10), where phasic inhibitory predictions diminish bursts if the predicted reward is received (P=0.034, Fig. S4F, right inset) or produce a pause if the predicted reward is withheld (P=0.001, Fig. 3C). However, this correlative adherence to RPE belies a starkly different causal picture—one in which natural phasic inhibition of VTADA neurons favors persistence over adaptation (Fig. 2).",
+    "GabazineDART impacts perseverative, but not flexible, mice": "Mice exhibited variable rates of conditioning, which was anti-correlated with extinction in ddHTP controls (Pearson’s r2=0.73, P=0.0004, Fig. 4A, black). We used conditioning, given its insensitivity to gabazineDART, to sort mice into upper and lower halves of this phenotypic spectrum. Slow-conditioning mice exhibited rapid cue A extinction (Fig. 4B, black), whereas fast-conditioning mice perseverated, responding to cue A despite repeated failure (Fig. 4C, black).\nGabazineDART eliminated perseveration in the fast-conditioning subset of mice, selectively accelerating extinction (P=0.001, two-sided permutation test, Fig. 4D, bottom) without altering their naturally fast conditioning (P=0.8, Fig. 4D, top). When administered to the other phenotypic category of mice, gabazineDART had little impact on either form of Pavlovian learning (Fig. 4B). Overall, gabazineDART caused extinction to become uniformly rapid across the phenotypic spectrum, eliminating its anti-correlation with conditioning (Pearson’s r2=0.07, P=0.4, Fig. 4A, pink). Consequently, a unique phenotype not seen in the control population emerged—mice adept at both rapid conditioning and rapid extinction (Fig. 4C, pink).\nWe did not observe trending sex differences (Fig. 4A), nor patterns in randomly interleaved trials that could explain phenotypic differences (Fig. S5A), consistent with previously reported intrinsic trait variability (58, 59). Initial training rates, which can be obscured by variability in task familiarization, did not predict later phenotypes (Fig. S5B). By contrast, we consistently observed the same phenotypic anti-correlation across a larger set of 25 mice pooled from the control arms of ongoing studies (Fig. S5C). This underscores the unique rapid-conditioning / rapid-extinction phenotype produced by VTADA-specific GABAA antagonism (Fig. 4C, pink).",
+    "Discussion": "The notion that learning is amplified by surprise is a central tenet in behavioral neuroscience. Canonically, surprise produces phasic dopamine signals that enhance cognitive flexibility, driving rapid learning, while tonic dopamine serves primarily as a baseline. Here, we reveal a fundamental inversion of these roles. Our finding that tonic dopamine allows rapid extinction learning aligns with a recent study suggesting that animals exhibit a default learning rate in the absence of phasic dopamine fluctuations (21). However, their focus on phasic excitation only allowed for transient increases above this default learning rate. Our study extends these findings by revealing that natural phasic inhibition can transiently slow the learning rate well below its default. Rather than conveying surprise, which enhances cognitive flexibility, we propose that natural phasic inhibition acts as a cognitive-rigidity signal, triggering skepticism toward new evidence that conflicts with prior expectations.\nTwo technical considerations arise from our findings. First, while our approach is specific to GABAergic over glutamatergic inputs, it remains unclear which subset of GABAergic inputs encodes the cognitive-rigidity signal. Given the importance of postsynaptic VTADA specificity to our findings, new tools must be developed to maintain this feature while refining input specificity—a constraint beyond the capability of existing tools (43). Second, since gabazineDART and excitatory optogenetics both counteract phasic inhibition of VTADA neurons, their opposite behavioral effects merit discussion. Early studies using 20-Hz optogenetic excitation to overpower natural phasic inhibition induced artificial bursts, driving conditioning that could be mistaken for slowed extinction. Efforts to mitigate this confound by using 5-Hz excitation still induce artificial bursts that could obscure measures of extinction, consistent with the reported lack of behavioral effects (31). Thus, despite similar population-average effects, adding an artificial signal is not the same as blocking a natural one.\nThe sensitivity of behavior to VTADA activity patterns suggests that the brain could employ a vocabulary of patterns for different forms of learning. For instance, optogenetic inhibition of VTADA cells (22-24) resembles mildly aversive air puffs (10-12): both are unexpected external events that induce synchronous phasic inhibition of VTADA neurons, without the need for prior training. By contrast, our study examines phasic inhibition tied to appetitive reward omission, which exhibits complex spatial and temporal patterns (28), stems from distinct presynaptic origins (11, 12, 60), and requires prior training (31, 61). These two patterns of phasic inhibition may engage different dopamine-dependent plasticity rules (31, 62-64) with distinct objectives. Synchronous pauses may signal aversive surprise (10-12, 65), enhancing cognitive flexibility to predict and avoid future air puffs. Irregular pauses may signal cognitive rigidity—driving persistence despite failure.\nA persistence mechanism can be adaptive in moderation (31, 61), but may become maladaptive, leading to perseveration as seen in schizophrenia (66), obsessive-compulsive disorder (67), addiction (68), and Parkinson’s disease (PD) (69). While many of these disorders have been characterized as hyper- or hypo-dopaminergic, our study shows that subtle changes in dopamine-neuron activity can have an outsized effect on behavior. This raises the question of whether modulating specific phasic components of dopamine signaling could offer a better therapeutic profile than current treatments that modulate dopamine signaling globally and continuously. While much remains to be done, the precision of gabazineDART, both in its specificity for extinction over conditioning behaviors and for perseverative over non-perseverative individuals, underscores the potential of targeted synaptic interventions for treating neurological disorders within a diverse population (70).",
+    "Mice —": "DAT-IRES-Cre (Jackson Labs 006660) mice were group housed by age and sex (max 5 per cage) in a standard temperature and humidity environment. For breeding, mice were housed under a normal 12-hr light/dark cycle and with food and water provided ad libitum. Experimental mice were transitioned to reverse-light-cycle and water-restriction conditions, as detailed below. All experiments involving animals were approved by the Duke Institutional Animal Care and Use Committee (IACUC), an AALAC accredited program registered with both the USDA Public Health Service and the NIH Office of Animal Welfare Assurance, and conform to all relevant regulatory standards (Tadross protocols A160-17-06, A113-20-05, A091-23-04).",
+    "Recombinant Adeno-associated Viral (rAAV) Vectors —": "All custom viral vectors were produced by the Duke Viral Vector Core or VectorBuilder, kept frozen at −80°C until use, then diluted to the desired titers using sterile hyperosmotic PBS and kept at 4°C for up to 4 weeks.",
+    "Acute Brain Slice Electrophysiology —": "DAT-IRES-Cre mice (5 females, 3 males, 8-10 weeks) were anesthetized and stereotaxically injected with 400 nL of either AAVrh10-CAG-DIO-+HTPGPI-2A-dTomato-WPRE or AAVrh10-CAG-DIO-ddHTPGPI-2A-dTomato-WPRE (2 × 1012 VG/mL, 100 nL per site, two tracks with two depths per track: −3.2 mm AP, ±0.5 mm ML, −5.0/−4.5 mm DV) using a custom Narishige injector. After 3-5 weeks for expression, mice were deeply anesthetized with isoflurane and euthanized by decapitation. Coronal brain slices (300 μm) containing VTA were prepared by standard methods using a Vibratome (Leica, VT1200S), in ice-cold high sucrose cutting solution containing (in mM): 220 sucrose, 3 KCl, 1.25 NaH2PO4, 25 NaHCO3, 12 MgSO4, 10 glucose, and 0.2 CaCl2 bubbled with 95% O2 and 5% CO2. Slices were then placed into artificial cerebrospinal fluid (aCSF) containing (in mM): 120 NaCl, 3.3 KCl, 1.23 NaH2PO4, 1 MgSO4, 2 CaCl2, 25 NaHCO3, and 10 glucose at pH 7.3, previously saturated with 95% O2 and 5% CO2. Slices were incubated at 33°C for 40-60 min in bubbled aCSF and allowed to cool to room temperature (22-24°C) until recordings were initiated.\nRecordings were performed on an Olympus BX51WI microscope, where slices were perfused with bubbled aCSF at 29-30°C with a 2 ml/min flow rate. To isolate GABAA IPSCs, the external solution was supplemented with DNQX (20 μM, AMPA antagonist) and AP-V (50 μM, NMDA antagonist). Alternately, to isolate AMPA-mediated EPSCs, aCSF was supplemented with picrotoxin (50 μM, GABAAR antagonist) and AP-V (50 μM). Finally, NMDA-mediated EPSCs were isolated with picrotoxin (50 μM) and DNQX (20 μM).\nFor voltage-clamp, the internal solution contained (in mM): 135 CsCl, 2 MgCl2, 0.5 EGTA, 10 HEPES, 4 MgATP, 0.5 NaGTP, 10 Na2-phosphocreatine, and 4 QX314 (lidocaine N-ethyl bromide), pH 7.3 with CsOH (290 mOsm). For current-clamp, we used (in mM) 130 K-gluconate, 5 KCl, 2 MgCl2, 0.2 EGTA, 10 HEPES, 4 MgATP, 0.5 NaGTP, and 10 phosphocreatine, pH adjusted to 7.3 with KOH (290 mOsm). Internal solutions were used to fill glass recording pipettes (4-6 MΩ). The liquid junction potential, estimated to be 15.9 mV, was not corrected.\nWhole-cell recordings were obtained with Multiclamp 700B and Digidata 1440A, which were controlled by pClamp 10.7 acquisition software (Molecular Devices). Signals were filtered at 10 kHz. A stimulating electrode was placed 60-100 μm from the recorded neuron. Evoked IPSC or EPSC signals were elicited by electrical stimuli of 0.3 ms duration and 150-300 μA (60-70% maximum responses), with a repetition interval of 15 sec. Our inclusion criteria required that cells maintain stable access and holding currents for at least 5 min. In particular, series resistance is monitored using 5–10 mV hyperpolarizing steps interleaved with our stimuli, and cells are discarded if series resistance changed more than ~15% during the experiment. The stored data signals were processed using Clampfit 10.7 (Axon Instruments).",
+    "In Vivo Electrophysiology Experiments —": "Adult DAT-IRES-Cre mice (2 females, 6 males; 12-16 weeks old) were anesthetized and stereotaxically injected with 400 nL of either AAVrh10-CAG-DIO-+HTPGPI-2A-dTomato-WPRE, AAVrh10-CAG-DIO-ddHTPGPI-2A-dTomato-WPRE (2 × 1012 VG/mL), AAVrh10-CAG-CreON-W3SL-+HTPGPI-IRES-dTomato-Farnesylated, or AAVrh10-CAG-CreON-W3SL-ddHTPGPI-IRES-dTomato-Farnesylated (1 × 1012 VG/mL) (100nL per site, two tracks with two depths per track: −3.2 mm AP, ±0.5 mm ML, −5.0/−4.5 mm DV) with a custom Narishige injector. Mice were implanted with a single-drive movable micro-bundle electrode array (Innovative Neurophysiology, Inc.; 23 μm Tungsten Electrodes, 16 / bundle; 0.008” silver ground wire) above the left VTA (−3.2 mm AP, −0.5 mm ML, −4.0 mm DV). The silver ground wire was wrapped securely around two ground screws, one placed in the skull above the cerebellum and one above the right olfactory bulb. A unilateral metal cannula (P1Tech; C315GMN; cut to 13.5 mm) was implanted laterally adjacent to the electrode bundle (−3.2 mm AP, −1.3 mm ML, −4.0 mm DV). Mice were fitted with a plastic head bar adhered to the skull with OptiBond and dental cement. Mice were singly or pair housed post-surgery, in a 12-hr light/dark cycle, with food and water provided ad libitum. Pair-housed mice were outfitted with head hats that clip to specially designed head bars to prevent cannula or electrode damage from chewing by cage mates (71).\nElectrophysiology recordings and DART infusions were performed at least 3 weeks after surgery to allow for recombinant protein expression. The electrode bundle was manually advanced three times: (1) 208 μm at least one week after surgery, (2) another 208 μm one week later, and (3) 104 μm one week later. This placed the electrodes at −4.5 mm DV, at the top of the VTA. After a few days for recovery, electrophysiological recordings were made with an Intan RHD 16-channel headstage with accelerometer (C3335) attached to an Open Ephys Acquisition Board via an Intan RHD 1-ft ultra-thin SPI interface cable (C3211). Data was collected using the Open Ephys GUI (72). Putative dopamine neurons were identified via their canonical features: tonic firing between 0 and 10 Hz, with bursting; wide biphasic or triphasic waveform; and large amplitude (48, 49). If no putative dopamine neurons were observed online, electrodes were advanced an additional 26-52 μm; this cycle was repeated until multiple channels with putative dopamine neurons were observed, at which point a recording was obtained.\nDART ligands, stored as pure-compound aliquots, were freshly thawed on the day of use and dissolved in sterile artificial cerebrospinal fluid (aCSF) containing (in mM): 148 NaCl, 3 KCl, 1.4 CaCl2, 0.8 MgSO4, 0.8 Na2HPO4, 0.2 NaH2PO4. The final reagent solution contained 10 μM gabazine.7DART.2 + 1 μM Alexa647.1DART.2. This solution was loaded into an internal cannula designed to project 0.5 - 1.5 mm from the guide cannula, with progressively longer internals used on successive infusions. Mice were head-fixed, the internal cannula inserted, and the Innovative Neurophysiology electrode bundle was connected to the Intan headstage. After obtaining a 15 min baseline recording, we infused 1.5 μL of DART reagent over 15 min (0.1 μL/min; Harvard Apparatus PhD Ultra pump; 5 μL Hamilton syringe), and continued the recording (120 min total). After completion of the recording, electrodes were advanced 26-52 μm (73). Mice were given at least two weeks for recovery between recordings, which we have shown is sufficient to allow for complete HTP protein turnover (43).\nSpike sorting of the raw data was performed using SpyKING CIRCUS, an open-access software package allowing for semi-manual spike sorting on multichannel extra-cellular recordings (74). Detection parameters included: spike threshold = 4; N_t (width of templates) = 2 or 3; peaks = positive. Filtering parameters used 250 Hz as the cutoff frequency for the Butterworth filter. All other parameters in the configuration file were standard as recommended by the SpyKING CIRCUS documentation. Only templates that matched all features of putative dopamine neurons and exhibited consistent spiking across the whole two-hour recording window were kept for analysis. All semi-manual spike sorting and template extraction were performed by SCVB for consistency.\nCustom MATLAB code was used to extract the following metrics:\nFor burst metrics, a burst is defined as a sequence of 3-10 spikes in which the first ISI < 80 ms and subsequent ISI < 160 ms (48, 49).\nChanges in a given metric, m, were analyzed by comparing the 15-min baseline (mpre) to a 15-min sliding window (mpost) according to: Δmnorm = (mpost − mpre) / (mpost + mpre). We then plotted the time course of Δmnorm (as a function of the sliding-window time), and analyzed the steady-state Δmnorm (1-hr post-gabazineDART) using a two-sided permutation test (75). Correlations between metrics were analyzed with a Pearson’s test.",
+    "Behavior Experiments —": "Adult DAT-IRES-cre mice (17 females, 20 males; 12 - 16 weeks old) were anesthetized and stereotaxically injected with 400 nL of either AAVrh10-CAG-DIO-+HTPGPI-2A-dTomato-WPRE or AAVrh10-CAG-DIO-ddHTPGPI-2A-dTomato-WPRE (2 × 1012 VG/mL, 100 nL per site, two tracks with two depths per track: −3.2 mm AP, ±0.5 mm ML, −5.0/−4.5 mm DV) with a custom Narishige injector. Mice were implanted with a bilateral metal cannula above the VTA (P1Tech; C235G-1.0; cut to 4 mm with a 1.0 mm spacing), which was lowered slowly to −3.75 mm. Mice were fitted with a plastic head bar adhered to the skull with OptiBond and dental cement, enabling head fixation. Mice were singly or pair housed post-surgery, in a 12-hr reverse light/dark cycle, with food and water provided ad libitum. Pair-housed mice were outfitted with head hats that clip to specially designed head bars (71) to prevent cannula damage from chewing by cage mates.\nMice were given a minimum of 9 days post-surgery for recovery and acclimation to the reverse light cycle. For the subsequent 3 days, mice were habituated to head-fixation and water restriction. Water was limited to 50-60 μL per gram of the mouse’s baseline weight per day, while dry food was provided ad libitum. The water restriction goal was 85% starting body weight; additional supplementary water was provided if mice dropped below 77% original body weight or did not pass a daily qualitative health assessment. Only 1 mouse was excluded for issues with water restriction health.\nDuring behavioral sessions, mice were head-fixed (custom 3D printed clamps that fit custom head bars (71)) on a round plastic treadmill (Delvie’s Plastics, 8” plexiglass disk covered with silicone rubber) attached to a rotary encoder to collect rotation data (U.S. Digital H5-100-NE-S). Cue tones were played through a Z50 speaker, lick detection was collected with an infrared beam, and sucrose rewards were delivered via a Lee Company solenoid (LHDA1233315H HDI-PTD-Saline-12V-30PSI). A custom MATLAB script controlled the behavioral sessions and data collection via a National Instruments card (NI USB-6351 X Series DAQ). Behavior sessions lasted 1 hr per day for 12 consecutive days and were performed during the dark portion of the mouse’s circadian cycle. The order in which each mouse performed the task was pseudo-randomly counterbalanced.\nDuring training sessions (days 1-10), mice were conditioned to associate cue A (2.5 kHz tone, 1.5 sec) with a 5 μL 10% sucrose-water reward. Conditioning trials were randomly interleaved with silent trials (with neither cue nor reward), enabling consistency in the trial-structure and reward-delivery quantities throughout training and testing sessions. On the final day of training (day 10) we replaced 5-6 of the silent trials with probe trials in which an unfamiliar cue B (11 kHz tone, 1.5 sec) was presented but unrewarded. Thereafter, on day 11, we infused 10 μM gabazine.7DART.2 + 1 μM Alexa647.1DART.2 dissolved in sterile aCSF; 0.6 - 0.8 μL was infused per hemisphere at a rate of 0.1 μL/min (Harvard Apparatus PhD Ultra pump using 5 μL Hamilton syringes). Following a 2 hr rest, mice resumed the original training rules for 15 min. Thereafter the rules changed: cue A was now unrewarded (extinction trials) interleaved with cue B rewarded (conditioning trials). These rules continued on day 12. Throughout the assay, mice completed 200–300 total trials daily (half cue A; half cue B or silent). Licks were allowed during the 1.5 sec tone (anticipatory licks) and the subsequent 2 sec period (retrieval licks). The inter-trial interval (ITI) was random 3 - 13 sec (from the end of the retrieval period to the start of the next cue). Licks occurring during the ITI resulted in a timeout penalty and resetting of the ITI to discourage nonspecific licking. Timeouts were never imposed for licking during a cue or retrieval period (regardless of whether the cue was rewarded or unrewarded).\nAnticipatory licking (during the 1.5 sec cue) was our primary learning measure, which we quantify as the fraction of time that the infrared beam was broken during the cue. Our behavioral inclusion criteria required that mice exhibit mean cue A anticipatory licking greater than 0.2 on the 10th training session (this was satisfied by 27/36 mice), and cue B probe-trial anticipatory licking less than 30% of responses to cue A (satisfied by 24/27 mice). The main-text figures include the 24 mice that met our behavioral inclusion criteria (12 ddHTP, 12 +HTP). The behavioral experimenter was blinded to virus condition in half of the experimental cohorts. Fig. S4c contains a total of 25 ddHTP mice (13 females, 12 males) which include the same 12 ddHTP mice (receiving gabazine.7DART.2) plus an additional 13 ddHTP mice that also met behavioral inclusion criteria and had received a different infusion (blank.1DART.2, diazepam.1DART.2, or YM90K.1DART.2) at doses shown to have no behavioral ambient drug effects (43). Following the session on day 12, all mice were perfused for histological visualization of tracerDART capture. No mice were excluded based on histology. All statistical comparisons were between ddHTP vs +HTP mice were determined using two-sided permutation tests (75).",
+    "Fiber Photometry —": "Adult DAT-IRES-cre mice (12 females, 12 males; 12 - 16 weeks old) were anesthetized and stereotaxically injected with a mixture containing pGP-AAV9-CAG-FLEX-jGCaMP8f-WPRE (5 x 1011 VG/mL) and either AAVrh10-CAG-DIO-+HTPGPI-2A-dTomato-WPRE or AAVrh10-CAG-DIO-ddHTPGPI-2A-dTomato-WPRE (2 × 1012 VG/mL) (400 nL total; 100nL per site, two tracks with two depths per track: −3.2 mm AP, ±0.5 mm ML, −5.0/−4.5 mm DV) with a custom Narishige injector. Mice were implanted with a unilateral mini metal cannula in one hemisphere above the VTA (P1Tech; C315GMN/SPC; cut to 7 mm), at a 5-10 degree angle towards the midline and lowered slowly to −3.75 mm DV. They were also implanted with an optic fiber (Doric Lenses, MFC_400/430-0.66_5mm_MF1.25_FLT) in the opposite hemisphere, at a 5-6 degree angle towards the midline and lowered slowly to −4.25 mm DV, just dorsal to the VTA. Mice were fitted with a plastic head bar adhered to the skull with OptiBond and dental cement, enabling head fixation. Mice were singly housed post-surgery, in a 12-hr reverse light/dark cycle, with food and water provided ad libitum.\nAfter three weeks, mice performed the Pavlovian assay with fiber photometry recordings on every behavioral session (Tucker-Davis Technologies RZ10X; TDT Synapse software; 465 nm excitation). Mice that did not meet behavioral inclusion criteria were excluded (4 for insufficient anticipatory licking to cue A; 2 for insufficient discrimination of cue B). Prior to the first testing session on day 11, ligands were freshly dissolved in sterile aCSF to 10 μM gabazine.7DART.2 + 1 μM Alexa647.1DART.2 or 10 μM blank.1DART.2 + 1μM Alexa647.1DART.2. Given the need to achieve bilateral ligand delivery through a unilateral cannula, 0.8 nL was infused 2 or 3 times at a rate of 0.1 μL/min with 1 hour between each infusion (1.6-2.4 μL total; Harvard Apparatus PhD Ultra pump using 5 μL Hamilton syringes). Behavior proceeded 2 hr after the last infusion. Following the last session on day 12, histology was obtained to confirm jGCaMP8f expression, Alexa647DART capture, and fiber placement. No mice were excluded based on histology. The behavioral experimenter was blinded to virus condition in all of the experimental cohorts.\nTo assess the effects of our manipulation on phasic activity, we computed:\nΔF/F0 = (F − F0 ) / F0 where\nWe then defined time intervals as follows: (where t = 0 at the start of the 1.5 sec cue).\nTo assess the effects of our manipulation on tonic activity, we computed:\nΔ(F0)norm = ( F0,post − F0,pre ) / ( F0,post + F0,pre ) where:\nGiven that all mice had met our behavioral inclusion criteria, having learned the cue A reward association, cue-evoked bursts provide a quality-control metric for GCaMP expression and fiber placement. Thus, our photometry inclusion criteria required that cue-evoked ΔF/F0 > 1, averaged over days 6-10. To confirm the appropriateness of this threshold, we performed a regression analysis against our primary metric, the early-pause ΔF/F0 (first 4 reward omissions). This regression analysis, which included all mice, confirmed a statistically significant difference between ddHTP and +HTP mice (P = 0.008, two-sided permutation slope test, Fig. S4B), while demonstrating the appropriateness of our inclusion threshold, below which pauses could not be reliably detected in control mice. All statistical comparisons were between ddHTP vs +HTP mice were determined using two-sided permutation tests (75).",
+    "Histology —": "Mice were deeply anesthetized with isoflurane. Electrodes were briefly connected to a 9V battery (1 sec) to mark electrode positions. Thereafter, mice were fixed by transcardial perfusion of 15 mL PBS followed by 50 mL ice-cold 4% paraformaldehyde (PFA) in 0.1M PB, pH 7.4. Brains were excised from the skull, post-fixed in 50 mL of 4% PFA at 4°C overnight, then washed three times with PBS. Brains were embedded in 5% agarose and sliced along the coronal axis at 50 μm (Leica, VT1200S).\nFor tyrosine hydroxylase immunostaining, sections were washed in PBS before a 2 hr incubation in a blocking solution consisting of 5% goat serum, 3% bovine serum albumin, and 0.3% trition-x. Sections were then transferred to a half block solution containing 1:1000 rabbit anti-TH (PelFreez, P40101) overnight at 4˚C with agitation, and then washed in 0.1M PBS containing 0.1% tween before a 4 hr incubation in a half block solution containing 1:1000 goat anti-rabbit 488 (Invitrogen, A11008). Finally, sections were washed in PBS containing tween, then PBS alone prior to mounting on glass slides.\nSections were mounted onto glass slides (VWR 48311-703) and coverslipped with Vectashield mounting medium (Vector Labs, H-1400 or H-1800). Fluorescent images (DAPI, FITC, TRITC, Cy5) were collected at 10X magnification with an Olympus VS200 slide scanner.\nCell counts were obtained using ilastik (76). Pixel Classification was used to predict cell versus not-cell (background tissue), then Object Classification was used on these pixel predictions to label cells as red (dTomato), green (TH+ or GCaMP), or red+green (both). Object identities were exported and used to calculate the number of cells identified in each label class across all sections from one brain. Pixel intensity analysis was performed with custom MATLAB code. For each coronal section, the VTA was manually segmented in both hemispheres. Background fluorescence was subtracted. Dye capture levels were calculated via a pixel-wise summation over 15 coronal sections. Correlations between pixel intensity and behavior were analyzed with a Pearson’s permutation test; trend lines are simple linear regressions, and shading is 95% confidence interval."
+  },
+  "references": [
+    {
+      "index": 0,
+      "pmid": "6084826",
+      "authors": "Sandson J., Albert M. L.",
+      "title": "Varieties of perseveration",
+      "journal": "Neuropsychologia",
+      "year": "1984"
+    },
+    {
+      "index": 1,
+      "pmid": "31133825",
+      "authors": "Goodman J., Packard M. G.",
+      "title": "There is more than one kind of extinction learning",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": "2019"
+    },
+    {
+      "index": 2,
+      "pmid": "32970967",
+      "authors": "Bouton M. E., Maren S., McNally G. P.",
+      "title": "Behavioral and neurobiological mechanisms of pavlovian and instrumental extinction learning",
+      "journal": "Physiological reviews",
+      "year": "2021"
+    },
+    {
+      "index": 3,
+      "pmid": "9054347",
+      "authors": "Schultz W., Dayan P., Montague P. R.",
+      "title": "A neural substrate of prediction and reward",
+      "journal": "Science",
+      "year": "1997"
+    },
+    {
+      "index": 4,
+      "pmid": "N/A",
+      "authors": "Watabe-Uchida M., Eshel N., Uchida N.",
+      "title": "Neural circuitry of reward prediction error",
+      "journal": "Annual review of neuroscience",
+      "year": "2017"
+    },
+    {
+      "index": 5,
+      "pmid": "29760524",
+      "authors": "Berke J. D.",
+      "title": "What does dopamine mean?",
+      "journal": "Nature neuroscience",
+      "year": "2018"
+    },
+    {
+      "index": 6,
+      "pmid": "31171839",
+      "authors": "Cox J., Witten I. B.",
+      "title": "Striatal circuits for reward learning and decision-making",
+      "journal": "Nature Reviews Neuroscience",
+      "year": "2019"
+    },
+    {
+      "index": 7,
+      "pmid": "31942076",
+      "authors": "Dabney W., et al.",
+      "title": "A distributional code for value in dopamine-based reinforcement learning",
+      "journal": "Nature",
+      "year": "2020"
+    },
+    {
+      "index": 8,
+      "pmid": "26595651",
+      "authors": "Hamid A. A., et al.",
+      "title": "Mesolimbic dopamine signals the value of work",
+      "journal": "Nature neuroscience",
+      "year": "2016"
+    },
+    {
+      "index": 9,
+      "pmid": "26322583",
+      "authors": "Eshel N., et al.",
+      "title": "Arithmetic and local circuitry underlying dopamine prediction errors",
+      "journal": "Nature",
+      "year": "2015"
+    },
+    {
+      "index": 10,
+      "pmid": "26365765",
+      "authors": "Tian J., Uchida N.",
+      "title": "Habenula lesions reveal that multiple mechanisms underlie dopamine prediction errors",
+      "journal": "Neuron",
+      "year": "2015"
+    },
+    {
+      "index": 11,
+      "pmid": "27618675",
+      "authors": "Tian J., et al.",
+      "title": "Distributed and mixed information in monosynaptic inputs to dopamine neurons",
+      "journal": "Neuron",
+      "year": "2016"
+    },
+    {
+      "index": 12,
+      "pmid": "19389999",
+      "authors": "Tsai H. C., et al.",
+      "title": "Phasic firing in dopaminergic neurons is sufficient for behavioral conditioning",
+      "journal": "Science",
+      "year": "2009"
+    },
+    {
+      "index": 13,
+      "pmid": "22153370",
+      "authors": "Witten I. B., et al.",
+      "title": "Recombinase-driver rat lines: tools, techniques, and optogenetic application to dopamine-mediated reinforcement",
+      "journal": "Neuron",
+      "year": "2011"
+    },
+    {
+      "index": 14,
+      "pmid": "23708143",
+      "authors": "Steinberg E. E., et al.",
+      "title": "A causal link between prediction errors, dopamine neurons and learning",
+      "journal": "Nature neuroscience",
+      "year": "2013"
+    },
+    {
+      "index": 15,
+      "pmid": "29103933",
+      "authors": "Chang C. Y., Gardner M., Di Tillio M. G., Schoenbaum G.",
+      "title": "Optogenetic blockade of dopamine transients prevents learning induced by changes in reward features",
+      "journal": "Current Biology",
+      "year": "2017"
+    },
+    {
+      "index": 16,
+      "pmid": "28368385",
+      "authors": "Sharpe M. J., et al.",
+      "title": "Dopamine transients are sufficient and necessary for acquisition of model-based associations",
+      "journal": "Nature Neuroscience",
+      "year": "2017"
+    },
+    {
+      "index": 17,
+      "pmid": "30038277",
+      "authors": "Saunders B. T., Richard J. M., Margolis E. B., Janak P. H.",
+      "title": "Dopamine neurons create Pavlovian conditioned stimuli with circuit-defined motivational properties",
+      "journal": "Nature neuroscience",
+      "year": "2018"
+    },
+    {
+      "index": 18,
+      "pmid": "34529938",
+      "authors": "Kutlu M. G., et al.",
+      "title": "Dopamine release in the nucleus accumbens core signals perceived saliency",
+      "journal": "Current Biology",
+      "year": "2021"
+    },
+    {
+      "index": 19,
+      "pmid": "36480599",
+      "authors": "Jeong H., et al.",
+      "title": "Mesolimbic dopamine release conveys causal associations",
+      "journal": "Science",
+      "year": "2022"
+    },
+    {
+      "index": 20,
+      "pmid": "36653450",
+      "authors": "Coddington L. T., Lindo S. E., Dudman J. T.",
+      "title": "Mesolimbic dopamine adapts the rate of learning from action",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 21,
+      "pmid": "N/A",
+      "authors": "Danjo T., Yoshimi K., Funabiki K., Yawata S., Nakanishi S.",
+      "title": "Aversive behavior induced by optogenetic inactivation of ventral tegmental area dopamine neurons is mediated by dopamine D2 receptors in the nucleus accumbens",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2014"
+    },
+    {
+      "index": 22,
+      "pmid": "26642092",
+      "authors": "Chang C. Y., et al.",
+      "title": "Brief optogenetic inhibition of dopamine neurons mimics endogenous negative reward prediction errors",
+      "journal": "Nature neuroscience",
+      "year": "2016"
+    },
+    {
+      "index": 23,
+      "pmid": "33888609",
+      "authors": "van Zessen R., et al.",
+      "title": "Cue and reward evoked dopamine activity is necessary for maintaining learned Pavlovian associations",
+      "journal": "Journal of Neuroscience",
+      "year": "2021"
+    },
+    {
+      "index": 24,
+      "pmid": "N/A",
+      "authors": "Schultz W.",
+      "title": "Predictive reward signal of dopamine neurons",
+      "journal": "Journal of neurophysiology",
+      "year": "1998"
+    },
+    {
+      "index": 25,
+      "pmid": "22258508",
+      "authors": "Cohen J. Y., Haesler S., Vong L., Lowell B. B., Uchida N.",
+      "title": "Neuron-type specific signals for reward and punishment in the ventral tegmental area",
+      "journal": "nature",
+      "year": "2012"
+    },
+    {
+      "index": 26,
+      "pmid": "31142844",
+      "authors": "Engelhard B., et al.",
+      "title": "Specialized coding of sensory, motor and cognitive variables in VTA dopamine neurons",
+      "journal": "Nature",
+      "year": "2019"
+    },
+    {
+      "index": 27,
+      "pmid": "34086726",
+      "authors": "Fleming W., Jewell S., Engelhard B., Witten D. M., Witten I. B.",
+      "title": "Inferring spikes from calcium imaging in dopamine neurons",
+      "journal": "PloS one",
+      "year": "2021"
+    },
+    {
+      "index": 28,
+      "pmid": "37100911",
+      "authors": "Okray Z., et al.",
+      "title": "Multisensory learning binds neurons into a cross-modal memory engram",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 29,
+      "pmid": "31932769",
+      "authors": "Lee K., et al.",
+      "title": "Temporally restricted dopaminergic control of reward-conditioned movements",
+      "journal": "Nature neuroscience",
+      "year": "2020"
+    },
+    {
+      "index": 30,
+      "pmid": "32214250",
+      "authors": "Iino Y., et al.",
+      "title": "Dopamine D2 receptors in discrimination learning and spine enlargement",
+      "journal": "Nature",
+      "year": "2020"
+    },
+    {
+      "index": 31,
+      "pmid": "31320556",
+      "authors": "Marshel J. H., et al.",
+      "title": "Cortical layer–specific critical dynamics triggering perception",
+      "journal": "Science",
+      "year": "2019"
+    },
+    {
+      "index": 32,
+      "pmid": "36669484",
+      "authors": "Fan L. Z., et al.",
+      "title": "All-optical physiology resolves a synaptic basis for behavioral timescale plasticity",
+      "journal": "Cell",
+      "year": "2023"
+    },
+    {
+      "index": 33,
+      "pmid": "18815248",
+      "authors": "Pan W.-X., Schmidt R., Wickens J. R., Hyland B. I.",
+      "title": "Tripartite mechanism of extinction suggested by dopamine neuron activity and temporal difference model",
+      "journal": "Journal of Neuroscience",
+      "year": "2008"
+    },
+    {
+      "index": 34,
+      "pmid": "22445344",
+      "authors": "Tan K. R., et al.",
+      "title": "GABA neurons of the VTA drive conditioned place aversion",
+      "journal": "Neuron",
+      "year": "2012"
+    },
+    {
+      "index": 35,
+      "pmid": "22445345",
+      "authors": "Van Zessen R., Phillips J. L., Budygin E. A., Stuber G. D.",
+      "title": "Activation of VTA GABA neurons disrupts reward consumption",
+      "journal": "Neuron",
+      "year": "2012"
+    },
+    {
+      "index": 36,
+      "pmid": "23178810",
+      "authors": "Brown M. T., et al.",
+      "title": "Ventral tegmental area GABA projections pause accumbal cholinergic interneurons to enhance associative learning",
+      "journal": "Nature",
+      "year": "2012"
+    },
+    {
+      "index": 37,
+      "pmid": "N/A",
+      "authors": "Yoo J. H., et al.",
+      "title": "Ventral tegmental area glutamate neurons co-release GABA and promote positive reinforcement",
+      "journal": "Nature communications",
+      "year": "2016"
+    },
+    {
+      "index": 38,
+      "pmid": "N/A",
+      "authors": "Root D. H., et al.",
+      "title": "Distinct signaling by ventral tegmental area glutamate, GABA, and combinatorial glutamate-GABA neurons in motivated behavior",
+      "journal": "Cell Reports",
+      "year": "2020"
+    },
+    {
+      "index": 39,
+      "pmid": "36260661",
+      "authors": "Zhou W.-L., et al.",
+      "title": "Activity of a direct VTA to ventral pallidum GABA pathway encodes unconditioned reward value and sustains motivation for reward",
+      "journal": "Science Advances",
+      "year": "2022"
+    },
+    {
+      "index": 40,
+      "pmid": "22114279",
+      "authors": "Parker J. G., et al.",
+      "title": "Attenuating GABAA receptor signaling in dopamine neurons selectively enhances reward learning and alters risk preference in mice",
+      "journal": "Journal of Neuroscience",
+      "year": "2011"
+    },
+    {
+      "index": 41,
+      "pmid": "28385956",
+      "authors": "Shields B. C., et al.",
+      "title": "Deconstructing behavioral neuropharmacology with cellular specificity",
+      "journal": "Science",
+      "year": "2017"
+    },
+    {
+      "index": 42,
+      "pmid": "38212549",
+      "authors": "Shields B. C., et al.",
+      "title": "DART. 2: bidirectional synaptic pharmacology with thousandfold cellular specificity",
+      "journal": "Nature Methods",
+      "year": "2024"
+    },
+    {
+      "index": 43,
+      "pmid": "20445035",
+      "authors": "Lobb C. J., Wilson C. J., Paladini C. A.",
+      "title": "A dynamic role for GABA receptors on the firing pattern of midbrain dopaminergic neurons",
+      "journal": "Journal of neurophysiology",
+      "year": "2010"
+    },
+    {
+      "index": 44,
+      "pmid": "30421719",
+      "authors": "Salinas-Hernández X. I., et al.",
+      "title": "Dopamine neurons drive fear extinction learning by signaling the omission of expected aversive outcomes",
+      "journal": "Elife",
+      "year": "2018"
+    },
+    {
+      "index": 45,
+      "pmid": "N/A",
+      "authors": "Pan W.-X., Coddington L. T., Dudman J. T.",
+      "title": "Dissociable contributions of phasic dopamine activity to reward and prediction",
+      "journal": "Cell Reports",
+      "year": "2021"
+    },
+    {
+      "index": 46,
+      "pmid": "36897945",
+      "authors": "Ishino S., et al.",
+      "title": "Dopamine error signal to actively cope with lack of expected reward",
+      "journal": "Science Advances",
+      "year": "2023"
+    },
+    {
+      "index": 47,
+      "pmid": "6150071",
+      "authors": "Grace A. A., Bunney B. S.",
+      "title": "The control of firing pattern in nigral dopamine neurons: burst firing",
+      "journal": "Journal of neuroscience",
+      "year": "1984"
+    },
+    {
+      "index": 48,
+      "pmid": "22459161",
+      "authors": "Ungless M. A., Grace A. A.",
+      "title": "Are you or aren’t you? Challenges associated with physiologically identifying dopamine neurons",
+      "journal": "Trends in neurosciences",
+      "year": "2012"
+    },
+    {
+      "index": 49,
+      "pmid": "18945898",
+      "authors": "Khaliq Z. M., Bean B. P.",
+      "title": "Dynamic, nonlinear feedback regulation of slow pacemaking by A-type potassium current in ventral tegmental area neurons",
+      "journal": "Journal of Neuroscience",
+      "year": "2008"
+    },
+    {
+      "index": 50,
+      "pmid": "15466298",
+      "authors": "Bouton M. E.",
+      "title": "Context and behavioral processes in extinction",
+      "journal": "Learning & memory",
+      "year": "2004"
+    },
+    {
+      "index": 51,
+      "pmid": "4575029",
+      "authors": "Lubow R. E.",
+      "title": "Latent inhibition",
+      "journal": "Psychological bulletin",
+      "year": "1973"
+    },
+    {
+      "index": 52,
+      "pmid": "758977",
+      "authors": "Mogenson G. J., Wu M., Machanda S.",
+      "title": "Locomotor activity initiated by microinfusions of picrotoxin into the ventral tegmental area",
+      "journal": "Brain research",
+      "year": "1979"
+    },
+    {
+      "index": 53,
+      "pmid": "574606",
+      "authors": "Arnt J., Scheel-Kruger J.",
+      "title": "GABA in the ventral tegmental area: differential regional effects on locomotion, aggression and food intake after microinjection of GABA agonists and antagonists",
+      "journal": "Life Sci",
+      "year": "1979"
+    },
+    {
+      "index": 54,
+      "pmid": "460540",
+      "authors": "Tanner T.",
+      "title": "GABA-induced locomotor activity in the rat, after bilateral injection into the ventral tegmental area",
+      "journal": "Neuropharmacology",
+      "year": "1979"
+    },
+    {
+      "index": 55,
+      "pmid": "23055478",
+      "authors": "Barrot M., et al.",
+      "title": "Braking dopamine systems: a new GABA master structure for mesolimbic and nigrostriatal functions",
+      "journal": "Journal of Neuroscience",
+      "year": "2012"
+    },
+    {
+      "index": 56,
+      "pmid": "36922596",
+      "authors": "Zhang Y., et al.",
+      "title": "Fast and sensitive GCaMP calcium indicators for imaging neural populations",
+      "journal": "Nature",
+      "year": "2023"
+    },
+    {
+      "index": 57,
+      "pmid": "27007845",
+      "authors": "Zalocusky K. A., et al.",
+      "title": "Nucleus accumbens D2R cells signal prior outcomes and control risky decision-making",
+      "journal": "Nature",
+      "year": "2016"
+    },
+    {
+      "index": 58,
+      "pmid": "38175903",
+      "authors": "Sasaki R., et al.",
+      "title": "Balancing risk-return decisions by manipulating the mesofrontal circuits in primates",
+      "journal": "Science",
+      "year": "2024"
+    },
+    {
+      "index": 59,
+      "pmid": "27292535",
+      "authors": "Takahashi Y. K., Langdon A. J., Niv Y., Schoenbaum G.",
+      "title": "Temporal specificity of reward prediction errors signaled by putative dopamine neurons in rat VTA depends on ventral striatum",
+      "journal": "Neuron",
+      "year": "2016"
+    },
+    {
+      "index": 60,
+      "pmid": "30323275",
+      "authors": "Coddington L. T., Dudman J. T.",
+      "title": "The timing of action determines reward prediction signals in identified midbrain dopamine neurons",
+      "journal": "Nat Neurosci",
+      "year": "2018"
+    },
+    {
+      "index": 61,
+      "pmid": "18687967",
+      "authors": "Shen W., Flajolet M., Greengard P., Surmeier D. J.",
+      "title": "Dichotomous dopaminergic control of striatal synaptic plasticity",
+      "journal": "Science",
+      "year": "2008"
+    },
+    {
+      "index": 62,
+      "pmid": "25258080",
+      "authors": "Yagishita S., et al.",
+      "title": "A critical time window for dopamine actions on the structural plasticity of dendritic spines",
+      "journal": "Science",
+      "year": "2014"
+    },
+    {
+      "index": 63,
+      "pmid": "33361810",
+      "authors": "Lee S. J., et al.",
+      "title": "Cell-type-specific asynchronous modulation of PKA by dopamine in learning",
+      "journal": "Nature",
+      "year": "2021"
+    },
+    {
+      "index": 64,
+      "pmid": "27760002",
+      "authors": "Matsumoto H., Tian J., Uchida N., Watabe-Uchida M.",
+      "title": "Midbrain dopamine neurons signal aversion in a reward-context-dependent manner",
+      "journal": "Elife",
+      "year": "2016"
+    },
+    {
+      "index": 65,
+      "pmid": "2397362",
+      "authors": "Morice R.",
+      "title": "Cognitive inflexibility and pre-frontal dysfunction in schizophrenia and mania",
+      "journal": "The British Journal of Psychiatry",
+      "year": "1990"
+    },
+    {
+      "index": 66,
+      "pmid": "N/A",
+      "authors": "Steuber E. R., McGuire J. F.",
+      "title": "A systematic review of fear learning, extinction learning, and reversal learning in obsessive-compulsive disorder: implications for treatment",
+      "journal": "The Journal of Clinical Psychiatry",
+      "year": "2022"
+    },
+    {
+      "index": 67,
+      "pmid": "30568192",
+      "authors": "Pascoli V., et al.",
+      "title": "Stochastic synaptic plasticity underlying compulsion in a model of addiction",
+      "journal": "Nature",
+      "year": "2018"
+    },
+    {
+      "index": 68,
+      "pmid": "19955362",
+      "authors": "Rutledge R. B., et al.",
+      "title": "Dopaminergic drugs modulate learning rates and perseveration in Parkinson's patients in a dynamic foraging task",
+      "journal": "Journal of Neuroscience",
+      "year": "2009"
+    },
+    {
+      "index": 69,
+      "pmid": "26197178",
+      "authors": "Bargmann C. I.",
+      "title": "How the New Neuroscience Will Advance Medicine",
+      "journal": "JAMA",
+      "year": "2015"
+    },
+    {
+      "index": 70,
+      "pmid": "36632413",
+      "authors": "Weaver I. A., Yousefzadeh S. A., Tadross M. R.",
+      "title": "An open-source head-fixation and implant-protection system for mice",
+      "journal": "HardwareX",
+      "year": "2023"
+    },
+    {
+      "index": 71,
+      "pmid": "28169219",
+      "authors": "Siegle J. H., et al.",
+      "title": "Open Ephys: an open-source, plugin-based platform for multichannel electrophysiology",
+      "journal": "Journal of neural engineering",
+      "year": "2017"
+    },
+    {
+      "index": 72,
+      "pmid": "21115042",
+      "authors": "Dzirasa K., Fuentes R., Kumar S., Potes J. M., Nicolelis M. A.",
+      "title": "Chronic in vivo multi-circuit neurophysiological recordings in mice",
+      "journal": "Journal of neuroscience methods",
+      "year": "2011"
+    },
+    {
+      "index": 73,
+      "pmid": "29557782",
+      "authors": "Yger P., et al.",
+      "title": "A spike sorting toolbox for up to thousands of electrodes validated with ground truth recordings in vitro and in vivo",
+      "journal": "Elife",
+      "year": "2018"
+    },
+    {
+      "index": 74,
+      "pmid": "31217592",
+      "authors": "Ho J., Tumkaya T., Aryal S., Choi H., Claridge-Chang A.",
+      "title": "Moving beyond P values: data analysis with estimation graphics",
+      "journal": "Nature methods",
+      "year": "2019"
+    },
+    {
+      "index": 75,
+      "pmid": "31570887",
+      "authors": "Berg S., et al.",
+      "title": "Ilastik: interactive machine learning for (bio) image analysis",
+      "journal": "Nature methods",
+      "year": "2019"
+    }
+  ]
+}

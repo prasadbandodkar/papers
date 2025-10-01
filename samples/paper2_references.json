@@ -1,0 +1,468 @@
+{
+  "references": [
+    {
+      "index": 0,
+      "pmid": "N/A",
+      "authors": "Lyst M. J., Bird A",
+      "title": "Rett syndrome: a complex disorder with simple roots",
+      "journal": "Nature Reviews Genetics",
+      "year": "2015"
+    },
+    {
+      "index": 1,
+      "pmid": "21632916",
+      "authors": "Samaco R. C., Neul J. L.",
+      "title": "Complexities of Rett Syndrome and MeCP2",
+      "journal": "The Journal of Neuroscience",
+      "year": "2011"
+    },
+    {
+      "index": 2,
+      "pmid": "17988628",
+      "authors": "Chahrour M, Zoghbi H. Y.",
+      "title": "The story of Rett syndrome: from clinic to neurobiology",
+      "journal": "Neuron",
+      "year": "2007"
+    },
+    {
+      "index": 3,
+      "pmid": "32139519",
+      "authors": "Sjöstedt E, et al.",
+      "title": "An atlas of the protein-coding genes in the human, pig, and mouse brain",
+      "journal": "Science",
+      "year": "2020"
+    },
+    {
+      "index": 4,
+      "pmid": "34321199",
+      "authors": "Karlsson M, et al.",
+      "title": "A single–cell type transcriptomics map of human tissues",
+      "journal": "Science Advances",
+      "year": "2021"
+    },
+    {
+      "index": 5,
+      "pmid": "9048985",
+      "authors": "Lappalainen R., Liewendahl K., Sainio K., Nikkinen P, Riikonen R. S.",
+      "title": "Brain perfusion SPECT and EEG findings in Rett syndrome",
+      "journal": "Acta Neurologica Scandinavica",
+      "year": "1997"
+    },
+    {
+      "index": 6,
+      "pmid": "23481597",
+      "authors": "Bianciardi G, et al.",
+      "title": "Microvascular abnormalities in Rett syndrome",
+      "journal": "Clin Hemorheol Microcirc",
+      "year": "2013"
+    },
+    {
+      "index": 7,
+      "pmid": "29251840",
+      "authors": "Saili K. S., et al.",
+      "title": "Blood-brain barrier development: Systems modeling and predictive toxicology",
+      "journal": "Birth Defects Res",
+      "year": "2017"
+    },
+    {
+      "index": 8,
+      "pmid": "20944625",
+      "authors": "Daneman R., Zhou L., Kebede A. A., Barres B. A.",
+      "title": "Pericytes are required for blood–brain barrier integrity during embryogenesis",
+      "journal": "Nature",
+      "year": "2010"
+    },
+    {
+      "index": 9,
+      "pmid": "22198708",
+      "authors": "Ek C. J., Dziegielewska K. M., Habgood M. D., Saunders N. R.",
+      "title": "Barriers in the developing brain and Neurotoxicology",
+      "journal": "Neurotoxicology",
+      "year": "2012"
+    },
+    {
+      "index": 10,
+      "pmid": "19741632",
+      "authors": "Saunders N. R., Joakim Ek C, Dziegielewska K. M.",
+      "title": "The neonatal blood-brain barrier is functionally effective, and immaturity does not explain differential targeting of AAV9",
+      "journal": "Nat Biotechnol",
+      "year": "2009"
+    },
+    {
+      "index": 11,
+      "pmid": "24309662",
+      "authors": "Obermeier B., Daneman R, Ransohoff R. M.",
+      "title": "Development, maintenance and disruption of the blood-brain barrier",
+      "journal": "Nat Med",
+      "year": "2013"
+    },
+    {
+      "index": 12,
+      "pmid": "27452664",
+      "authors": "Aschner M, et al.",
+      "title": "Reference compounds for alternative test methods to indicate developmental neurotoxicity (DNT) potential of chemicals: example lists and criteria for their selection and use",
+      "journal": "Altex",
+      "year": "2017"
+    },
+    {
+      "index": 13,
+      "pmid": "25605028",
+      "authors": "Bal-Price A, et al.",
+      "title": "Putative adverse outcome pathways relevant to neurotoxicity",
+      "journal": "Crit Rev Toxicol",
+      "year": "2015"
+    },
+    {
+      "index": 14,
+      "pmid": "20627076",
+      "authors": "Corada M, et al.",
+      "title": "The Wnt/beta-catenin pathway modulates vascular remodeling and specification by upregulating Dll4/Notch signaling",
+      "journal": "Dev Cell",
+      "year": "2010"
+    },
+    {
+      "index": 15,
+      "pmid": "16177780",
+      "authors": "Weis S. M., Cheresh D. A.",
+      "title": "Pathophysiological consequences of VEGF-induced vascular permeability",
+      "journal": "Nature",
+      "year": "2005"
+    },
+    {
+      "index": 16,
+      "pmid": "22048062",
+      "authors": "Zlokovic B. V.",
+      "title": "Neurovascular pathways to neurodegeneration in Alzheimer’s disease and other disorders",
+      "journal": "Nature Reviews Neuroscience",
+      "year": "2011"
+    },
+    {
+      "index": 17,
+      "pmid": "29377008",
+      "authors": "Sweeney M. D., Sagare A. P., Zlokovic B. V.",
+      "title": "Blood–brain barrier breakdown in Alzheimer disease and other neurodegenerative disorders",
+      "journal": "Nature Reviews Neurology",
+      "year": "2018"
+    },
+    {
+      "index": 18,
+      "pmid": "25757748",
+      "authors": "Gray M. T., Woulfe J. M.",
+      "title": "Striatal Blood–Brain Barrier Permeability in Parkinson’S Disease",
+      "journal": "Journal of Cerebral Blood Flow & Metabolism",
+      "year": "2015"
+    },
+    {
+      "index": 19,
+      "pmid": "23637226",
+      "authors": "Shaltiel-Karyo R, et al.",
+      "title": "A Blood-Brain Barrier (BBB) Disrupter Is Also a Potent α-Synuclein (α-syn) Aggregation Inhibitor: A NOVEL DUAL MECHANISM OF MANNITOL FOR THE TREATMENT OF PARKINSON DISEASE (PD) *",
+      "journal": "Journal of Biological Chemistry",
+      "year": "2013"
+    },
+    {
+      "index": 20,
+      "pmid": "37009464",
+      "authors": "Lee R. L., Funk K. E.",
+      "title": "Imaging blood-brain barrier disruption in neuroinflammation and Alzheimer’s disease",
+      "journal": "Front Aging Neurosci",
+      "year": "2023"
+    },
+    {
+      "index": 21,
+      "pmid": "37189354",
+      "authors": "Pepe G",
+      "title": "Blood–Brain Barrier Integrity Is Perturbed in a Mecp2-Null Mouse Model of Rett Syndrome",
+      "journal": "Biomolecules",
+      "year": "2023"
+    },
+    {
+      "index": 22,
+      "pmid": "23705018",
+      "authors": "Panighini A, et al.",
+      "title": "Vascular Dysfunction in a Mouse Model of Rett Syndrome and Effects of Curcumin Treatment",
+      "journal": "PLOS ONE",
+      "year": "2013"
+    },
+    {
+      "index": 23,
+      "pmid": "29090078",
+      "authors": "Pacheco N. L., et al.",
+      "title": "RNA sequencing and proteomics approaches reveal novel deficits in the cortex of Mecp2-deficient mice, a model for Rett syndrome",
+      "journal": "Molecular Autism",
+      "year": "2017"
+    },
+    {
+      "index": 24,
+      "pmid": "23770565",
+      "authors": "Lyst M. J., et al.",
+      "title": "Rett syndrome mutations abolish the interaction of MeCP2 with the NCoR/SMRT co-repressor",
+      "journal": "Nat Neurosci",
+      "year": "2013"
+    },
+    {
+      "index": 25,
+      "pmid": "N/A",
+      "authors": "Luo A. C., et al.",
+      "title": "A streamlined method to generate endothelial cells from human pluripotent stem cells via transient doxycycline-inducible ETV2 activation",
+      "journal": "Angiogenesis",
+      "year": "2024"
+    },
+    {
+      "index": 26,
+      "pmid": "32908310",
+      "authors": "Palikuqi B, et al.",
+      "title": "Adaptable haemodynamic endothelial cells for organogenesis and tumorigenesis",
+      "journal": "Nature",
+      "year": "2020"
+    },
+    {
+      "index": 27,
+      "pmid": "28413025",
+      "authors": "Cui N., Hu M, Khalil R. A.",
+      "title": "Biochemical and Biological Attributes of Matrix Metalloproteinases",
+      "journal": "Prog Mol Biol Transl Sci",
+      "year": "2017"
+    },
+    {
+      "index": 28,
+      "pmid": "25790865",
+      "authors": "Issler O, Chen A",
+      "title": "Determining the role of microRNAs in psychiatric disorders",
+      "journal": "Nature Reviews Neuroscience",
+      "year": "2015"
+    },
+    {
+      "index": 29,
+      "pmid": "20368621",
+      "authors": "Szulwach K. E., et al.",
+      "title": "Cross talk between microRNA and epigenetic regulation in adult neurogenesis",
+      "journal": "Journal of Cell Biology",
+      "year": "2010"
+    },
+    {
+      "index": 30,
+      "pmid": "20716963",
+      "authors": "Urdinguio R. G., et al.",
+      "title": "Disrupted microRNA expression caused by Mecp2 loss in a mouse model of Rett syndrome",
+      "journal": "Epigenetics",
+      "year": "2010"
+    },
+    {
+      "index": 31,
+      "pmid": "26344767",
+      "authors": "Tsujimura K, et al.",
+      "title": "miR-199a Links MeCP2 with mTOR Signaling and Its Dysregulation Leads to Rett Syndrome Phenotypes",
+      "journal": "Cell Reports",
+      "year": "2015"
+    },
+    {
+      "index": 32,
+      "pmid": "19120690",
+      "authors": "van Solingen C, et al.",
+      "title": "Antagomir-mediated silencing of endothelial cell specific microRNA-126 impairs ischemia-induced angiogenesis",
+      "journal": "J Cell Mol Med",
+      "year": "2009"
+    },
+    {
+      "index": 33,
+      "pmid": "30670076",
+      "authors": "Liu W, Wang X",
+      "title": "Prediction of functional microRNA targets by integrative modeling of microRNA binding and target expression data",
+      "journal": "Genome Biology",
+      "year": "2019"
+    },
+    {
+      "index": 34,
+      "pmid": "28529319",
+      "authors": "Saharinen P., Eklund L, Alitalo K",
+      "title": "Therapeutic targeting of the angiopoietin–TIE pathway",
+      "journal": "Nature Reviews Drug Discovery",
+      "year": "2017"
+    },
+    {
+      "index": 35,
+      "pmid": "19234476",
+      "authors": "Augustin H. G., Young Koh G., Thurston G, Alitalo K",
+      "title": "Control of vascular morphogenesis and homeostasis through the angiopoietin–Tie system",
+      "journal": "Nature Reviews Molecular Cell Biology",
+      "year": "2009"
+    },
+    {
+      "index": 36,
+      "pmid": "35370273",
+      "authors": "Zhang H., Yamaguchi T., Kokubu Y, Kawabata K",
+      "title": "Transient ETV2 Expression Promotes the Generation of Mature Endothelial Cells from Human Pluripotent Stem Cells",
+      "journal": "Biological and Pharmaceutical Bulletin",
+      "year": "2022"
+    },
+    {
+      "index": 37,
+      "pmid": "N/A",
+      "authors": "Wang K, et al.",
+      "title": "Robust differentiation of human pluripotent stem cells into endothelial cells via temporal modulation of ETV2 with modified mRNA",
+      "journal": "Science Advances",
+      "year": ""
+    },
+    {
+      "index": 38,
+      "pmid": "30032046",
+      "authors": "Campisi M, et al.",
+      "title": "3D self-organized microvascular model of the human blood-brain barrier with endothelial cells, pericytes and astrocytes",
+      "journal": "Biomaterials",
+      "year": "2018"
+    },
+    {
+      "index": 39,
+      "pmid": "29581463",
+      "authors": "Osaki T., Sivathanu V, Kamm R. D.",
+      "title": "Engineered 3D vascular and neuronal networks in a microfluidic platform",
+      "journal": "Scientific Reports",
+      "year": "2018"
+    },
+    {
+      "index": 40,
+      "pmid": "31112823",
+      "authors": "Offeddu G. S., et al.",
+      "title": "An on-chip model of protein paracellular and transcellular permeability in the microcirculation",
+      "journal": "Biomaterials",
+      "year": "2019"
+    },
+    {
+      "index": 41,
+      "pmid": "34997242",
+      "authors": "Hajal C, et al.",
+      "title": "Engineered human blood–brain barrier microfluidic model for vascular permeability analyses",
+      "journal": "Nature protocols",
+      "year": "2022"
+    },
+    {
+      "index": 42,
+      "pmid": "12540195",
+      "authors": "Van den Steen P. E., et al.",
+      "title": "Biochemistry and molecular biology of gelatinase B or matrix metalloproteinase-9 (MMP-9)",
+      "journal": "Crit Rev Biochem Mol Biol",
+      "year": "2002"
+    },
+    {
+      "index": 43,
+      "pmid": "12730128",
+      "authors": "Visse R, Nagase H",
+      "title": "Matrix Metalloproteinases and Tissue Inhibitors of Metalloproteinases",
+      "journal": "Circulation Research",
+      "year": "2003"
+    },
+    {
+      "index": 44,
+      "pmid": "19631700",
+      "authors": "Fanjul-Fernández M., Folgueras A. R., Cabrera S, López-Otín C",
+      "title": "Matrix metalloproteinases: Evolution, gene regulation and functional analysis in mouse models",
+      "journal": "Biochimica et Biophysica Acta (BBA) - Molecular Cell Research",
+      "year": "2010"
+    },
+    {
+      "index": 45,
+      "pmid": "18694565",
+      "authors": "Wang S, et al.",
+      "title": "The Endothelial-Specific MicroRNA miR-126 Governs Vascular Integrity and Angiogenesis",
+      "journal": "Developmental Cell",
+      "year": "2008"
+    },
+    {
+      "index": 46,
+      "pmid": "N/A",
+      "authors": "Wang L, et al.",
+      "title": "Sensing and guiding cell-state transitions by using genetically encoded endoribonuclease-mediated microRNA sensors",
+      "journal": "Nature Biomedical Engineering",
+      "year": "2024"
+    },
+    {
+      "index": 47,
+      "pmid": "N/A",
+      "authors": "Qu M.-J., et al.",
+      "title": "MicroRNA-126 is a prospective target for vascular disease",
+      "journal": "Neuroimmunology and Neuroinflammation",
+      "year": "2018"
+    },
+    {
+      "index": 48,
+      "pmid": "15372072",
+      "authors": "Lee Y, et al.",
+      "title": "MicroRNA genes are transcribed by RNA polymerase II",
+      "journal": "Embo j",
+      "year": "2004"
+    },
+    {
+      "index": 49,
+      "pmid": "N/A",
+      "authors": "Liu Y, et al.",
+      "title": "MECP2 directly interacts with RNA polymerase II to modulate transcription in human neurons",
+      "journal": "Neuron",
+      "year": "2024"
+    },
+    {
+      "index": 50,
+      "pmid": "24636259",
+      "authors": "Cheng T.-L., et al.",
+      "title": "MeCP2 Suppresses Nuclear MicroRNA Processing and Dendritic Growth by Regulating the DGCR8/Drosha Complex",
+      "journal": "Developmental Cell",
+      "year": "2014"
+    },
+    {
+      "index": 51,
+      "pmid": "34010654",
+      "authors": "Nakashima H, et al.",
+      "title": "MeCP2 controls neural stem cell fate specification through miR-199a-mediated inhibition of BMP-Smad signaling",
+      "journal": "Cell Reports",
+      "year": "2021"
+    },
+    {
+      "index": 52,
+      "pmid": "28117381",
+      "authors": "Di Pardo A, et al.",
+      "title": "Impairment of blood-brain barrier is an early event in R6/2 mouse model of Huntington Disease",
+      "journal": "Sci Rep",
+      "year": "2017"
+    },
+    {
+      "index": 53,
+      "pmid": "N/A",
+      "authors": "Barisano G, et al.",
+      "title": "Blood–brain barrier link to human cognitive impairment and Alzheimer’s disease",
+      "journal": "Nature Cardiovascular Research",
+      "year": "2022"
+    },
+    {
+      "index": 54,
+      "pmid": "N/A",
+      "authors": "Aragón-González A., Shaw P. J., Ferraiuolo L",
+      "title": "Blood-Brain Barrier Disruption and Its Involvement in Neurodevelopmental and Neurodegenerative Disorders",
+      "journal": "Int J Mol Sci",
+      "year": "2022"
+    },
+    {
+      "index": 55,
+      "pmid": "32979312",
+      "authors": "Pulido R. S., et al.",
+      "title": "Neuronal Activity Regulates Blood-Brain Barrier Efflux Transport through Endothelial Circadian Genes",
+      "journal": "Neuron",
+      "year": "2020"
+    },
+    {
+      "index": 56,
+      "pmid": "38343438",
+      "authors": "Gan Y, et al.",
+      "title": "Gut microbes in central nervous system development and related disorders",
+      "journal": "Front Immunol",
+      "year": "2023"
+    },
+    {
+      "index": 57,
+      "pmid": "26267216",
+      "authors": "Agarwal V., Bell G. W., Nam J.-W., Bartel D. P.",
+      "title": "Predicting effective microRNA target sites in mammalian mRNAs",
+      "journal": "eLife",
+      "year": "2015"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+PMC ID
+======
+PMC11245438
+
+
+TITLE
+=====
+TRAF6 promotes spinal microglial M1 polarization to aggravate neuropathic pain by activating the c-JUN/NF-kB signaling pathway
+
+
+JOURNAL
+=======
+Cell Biology and Toxicology
+
+
+PUBLICATION DATE
+===============
+2024-7-12
+
+
+AUTHORS
+=======
+Author 1:
+Name: Yu Zhao
+Affiliations:
+  - 1https://ror.org/04wjghj95grid.412636.4Department of Emergency, Shengjing Hospital of China Medical University, Shenyang, Liaoning Province 110136 People’s Republic of China
+
+Author 2:
+Name: Tiegang Li
+Affiliations:
+  - 1https://ror.org/04wjghj95grid.412636.4Department of Emergency, Shengjing Hospital of China Medical University, Shenyang, Liaoning Province 110136 People’s Republic of China
+
+Author 3:
+Name: Lichun Zhang
+Affiliations:
+  - 1https://ror.org/04wjghj95grid.412636.4Department of Emergency, Shengjing Hospital of China Medical University, Shenyang, Liaoning Province 110136 People’s Republic of China
+
+Author 4:
+Name: Jun Yang
+Affiliations:
+  - 2https://ror.org/04wjghj95grid.412636.4Department of Neurology, the First Hospital of China Medical University, No. 155 Nanjing North Street, Heping District, Shenyang, Liaoning Province 110001 People’s Republic of China
+
+Author 5:
+Name: Feng Zhao
+Affiliations:
+  - 1https://ror.org/04wjghj95grid.412636.4Department of Emergency, Shengjing Hospital of China Medical University, Shenyang, Liaoning Province 110136 People’s Republic of China
+
+Author 6:
+Name: Yu Wang
+Affiliations:
+  - 2https://ror.org/04wjghj95grid.412636.4Department of Neurology, the First Hospital of China Medical University, No. 155 Nanjing North Street, Heping District, Shenyang, Liaoning Province 110001 People’s Republic of China
+
+Author 7:
+Name: Yi Ouyang
+Affiliations:
+  - 2https://ror.org/04wjghj95grid.412636.4Department of Neurology, the First Hospital of China Medical University, No. 155 Nanjing North Street, Heping District, Shenyang, Liaoning Province 110001 People’s Republic of China
+
+Author 8:
+Name: Jiahui Liu
+Affiliations:
+  - 2https://ror.org/04wjghj95grid.412636.4Department of Neurology, the First Hospital of China Medical University, No. 155 Nanjing North Street, Heping District, Shenyang, Liaoning Province 110001 People’s Republic of China
+Email: liujiahuicmu@163.com
+
+

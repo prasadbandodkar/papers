@@ -1,0 +1,595 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">bioRxiv</journal-id><journal-id journal-id-type="publisher-id">BIORXIV</journal-id><journal-title-group><journal-title>bioRxiv</journal-title></journal-title-group><issn pub-type="epub">2692-8205</issn><publisher><publisher-name>Cold Spring Harbor Laboratory</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39415995</article-id><article-id pub-id-type="pmc">11482880</article-id>
+<article-id pub-id-type="doi">10.1101/2024.10.11.617929</article-id><article-version-alternatives><article-version article-version-type="status">preprint</article-version><article-version article-version-type="number">1</article-version></article-version-alternatives><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>miR126-mediated impaired vascular integrity in Rett syndrome</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7174-0629</contrib-id><name><surname>Osaki</surname><given-names>Tatsuya</given-names></name><xref rid="CR1" ref-type="corresp">*</xref><xref rid="A1" ref-type="aff">1</xref><xref rid="A2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5626-7722</contrib-id><name><surname>Wan</surname><given-names>Zhengpeng</given-names></name><xref rid="A3" ref-type="aff">3</xref><xref rid="A4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name><surname>Haratani</surname><given-names>Koji</given-names></name><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>Jin</surname><given-names>Ylliah</given-names></name><xref rid="A3" ref-type="aff">3</xref><xref rid="A4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name><surname>Campisi</surname><given-names>Marco</given-names></name><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5422-4275</contrib-id><name><surname>Barbie</surname><given-names>David A.</given-names></name><xref rid="A5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name><surname>Kamm</surname><given-names>Roger</given-names></name><xref rid="CR1" ref-type="corresp">*</xref><xref rid="A3" ref-type="aff">3</xref><xref rid="A4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2442-5671</contrib-id><name><surname>Sur</surname><given-names>Mriganka</given-names></name><xref rid="CR1" ref-type="corresp">*</xref><xref rid="A1" ref-type="aff">1</xref></contrib></contrib-group><aff id="A1"><label>1.</label>Picower Institute of Learning and Memory, Massachusetts Institute of Technology, Cambridge, United States</aff><aff id="A2"><label>2.</label>Whitehead Institute for Biomedical Research, Massachusetts Institute of Technology, Cambridge, United States</aff><aff id="A3"><label>3.</label>Department of Mechanical Engineering, Massachusetts Institute of Technology, Cambridge, United States</aff><aff id="A4"><label>4.</label>Department of Biological Engineering, Massachusetts Institute of Technology, Cambridge, United States</aff><aff id="A5"><label>5.</label>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA 02215, USA</aff><author-notes><fn fn-type="con" id="FN1"><p id="P1"><bold>Author contributions:</bold> T.O, Z.W, R.D.K, and MS conceived and designed the experiments. TO, Z.W., and Y.J performed cell experiments and analyzed data. K.H. and M.C. performed cloning of EVT2 plasmid construct. TO, ZW, RDK, and MS RDK wrote the manuscript.</p></fn><corresp id="CR1"><label>*</label>Corresponding author. <email>osaki@mit.edu</email>, <email>rdkamm@mit.edu</email>, <email>msur@mit.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>10</month><year>2024</year></pub-date><elocation-id>2024.10.11.617929</elocation-id><permissions><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This work is licensed under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</ext-link>, which allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator.</license-p></license></permissions><self-uri content-type="pdf">nihpp-2024.10.11.617929.pdf</self-uri><abstract id="ABS1"><p id="P2">Rett syndrome (RTT) is a neurodevelopmental disorder that is caused by mutations in melty-CpG binding protein 2 (MeCP2). MeCP2 is a non-cell type-specific DNA binding protein, and its mutation influences not only neural cells but also non-neural cells in the brain, including vasculature associated with endothelial cells. Vascular integrity is crucial for maintaining brain homeostasis, and its alteration may be linked to the pathology of neurodegenerative disease, but a non-neurogenic effect, especially the relationship between vascular alternation and Rett syndrome pathogenesis, has not been shown. Here, we recapitulate a microvascular network using Rett syndrome patient-derived induced pluripotent stem (iPS) cells that carry MeCP2[R306C] mutation to investigate early developmental vascular impact. To expedite endothelial cell differentiation, doxycycline (DOX)-inducible ETV2 expression vectors were inserted into the AAVS1 locus of Rett syndrome patient-derived iPS cells and its isogenic control by CRISPR/Cas9. With these endothelial cells, we established a disease microvascular network (Rett-dMVNs) and observed higher permeability in the Rett-dMVNs compared to isogenic controls, indicating altered barrier function by MeCP2 mutation. Furthermore, we unveiled that hyperpermeability is involved in the upregulation of miR126&#x2013;3p in Rett syndrome patient-derived endothelial cells by microRNA profiling and RNAseq, and rescue of miR126&#x2013;3p level can recover their phenotype. We discover miR126&#x2013;3p-mediated vascular impairment in Rett syndrome patients and suggest the potential application of these findings for translational medicine.</p></abstract><funding-group><award-group id="award01"><funding-source>NIH</funding-source><award-id>R01MH085802</award-id><award-id>R01NS130361</award-id></award-group><award-group id="award02"><funding-source>MURI</funding-source><award-id>W911NF2110328</award-id></award-group><award-group id="award03"><funding-source>Picower Institute Innovation Fund, Simons Foundation Autism Research Initiative, Simons Center, Social Brain, Koch Institute&#x2019;s Robert A. Swanson (1969) Biotechnology Center, flowcytometry core</funding-source></award-group></funding-group></article-meta></front>
+  <body>
+    <sec id="S1">
+      <title>Introduction</title>
+      <p id="P3">Rett syndrome (RTT) is a neurodevelopmental disorder that is caused by mutations in the X-linked gene encoding melty-CpG binding protein 2 (MeCP2) <sup><xref rid="R1" ref-type="bibr">1</xref>,<xref rid="R2" ref-type="bibr">2</xref></sup>. Patient symptoms typically are recognized in early developmental stage between 6&#x2013;12 months including the loss of hand skills, speech and social engagement, motor abnormalities, and cognitive impairments <sup><xref rid="R3" ref-type="bibr">3</xref></sup>. MeCP2 is expressed in various types of cells including neural cells (neurons and astrocytes) and non-neural cells such as endothelial cells and pericytes. Because of pervasiveness of MeCP2 expression and the melty-CpG binding site, its mutation influences not only neuronal health and activity but also non-neural tissue in the brain, including vascular networks associated with endothelial cells <sup><xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R5" ref-type="bibr">5</xref></sup>. Indeed, RTT patients frequently present with reduced skeletal growth, hypo-perfusion in the area of the midbrain and upper brainstem, and poor circulation <sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup>, implicating a compromised brain microvasculature in RTT. In addition, vasculogenesis and angiogenesis toward the neural tube are some of the primitive events in neudodevelopment and it occurs before neurogenesis and oligodendrocytegenesis as well as astrocytogenesis <sup><xref rid="R8" ref-type="bibr">8</xref></sup>. Vascular formation and differentiation in the brain begins during the early embryonic period and it becomes functional shortly once it is formed <sup><xref rid="R9" ref-type="bibr">9</xref>&#x2013;<xref rid="R11" ref-type="bibr">11</xref></sup> instead astrocytes and myelinated neurons do not appear until soon after birth<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. Therefore, primitive vascular alternation accompanied by developmental neurotoxicity at a systems biology level widely impacts following neurodevelopmental events and disease progression<sup><xref rid="R13" ref-type="bibr">13</xref>&#x2013;<xref rid="R15" ref-type="bibr">15</xref></sup>.</p>
+      <p id="P4">Vascular permeability is the capability to control the molecule exchange between vessels, tissues, and organs. In the brain, specifically, the blood-brain barrier (BBB) strictly regulates molecule transportation, including nutrients, waste, and toxins in both influx and efflux directions to maintain homeostasis of the brain in health conditions<sup><xref rid="R16" ref-type="bibr">16</xref></sup> and its alternations are linked to a pathological process in neurodegenerative diseases such as Alzheimer&#x2019;s disease <sup><xref rid="R17" ref-type="bibr">17</xref>,<xref rid="R18" ref-type="bibr">18</xref></sup> and Parkinson&#x2019;s disease <sup><xref rid="R19" ref-type="bibr">19</xref>
+<xref rid="R20" ref-type="bibr">20</xref></sup>. Interestingly, it has been reported this BBB breakdown is present prior to A&#x3B2; plague accumulation in Alzheimer&#x2019;s disease patients <sup><xref rid="R21" ref-type="bibr">21</xref></sup>. Therefore, BBB breakdown may trigger the alternation of neuronal circumstances, resulting in induced neurodegeneration, mitochondrial dysfunction as well as aggregation of A&#x3B2;, but no pathological role of vascular alternation in RTT has been shown so far.</p>
+      <p id="P5">To date, there has been only limited evidence indicating impaired BBB permeability in both Rett syndrome individuals and MeCP2-null mouse models, but existing evidence is growing and accumulating. Recent studies showed that MeCP2-null mouse (Mecp2-/y, Mecp2<sup>tm1.1Bird</sup>) exhibited alternation of BBB integrity along with the decreased expression of tight junctions such as OCLN and CLDN5 in cortex <sup><xref rid="R22" ref-type="bibr">22</xref></sup>. It might be impacted by increased matrix metallopeptidase 9 (MMP9) expression by inducing the degradation of basal lamina. Vessels from female MeCP2<sup>+/&#x2212;</sup> mice show a reduced endothelium-dependent relaxation due to a reduced Nitric Oxide (NO) availability secondary to an increased reactive oxygen species generation <sup><xref rid="R23" ref-type="bibr">23</xref></sup>. Additionally, RNA sequencing and proteomics approaches reveal morphology alteration of the blood vessel in Mecp2<sup>tm1.1Jae/+</sup> mice and increase the protein level related to the blood-brain barrier <sup><xref rid="R24" ref-type="bibr">24</xref></sup>. Therefore, altered brain vascular homeostasis and subsequent BBB breakdown may be induced in MeCP2 deficient mice (MeCP2 null mice). However, the specific role of MeCP2 mutation in human development with respect to vascular permeability and association with neurodevelopmental alternation accompanying neurovascular interaction remains unknown due to the lack of a disease model recapitulating this complicated pathological process.</p>
+      <p id="P6">Here, we engineer a 3D microvascular network (MVN) model in microfluidic devices using Rett syndrome patient-derived induced pluripotent stem (iPS), which carries MeCP2[R306C] mutation and investigate endothelial specific molecular pathway by MeCP2 mutation undelaying alternation of vascular permeability associated with vascular-specific microRNA (miR-126). MeCP2[R306C] mutation on the transcription repression domain (TRD) is one of the common SNP mutations (9&#x2013;10%) that does not influence affinity to the methyl CpG binding domain, but it disrupts the interaction with the NCoR corepressor complex <sup><xref rid="R25" ref-type="bibr">25</xref></sup>. We first modified the iPS cell from the Rett syndrome patient by knocking in doxycycline (DOX)-inducible ETV2 gene cassette by CRISPR/ Cas9, which is now one of the promised ways to directly differentiate endothelial cells rapidly <sup><xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup>. iEC were then embedded in a fibrin gel in a microfluidic device to form 3D vascular networks, which were subsequently used for permeability tests. Impaired vascular permeability was observed in patient-derived vasculature with Rett syndrome. Subsequent transcriptomic analysis elucidated that these impartments are associated with the signaling pathway of miR-126, along with the decreasing tight junction expression mediated by these impairments. Moreover, downregulating miRNA-126&#x2013;3p by expressing antisense miRNA-126&#x2013;3p partially restored endothelial barrier function and upregulated tight junctions, inhibiting the Ang2/Tie2 signaling pathway. These results provide clear evidence that miR-126&#x2013;3p is a direct target of MeCP2 and a mediator of vascular impairment caused by MeCP2[R306C] mutations. It also identifies miR-126&#x2013;3p as a promising therapeutic target for restoring vascular impairment. This study holds promise for potential translational applications aimed at rescuing vascular alterations in the early developmental stages of Rett syndrome, as well as in other neurodegenerative and developmental disorders.</p>
+    </sec>
+    <sec id="S24">
+      <title>RESULTS</title>
+      <sec id="S2">
+        <title>ETV2 expressing iPS cells derived from Rett syndrome patient.</title>
+        <p id="P7">To recapitulate the vascular formation process in early development in Rett syndrome and assess vascular permeability, we established the stable iPS cells line from Rett syndrome patient, which has Doxycycline (DOX)-inducible ETV2 expression to obtain iPS-induced endothelial cells (iEC, <xref rid="F1" ref-type="fig">Fig. 1a</xref>). The all-in-one plasmid that expresses ETV2 under rtTA and Tet3G under CAG bidirectional promoter with mCherry and AAVS1 targeting sgRNA with SpCas9 were constructed from pUCM-AAVS1-TO-hNGN2 plasmid and then it delivered to Rett syndrome patient-derived iPS cells which carry MeCP2 [R306C] mutation (916C&gt;T) and isogenic control iPS cells by electroporation (<xref rid="F1" ref-type="fig">Fig. 1b</xref>). SNP mutation in iPS cells were confirmed by Sanger sequencing followed PCR (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 1a</xref>). Genome edited iPS cells were further sorted by cell sorted with mCherry positive cells and puromycin selection. Although mCherry-positive cells are less than 5% before sorting, we obtained a 100% positive population by cell sorting. To test the response of ETV2 expression in the presence of DOX, we treated DOX in iPS cells for 12, 24, 48, and 72 hours and then extracted the protein. Western blotting results revealed that ETV2 in genome-edited cells started to be expressed in 12 hours and reached fully expressed in 48 hours, although very low leak expression of ETV2 was observed in the absence of DOX in both iPS cell line due to bi-directional promoters and 3<sup>rd</sup> generation Tet-on system (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 1b</xref>). Pluripotency of iPS cells after genome editing were further characterized by immunostaining with Oct3/4, Nanog, SSEA1, TRA-1&#x2013;60, and SSEA4, which suggested that no unexpressed differentiations were observed (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 1c</xref>).</p>
+      </sec>
+      <sec id="S3">
+        <title>Differentiation and characterization of induced endothelial cells (iEC)</title>
+        <p id="P8">The ETV2-knock in iPS cells were then, treated with GSK3 inhibitor/Wnt activator (CHIR99021) for two days for mesoderm differentiation, and then treated with VEGF, EGF, SB43152, and Doxycycline for 3 days to differentiate into induced iEC (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). Flow cytometry showed that iEC were expressed with CD31, CD34, UEA1, and VEGFR2 that are typical endothelial markers in both RTT patient-derived endothelial cells and its isogenic control. iEC were characterized by immunostaining with ZO-1 and quantified by area fraction of ZO-1 to clarify tight junction. In RTT-iEC, ZO-1 expressions decreased and did not localize at the boundary between cells compared to isogenic control (<xref rid="F2" ref-type="fig">Fig. 2A</xref>). Area fraction of ZO-1 in RTT-iEC was also lower than in control (<xref rid="F2" ref-type="fig">Fig. 2b</xref>). RT-PCR results suggested that gene expressions involved in tight junction, such as ZO-1, OCLDN, CLDN5, were down-regulated (<xref rid="F2" ref-type="fig">Fig. 2c</xref> and <xref rid="F2" ref-type="fig">d</xref>). RTT-iECs also downregulated the gene expression of transporters, including MCT1, PGP1, LRP1, and GLUT1, compared to WT-iECs and HUVECs (human umbilical vein endothelial cell, <xref rid="F2" ref-type="fig">Fig. 2c</xref>). We also measured trans-endothelial electrical resistance (TEER) to assess barrier function in a 2D monolayer of endothelial cells. As a result, TEER of RTT-iEC were lower than WT-iEC and HUVEC on 21 days of culture (<xref rid="F2" ref-type="fig">Fig. 2e</xref>). RNAseq revealed that down-regulated (1162, p&lt;0.05) and upregulated genes (1163, p&lt;0.05) and global effect of MeCP2[R306C] mutation in RTT-iEC (<xref rid="F2" ref-type="fig">Fig. 2f</xref> and <xref rid="F2" ref-type="fig">g</xref>). We also found that ZO-1 expression was downregulated in RTT-iEC (<xref rid="F2" ref-type="fig">Fig. 2f</xref>). According to GO enrichment analysis, molecular pathways with respect to biological processes related to &#x201C;Regulation of vascular development&#x201D; and &#x201C;Protein localization to cell-cell junction&#x201D; were down-regulated in RTT-iEC (<xref rid="F2" ref-type="fig">Fig. 2h</xref>).</p>
+        <p id="P9">For the first time, we established a protocol to differentiate RTT-ECs and fully characterize them by RNAseq. To further quantify the endothelial characterization, imaging-enhanced flow cytometry was performed (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). It allows us to validate morphological character on top of cell surface marker staining (ZO-1). The flowed cells were gated to identify single cells judging from acquired imaging and combined FSC and SSC values, then the cell cycle was evaluated with DAPI staining. RTT-iEC showed clear S phase arrest from G0/G1 phase, although WT-iEC represented a typical cell cycle phase (<xref rid="F3" ref-type="fig">Fig. 3b</xref>, <xref rid="F3" ref-type="fig">c</xref>). Perimeter, pseudo-diameter of cells, entropy, and circularity were then calculated from images, and they were clustered and visualized as a UMAP plot (<xref rid="F3" ref-type="fig">Fig. 3d</xref>, <xref rid="F3" ref-type="fig">e</xref>). We classified 6 identical clusters based on these 4 parameters and overlaid other information (cell cycle tag, mutation of MeCP2, and ZO-1 expression from immune flow chemistry, <xref rid="F3" ref-type="fig">Fig. 3f</xref>). We classified ZO-1 highly expressed clusters (Cluster 3 and 4) and typical endothelial cell clusters (Cluster 2 and 5), and other cell types or dead cells (Cluster 1 and 6, <xref rid="F3" ref-type="fig">Fig. 3g</xref>). Population of WT cell in cluster 3 which is high ZO-1 expressing clusters was higher than RTT-iEC and cluster 5 population which is typical endothelial cell clusters was lower (<xref rid="F3" ref-type="fig">Fig. 3h</xref>, <xref rid="F3" ref-type="fig">i</xref>, and <xref rid="F3" ref-type="fig">j</xref>). These results showed that RTT-iEC could be differentiated into endothelial cells that express lower ZO-1 compared to WT-iEC and suggested that MeCP2 R306C mutation itself negatively impacted the integrity of tight junction in differentiated endothelial cells.</p>
+        <p id="P10">Of note, condition medium was collected from iEC and added to the iPS-derived neuron (NGN2-driven) and then we performed calcium imaging to analyze the differential impact of secreted protein from endothelial cells to neuron cells (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 2a</xref>, <xref rid="SD1" ref-type="supplementary-material">b</xref>). Treatment with condition medium from WT-iEC and RTT-iEC did not affect the neurite length and number of cells (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 2c</xref>), however, condition medium from RTT-iEC negatively impacted the neuronal activity in healthy neurons (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 1d</xref>, <xref rid="SD1" ref-type="supplementary-material">e</xref>, and <xref rid="SD1" ref-type="supplementary-material">f</xref>). This result suggested altered neurovascular coupling mediated by a paracrine signal from endothelial cells to neurons.</p>
+      </sec>
+      <sec id="S4">
+        <title>Impairment of vascular permeability in Rett syndrome patient derived 3D microvascular networks.</title>
+        <p id="P11">According to the characterization of 2D monolayer and gene expression analysis, RTT-iEC exhibited the altered gene expression of tight junction. Although 2D TEER measurements is the promised method to estimate the paracellular barrier function of endothelial cells, there is no specificity of molecules and other factors (e.g., the thickness of layer, morphology, and density) that impact the variation of the outcome. To classify true vascular permeability, we engineered a 3D vascular network in a microfluidic device with WT-iEC or RTT-iEC. The cells were embedded in fibrin gel with healthy human lung fibroblasts as supporting cells and introduced into the microdevice&#x2019;s center channel. After gelation for 10 min, a culture medium was introduced into the side channel and cultured for 5 days, resulting in the formation of the microvascular network in the microfluidic device (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). In both WT-iEC and RTT-iEC could form 3D perusable microvasculature in 5 days (WT-iVascular and RTT-iVascular). Notably, RTT-iVascular formed slightly smaller diameter of microvasculature than WT-iVascular <xref rid="F4" ref-type="fig">Fig. 4b</xref>. Texas-red conjugated 70kDa dextran perfusion further visualize the perfusability and circularity of microvasculature, whereas no significant difference was observed in the roundness of each vasculature (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). To measure permeability of endothelial barrier in 3D microvasculature, vasculature with 70 kDa of dextran were imaged subsequently 10 min later right after dextran injection (<xref rid="F4" ref-type="fig">Fig. 4d</xref>). RTT-iVascular showed higher permeability compared to WT-iVascular (<xref rid="F4" ref-type="fig">Fig. 4e</xref>). Immunostaining with ZO-1 in 3D microvasculature also demonstrated that WT-iVascular formed more packed vasculature along with clear boundary and higher intensity of ZO-1 than RTTi-Vascular (<xref rid="F4" ref-type="fig">Fig. 4f</xref>). In addition, we stained MVNs with collagen IV to characterize extracelluer matrix and observedno significant differences (<xref rid="F4" ref-type="fig">Fig. 4g</xref>). We collected the culture medium from the 3D device and quantified MMP and TIMP level, because these secreted proteins play an important role to vasculogenic and remodeling of vasculature in developmental process and MeCP2 null mutation influenced the secretion level of MMP9 <sup><xref rid="R22" ref-type="bibr">22</xref></sup>. Unlike previous studies using mouse model, no significant difference in MMP9 level was observed between WT-iVascular and RTT-iVascular, however, we observed clear differences of MMP8, TIMP1, and TIMP4 (<xref rid="F4" ref-type="fig">Fig. 4h</xref>). MMP8 is also one of the crucial collagen cleaving enzymes, and TIMP1 is also known as the natural inhibitor of the MMPs <sup><xref rid="R28" ref-type="bibr">28</xref></sup>. Impaired MMP8 and TIMP1 activity in RTT-iVascular should be one of the triggers for decreased barrier function measured by permeability assay in 3D conditions. Next, we also engineered 3D blood-brain barrier (BBB) in a microfluidic device using WT-iEC or RTT-iEC, astrocyte and pericyte (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 3a</xref>). All three types of cells were embedded in fibrin gel and introduced into the center channel of microdevice, resulting in the formation of BBB formation (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 3b</xref>). Same as vasculature, BBB which express mutant MeCP2 in endothelial cells exhibited higher permeability (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 3c</xref>).</p>
+      </sec>
+      <sec id="S5">
+        <title>Pathological mechanism associated with endothelial-specific miR-126 dysregulation</title>
+        <p id="P12">microRNAs are small noncoding RNAs that function as post-transcriptional regulators of gene expression. They play a vital role in numerous biological processes, including proliferation, differentiation, and development in posttranslational level <sup><xref rid="R29" ref-type="bibr">29</xref></sup>. The involvement of MeCP2 in the regulation of miRNA expression was first reported in 2010 <sup><xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup>. Indeed, miR-199a has been identified to control the functions of neurons mediated by mTOR signaling pathway <sup><xref rid="R32" ref-type="bibr">32</xref></sup>. However, whether this MeCP2/miRNA pathway is implicated in other aspects of the vascular integrity in Rett syndrome remains unexplored. To validate how MeCP2 mutation results in decreased tight junction protein, we focused on microRNA expression, especially endothelial cell-specific microRNA, miR-126&#x2013;3p, in 2D cultured endothelial cells (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 4a</xref>). Total microRNA was isolated from WT-iEC and RTT-iEC in 2D culture, and then microRNA expressions were quantified by RT-PCR with appropriate internal control (<xref rid="SD1" ref-type="supplementary-material">Supplemental fig. 4b</xref> and <xref rid="SD1" ref-type="supplementary-material">c</xref>). As a result, miR-126&#x2013;3p expression in RTT-iEC is significantly higher than WT-iEC (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). miR-126&#x2013;3p is only expressed in endothelial cells and acts upon various transcripts to control angiogenesis <sup><xref rid="R33" ref-type="bibr">33</xref></sup>. Several target genes were displayed by MirTarget prediction algorithm <sup><xref rid="R34" ref-type="bibr">34</xref></sup> (<xref rid="F5" ref-type="fig">Fig. 5b</xref>). <italic toggle="yes">VEGF</italic>-A, <italic toggle="yes">SPRED1</italic>, and <italic toggle="yes">PIK3R2</italic> play an especially important role in controlling vascular integrity. RT-PCR results showed that <italic toggle="yes">EGFL7</italic>, <italic toggle="yes">IGFBP2</italic>, <italic toggle="yes">BEGFA</italic>, <italic toggle="yes">ADAM9</italic>, <italic toggle="yes">SPRED1</italic>, and <italic toggle="yes">PIK3R2</italic> were downregulated, but not <italic toggle="yes">HIF1A</italic> and <italic toggle="yes">NFKBIA</italic> in RTT-iEC compared to WT-iEC (<xref rid="F5" ref-type="fig">Fig. 5c</xref>).</p>
+        <p id="P13">To expand the effect of miRNA expression in mutant endothelial cells, we performed miRNA-mRNA multi-modal analysis to estimate the influence of miRNA expression and target mRNA gene expression (<xref rid="F5" ref-type="fig">Fig. 5d</xref>). The differential miRNA expression in RTT-iEC was shown in <xref rid="F5" ref-type="fig">Fig. 5e</xref>. We further pick up the reasonable differential miRNA according to p-value (p &lt;0.01) and fold change (more than 2.5 times). miRNAs including has-miR-126&#x2013;3p, hsa-miR-140&#x2013;3p, hsa-miR-15b, hsa-miR199a-5p, hsa-miR-223&#x2013;5p, hsa-miR-483&#x2013;3p, and has-miR-590&#x2013;5p were upregulated and hsa-miR-29a-3p, hsa-miR-29c-3p, hsa-miR-363&#x2013;3p, and hsa-miR-652&#x2013;3p were found as downregulated miRNAs (<xref rid="F5" ref-type="fig">Fig. 5e</xref>). Alluvial plot showed that target genes of differential miRNA according to miRDB target gene list and performed GO enrichment analysis with respect to biological process based on upregulated and down-regulated genes (<xref rid="F5" ref-type="fig">Fig. 5f</xref> and <xref rid="SD1" ref-type="supplementary-material">supplemental fig. 4d</xref>). We discovered one overlapped upregulated (Cell cycle G2M phase translation, <xref rid="SD1" ref-type="supplementary-material">supplemental fig. 4e</xref> and <xref rid="SD1" ref-type="supplementary-material">f</xref>) and three overlapped downregulated molecular pathway (&#x201C;(positive) regulation of vascular development&#x201D; and regulation of miRNA metabolism process) from the miRNA-mRNA profiling (<xref rid="F5" ref-type="fig">Fig. 5g</xref>). According to Cnetplot as well as overlap genes in miRNA-RNA profiling (<xref rid="F5" ref-type="fig">Fig. 5h</xref> and <xref rid="F5" ref-type="fig">i</xref>), the downregulation of Angiopoietin-1 receptor (TEK) and endothelin-1 (EDN1) in RTT-iEC were found in both dowregulated gene expression measured by RNAseq and predicted gene expression from miRNA expression and miRDB prediction (<xref rid="F5" ref-type="fig">Fig. 5j</xref>). Angiopoetin-1/Tie2(TEK) signaling pathway play a important role for vascular stabilization via phospholation of PI3K/AKT and forkhead box protein (<italic toggle="yes">FOXO1)</italic>, <italic toggle="yes">RhoA</italic>, VE-PTP signaling pathway<sup><xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>. Endothelin-1 is a vasoconstrictor peptide, which regulates vascular dilation communicating with smooth muscle cells and cell migration of endothelial cells. These mechanobiological sensors involved in both EDN-1 and Ang1/2/Tie2 signaling regulate vascular homeostasis, and its dysregulation leads to destabilization against external stimuli such as shear stress. Therefore, these two genes might play an important role in the dysfunction of barrier function in mutant RTT-iVascular mediated by altered miRNA expression.</p>
+        <p id="P14">Lastly, to confirm miR-126&#x2013;3p-mediated dysregulation of vascular permeability, antisense of miR126&#x2013;3p was transfected to RTT-iEC by lentivirus and formed vasculature in a microfluidic device in the same manner, followed by permeability measurement (<xref rid="F6" ref-type="fig">Fig. 6a</xref>). Immunostaining of ZO-1 also that miRNA-126&#x2013;3p knockdown led to the increase in the ZO-1 expression in the 3D microvascular networks (<xref rid="F6" ref-type="fig">Fig. 6b</xref>). In addition, conditional knockdown of miRNA-126&#x2013;3p could partially restore endothelial barrier function characterized by permeability measurement with 70kDa dextrans (<xref rid="F6" ref-type="fig">Fig. 6c</xref>, <xref rid="F6" ref-type="fig">d</xref>). To prove how this restoration event happened, we performed RT-PCR focusing on the gene involved in TEK and EDN-1 signaling pathway(<xref rid="F6" ref-type="fig">Fig. 6e</xref>). As shown earlier, we confirmed the downregulation of <italic toggle="yes">TEK</italic> and <italic toggle="yes">EDN-1</italic> in RTT-iEC along with the upregulation of <italic toggle="yes">FOXO1</italic> and <italic toggle="yes">ANGPT2</italic> and the regulation of <italic toggle="yes">EGFL7</italic> and <italic toggle="yes">CLDN5</italic>. Knockdown of miR-126&#x2013;3p can restore the expression level of <italic toggle="yes">TEK</italic>, <italic toggle="yes">EDN-1</italic>, <italic toggle="yes">FOXO1</italic>, <italic toggle="yes">ANGPT2</italic>, and <italic toggle="yes">CLDN5</italic> (<xref rid="F6" ref-type="fig">Fig. 6e</xref>). activation of <italic toggle="yes">FOXO1</italic> and <italic toggle="yes">PI3K</italic> works as a positive feedback regulator of Ang-2/Tie2 signaling pathway<sup><xref rid="R35" ref-type="bibr">35</xref>,<xref rid="R36" ref-type="bibr">36</xref></sup>, which leads to junction instability and less tolerance against shear stress along with RhoA and CLDN5 down-regulation (<xref rid="F6" ref-type="fig">Fig. 6f</xref> and <xref rid="F6" ref-type="fig">g</xref>). EDN-1 is not a direct regulator to modulate the tight junction property, however, endothelin-1, a vasoconstrictor peptide, plays a critical role in adjusting blood pressure with smooth muscle cells and its alternation, is consistent with previous literature<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup> causes dysregulation of blood circulation and its restoration should be important the homeostasis of vascular integrity. Therefore, we conclude that the MeCP2[R306C] mutation impacts miR-126-mediated dysfunction of vascular integrity along with TEK and EDN-1 downregulation in the early development process in Rett syndrome, and its restoration would become one of the therapeutic strategies.</p>
+      </sec>
+    </sec>
+    <sec id="S6">
+      <title>DISCUSSION</title>
+      <p id="P15">This paper first describes the miRNA-126 mediated vascular alternation in Rett syndrome microvascular networks. We established ETV2-expressing iPS cells that express MeCP2[R306C] mutations and native MeCP2 by CRISPR/Cas9, which allowed us to obtain endothelial cells rapidly (<xref rid="F1" ref-type="fig">Fig. 1</xref>), then engineered microvascular networks in a microfluidic device (<xref rid="F3" ref-type="fig">Fig. 3</xref>). Location controlled knocking in gene cassette which has Tet-ETV2 into AAVS1 locus realize stable and reproducible endothelial differentiation over lentivirus based ETV2 overexpression<sup><xref rid="R37" ref-type="bibr">37</xref></sup> and transfection with mRNA <sup><xref rid="R38" ref-type="bibr">38</xref></sup>, allowing them to minimize line-dependent (donor-dependant) variations. Although the procedure of fabricating an MVN has been shown earlier by our group <sup><xref rid="R39" ref-type="bibr">39</xref>&#x2013;<xref rid="R42" ref-type="bibr">42</xref></sup> and promised way, this is the first <italic toggle="yes">in vitro</italic> model that recapitulates early developmental vascular alternation in Rett syndrome, specifically focusing on endothelial barrier function regulating the permeability of molecules by using patient-derived iPS cells. In both 2D and 3D characterization of iEC, tight junction gene expression (ZO-1) was downregulated in endothelial cells and vasculature from Rett syndrome patients (<xref rid="F2" ref-type="fig">Fig. 2</xref>, <xref rid="F3" ref-type="fig">3</xref>, and <xref rid="F4" ref-type="fig">4</xref>). One of the most important highlights of this study is that we confirmed RTT-iVascular, which is fabricated from Rett syndrome patient-derived iPS cells, displayed higher permeability, indicating altered endothelial barrier functions (<xref rid="F4" ref-type="fig">Fig. 4e</xref>). This discovery is consistent with previous literature shown using MeCP2-null mouse (Mecp2-/y, Mecp2tm1.1Bird)<sup><xref rid="R22" ref-type="bibr">22</xref>
+<xref rid="R23" ref-type="bibr">23</xref></sup>. Although the MeCP2-null mouse model causes the increase of matrix metallopeptidase 9 (MMP9), and this should be involved in BBB disruption, we did not observe MMP1 and MMP9 dysregulation (<xref rid="F4" ref-type="fig">Fig. 4h</xref>), which are critical proteases for vascular turnover with collagen. This might be explained by the structural difference of the non-catalyst domain of MMP2 and MMP9, which is important for substrate binding and interactions between humans and mice <sup><xref rid="R43" ref-type="bibr">43</xref>&#x2013;<xref rid="R45" ref-type="bibr">45</xref></sup>, and this suggested the advantage of the human <italic toggle="yes">in vitro</italic> model compared to the mouse model.</p>
+      <p id="P16">Transcriptome analysis revealed that MeCP2[R306C] mutation in endothelial cells itself downregulated as &#x201C;Regulation of vascular development&#x201D; and &#x201C;Protein localization to cell-cell junction&#x201D; in RTT-iEC (<xref rid="F2" ref-type="fig">Fig. 2f</xref>, <xref rid="F2" ref-type="fig">h</xref>). This result advocated that MeCP2 plays an important role in vascular development and homeostasis of vascular integrity, and MeCP2[R306C] mutations negatively impact it. To clarify how MeCP2[R306C] mutations influenced endothelial barrier function along with losing tight junction potential, we focused on endothelial-specific miRNA-126&#x2013;3p. This miRNA is critical for endothelial differentiation and development <sup><xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup> and is also involved in vascular disease <sup><xref rid="R48" ref-type="bibr">48</xref></sup>. We discovered miRNA-126&#x2013;3p is highly expressed in RTT-iEC compared to WT-iEC and target gene expressions of miRNA-126&#x2013;3p were downregulated in contrast, which contains <italic toggle="yes">EGFL7</italic>, <italic toggle="yes">IGFBP2, BEGFA, ADAM9, SPRED1</italic>, and <italic toggle="yes">PIK3R2</italic> (<xref rid="F5" ref-type="fig">Fig. 5f</xref>). Integrated analysis of miRNA profiling and RNAseq enforced the evidence showing miRNA-126&#x2013;3p mediated dysregulation of vascular integrity in RTT-iEC (<xref rid="F5" ref-type="fig">Fig. 5f</xref>, <xref rid="F5" ref-type="fig">g</xref>) along with down-regulation of TEK and EDN-1, which are important genes for junction stabilization and cell survival, and regulation of vasoconstriction (<xref rid="F5" ref-type="fig">Fig. 5h</xref>, <xref rid="F5" ref-type="fig">i</xref>, <xref rid="F5" ref-type="fig">j</xref> and <xref rid="F6" ref-type="fig">Fig. 6f</xref>, <xref rid="F6" ref-type="fig">g</xref>). Downregulation of TEK further caused the upregulation of FOXO1 and PI3K signaling pathways to activate the Ang2/Tie2 positive feedback loop, leading to vascular instability and decreased vascular integrity (<xref rid="F6" ref-type="fig">Fig. 6e</xref>). EDN-1, producing endothelin, is an important driver of vasoconstriction and regulating the blood pressure. Downregulation of EDN-1 in RTT-iEC can explain the poor circulation of blood in RTT patients, which has been shown in previous literature <sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup>, along with eNOS downregulation<sup><xref rid="R23" ref-type="bibr">23</xref></sup>. Moreover, the knockdown of miR-126&#x2013;3p in RTT-iEC could rescue the phenotype of MVNs along with the restoration of TEK and EDN-1 gene expression (<xref rid="F6" ref-type="fig">Fig. 6e</xref>). Taken together, these results show clear evidence that miR-126&#x2013;3p is one of the direct targets of MeCP2 and mediator of vascular impairment by MeCP2[R306C] mutations and one of the good therapeutic target to restore vascular function.</p>
+      <p id="P17">In the transcription process of microRNA, MeCP2 directly interacts with RNA polymerase II to modulate their transcription, and the mutation of MeCP2 disturbs downstream processing <sup><xref rid="R49" ref-type="bibr">49</xref>,<xref rid="R50" ref-type="bibr">50</xref></sup>. In addition, it has been reported that the interaction between Drosha and DGCR8 along with MeCP2 plays an important role in the processing of miR-199a during the process precursor miRNA (pri-miRNA), and a lack of MeCP2 leads to negatively regulate miR-199 level in neurons, resulting in altered axon development and synapse formation <sup><xref rid="R32" ref-type="bibr">32</xref>,<xref rid="R51" ref-type="bibr">51</xref></sup> and neural stem cell fate specification <sup><xref rid="R52" ref-type="bibr">52</xref></sup>. Unlike neurons, the role of microRNA in endothelial cells is not known in the context of vascular development. We first observed the microRNA-mediated role of MeCP2 in their vascular development, which might lead to an impairment of neuronal activity as a consequence since it is known that BBB breakdown is one of the fundamental biological events in Alzheimer&#x2019;s disease<sup><xref rid="R39" ref-type="bibr">39</xref></sup> and Huntington&#x2019;s disease<sup><xref rid="R53" ref-type="bibr">53</xref></sup> and other neurodegenerative and neurodevelopmental disorders<sup><xref rid="R54" ref-type="bibr">54</xref>,<xref rid="R55" ref-type="bibr">55</xref></sup>. Therefore, altered vascular impairment by MeCP2 mutation, which we showed in this paper, may presumably influence neurogenesis and brain microenvironment. Another literature showed neuronal activity also regulates blood-brain barrier efflux transport and cross-talk with each other <sup><xref rid="R56" ref-type="bibr">56</xref></sup>. So far, there is little clear evidence to express the link between vascular impairment and regression of neurons in human Rett syndrome patients, although it was shown in mice model <sup><xref rid="R22" ref-type="bibr">22</xref></sup>. This <italic toggle="yes">in vitro</italic> microvascular model from patient-derived cells and the capability of co-culture with neurons <sup><xref rid="R40" ref-type="bibr">40</xref></sup> could provide new tools to investigate the neurovascular interaction in the context of early developmental change in Rett syndrome for translational medicine.</p>
+      <p id="P18">In conclusion, we discovered miR-126&#x2013;3p-mediated vascular alternation by MeCP2[R306C] mutation in Rett syndrome, along with downregulation of TEK and EDN1. The combination of our directed differentiation method into endothelial cells from patient-derived iPS cells with CRISPR/Cas knock in dox-inducible ETV2 and the microfluidic device facilitates to obtain robust 3D microvascular networks and allow us to measure permeability, which can recaptulate vasculogenesis process in Rett syndrome. Restoration of miR-126&#x2013;3p level effectly rescure the endotehlail barrier function in RTT-iVascular along with modulating Ang/Tie2 signaling pathway and tight junction stabilization. This promised platform using patient-derived iPS cells and CRISPR/Cas9-based ETV2 knock-in system with the microfluidic device could apply to any other neurodevelopmental and neurodevelopmental disorder such as Alzheimer&#x2019;s disease and amyotrophic lateral sclerosis.</p>
+    </sec>
+    <sec id="S7">
+      <title>MATERIALS AND METHODS</title>
+      <sec id="S8">
+        <title>iPS culture from Rett syndrome patient</title>
+        <p id="P19">Rett syndrome patient-derived hiPS cells which carry heterozygous MECP2[R306C] (female, 8Y, missense, 4&#x2013;7% of RTT patients) and its isogenic control was obtained from the Coriell Institute (WIC05i-127&#x2013;325(MT) and WIC04i-127&#x2013;33(WT)). Isogenic control was established by site-directed genome editing by CRISPR/Cas9 to fix the mutant allele of MECP2, resulting in isogenic control cells only having wild-type alleles of MECP2 in this line. All hiPS cells were maintained on Matrigel-coated 6-well plates in mTeSR plus medium (STEMCELL Technologies) with 10 &#x3BC;M Y-23632 (Rock inhibiter, STEMCELL technologies) for the first day after passages and subcultured every 5&#x2013;7 days using ReLeSR reagent (STEMCELL Technologies). The pluripotency of iPS cells were characterized by immunostaining with OCT3/4, Nanog, TRA-1&#x2013;60, and SSEA4 (<xref rid="SD1" ref-type="supplementary-material">Supplementary fig. S1</xref>) The cells were cultured in incubator under 5% CO<sub>2</sub> and 37 C.</p>
+      </sec>
+      <sec id="S9">
+        <title>Genome editing</title>
+        <p id="P20">To produce genome edited iPS cells line which express ETV2 for endothelial differentiation and hNGN2 under rtTA promoter, gene constructs were knock-in into the safe harbor AAVS1 locus of Rettsyndrome patient derived iPS cells and isogenic control iPS cells. For endothelial differentiation, pUCM-AAVS1-TO-hNGN2 (Addgene #105840) was used as backbone plasmid and digested with PacI (NEB) and NotI (NEB), then hNGN2 were replaced with ETV2 by Gibson cloning with the donor constructs with 40 bp overlap sequence (gBlock, IDT) to get pUCM-AAVS1-TO-ETV2. iPS cells were cultured in 6 well plates coated with Matrigel in mTeSR plus medium and detached using TypLE express for 5 min. A total of 2&#xD7;10<sup>6</sup> human iPS cells were co-transfected with 8 &#x3BC;g of PX458-AAVS1 plasmid which express SpCas9 and 6 &#x3BC;g of pUCM-AAVS1-TO-ETV2 or pUCM-AAVS1-TO-NGN2 in 100 &#x3BC;L of Opti-MEM. Electroporation was performed using a BTX ECM830 electroporator (Poring plus: voltage:150, pulse length: 5 msec, pulse: 100 msec; number of pulses: 2. Transfer pulse: voltage: 20V, pulse length: 100 msec, pulse: 100 msec; number of pulses: 5. After electroporation, iPS cells were subsequently seeded onto matrigel-coated plate in mTeSR plus with CloneR2. 24 hours post-electroporation, transfected iPS cells were subjected to the puromycin selection at 0.25 &#x3BC;g/ml with 10 &#x3BC;M of Y-27632. Then, the culture medium was replaced mTeSR plus and allowed to recover for one week. Once the cells reached to 80% confluent, the cells were dissociated by treatment with TrypLE Express (ThermoFisher Scientific) for 5 min. Then, the cell suspension was filtered with 70 um cell strainers (BD Falcon) in mTeSR plus medium. mCherry positive cells were sorted by cell sorter (BD Melody) and re-plated as a single clone to Matrigel-coated plate in mTeSR plus with CloneR2 to get a single colony. Expanded single colonies were then collected for genotyping.</p>
+        <p id="P21">PX458-AAVS1 was a gift from Adam Karpf (Addgene plasmid #113194 ; <ext-link xlink:href="http://n2t.net/addgene:113194" ext-link-type="uri">http://n2t.net/addgene:113194</ext-link> ; RRID:Addgene_113194) and pUCM-AAVS1-TO-hNGN2 was a gift from Michael Ward (Addgene plasmid # 105840 ; <ext-link xlink:href="http://n2t.net/addgene:105840" ext-link-type="uri">http://n2t.net/addgene:105840</ext-link> ; RRID:Addgene_105840).</p>
+      </sec>
+      <sec id="S10">
+        <title>Genotyping</title>
+        <p id="P22">DNA were collected from genome edited iPS cells by QIAamp DNA kit (Qiagen). Gene fragment around AAVS1 locus were amplified by PCR to confirmed donor DNA sequence was correctly inserted to AAVS1 locus (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig 1</xref>.).</p>
+      </sec>
+      <sec id="S11">
+        <title>Differentiation to endothelial cells</title>
+        <p id="P23">Genome edited iPS cells (ETV2-iPS cells) were plated onto Matrigel-coated 6 well-plate and cultured until the cells reached to 70&#x2013;80% confluent. At day 0, the cells were treated with 1 ml of Accutase and incubated for 4 min, then add 1 mL of mTeSR plus for neuralization. Collected cells were further dissociated by pipetting up-and-down at 10 times with 1 mL of pipette tip to get single cells. Then, the cells were re-plated to Matrigel-coated 6 well-plate at 250k-350k cells/well in mTeSR plus medium and 10 &#x3BC;M Y-23632. Next day, the culture medium was replaced to mesoderm differentiation medium (DMEM/F12 supplemented with 1% GlutaMAX, 60 &#x3BC;g/ml of L-ascorbic acid, 6 &#x3BC;M of CHIR99021(GSK3 Inhibitor/WNT Activator, STEMCELL Technologies)) and cultured for 2 days with dairy medium change. Then, the culture medium was replaced with endothelial differentiation medium (DMEM/F12 supplemented with 1% GlutaMAX, 60 &#x3BC;g/mL of L-ascorbic acid, 50 ng/mL of VEGF-A, 50 ng/mL of bFGF2, 10ng/mL of EGF, and 10 uM of SB431542 (Activin/BMP/TGF-beta inhibitor, STEMCELL Technologies)), and 3 &#x3BC;g/mL of Doxycycline. Next day, the medium was changed to the same endothelial differentiation medium but without Doxycycline. At day 5, differentiated endothelial cells (iEC) were seeded to T150 culture flask for expansion culture in Vasculife VEGF Endothelial Medium Complete Kit (Lifeline cell technology, LL-0003) supplemented with 10% Fetal Bovine Serum (FBS), and 10 &#x3BC;M of SB431542, and then characterized flowcytometry.</p>
+      </sec>
+      <sec id="S12">
+        <title>Differentiation to neurons</title>
+        <p id="P24">Genome edited iPS cells (NGN2-iPS cells) were plated onto Matrigel coated 6 well plate and cultured until the cells reached to 70&#x2013;80% confluent. Then at day 0, the cells were treated with 1 ml of TrypLE Express and incubated for 5 min, then add 5 ml of mTeSR plus for neuralization. Collected cells were further dissociated by pipetting up-and-down at 10 times with 1ml of pipette tip to get a single cells. Then, the cells were re-plated to Matrigel-coated 6 well-plate at 200k cells/well in mTeSR plus medium and 10 &#x3BC;M Y-23632. Two days later, the culture medium was replaced to neuronal initiation medium differentiation medium (knockout DMEM/F12 supplemented with 15% KnockOut Serum replacement, 1% GlutaMAX, 1% NEAA, 10 uM of SB431542, 100 nM of LDN-193189 (TGF-beta/Smad inhibitor, STEMCELL Technologies), and 100 ng/ml of Doxycycline and cultured for 7 days with dairy medium change. Then, the cells were treated with 1 ml of Accutase and incubated for 10 min. Dissociated cells were spin down and resuspended in neuronal maturation medium (Neurobasal plus medium supplemented with 2% B27-plus, 1% of N2, and 100 ng/ml of Doxycycline (only initial 3 days) and seed to 6 of Matrigel-coated 6 well plate and cultured the cells for 10 days. Differentiated neurons were characterized by RT-PCR and used for Ca<sup>2+</sup> imaging.</p>
+      </sec>
+      <sec id="S13">
+        <title>Imaging-enhanced flowcytometry</title>
+        <p id="P25">To characterize differentiated iEC (RTT-iEC and WT-iEC) deeply with respect to the heterogeneity and tight junction expression, imaging-enhanced flow cytometry (Attune CytPix, Thermo Fisher Scientific) was performed. iECs were dissociated with TrypLE Express and fixed with 4% paraformaldehyde with 0.2% Triton X-100 and then the cells were filtered with 70 &#x3BC;m cell strainers (BD Falcon, 38030) in 1% BSA-PBS. Then, fixed cells were stained with Alexa Fluor 488 conjugated ZO-1 antibody (Thermo Fisher Scientific, ZO1&#x2013;1A12, 1:100) and Hoechst 33342 for DNA staining for cells cycle analysis. In CytPix, the cells cell population were gated by FSC, SSC, and acquired images to get single cells. From acquired images, size of cells, perimeter, psudodiameter, entropy, and circularity of cells were computed in CytPix and integrated data (images, FSC, SSC, ZO-1 fluorescent value) were further analyzed in MATLAB (Mathworks).</p>
+      </sec>
+      <sec id="S14">
+        <title>Engineering of 3D vascular networks</title>
+        <p id="P26">Both differentiated endothelial cells (iEC) at 8 &#xD7;10<sup>6</sup> cells/ml and human lung fibroblasts (Lonza, CC-2512) at 1&#xD7;10<sup>6</sup> cells/ml as supporting cells were suspended in VascuLife containing thrombin (4 U/mL, Sigma). Cell suspension was further mixed with fibrinogen (3 mg/mL at final concentration, Sigma) on ice. The mixture was then introduced to the microfluidic device (idenTx 3, AIM Biotech) through the center channel. After introducing the gel mixture with cells, the device was incubated in incubator for 15 min to complete polymerization. Subsequently, VascuLife media supplemented with 10% Fetal Bovine Serum (FBS), and 10 &#x3BC;M of SB431542 were introduced into side medium channel in the devices. The cells were further cultured to allow microvasculature formation and the permeability assay was performed at day 7 from cell seeding.</p>
+      </sec>
+      <sec id="S15">
+        <title>Permeability measurement in 3D vasculature and analysis</title>
+        <p id="P27">Vascular permeability was measured for various perfusable MVNs engineered in this study following published protocols <sup><xref rid="R39" ref-type="bibr">39</xref>,<xref rid="R41" ref-type="bibr">41</xref></sup>. Briefly, 70 kDa Texas red dextran (Invitrogen) was perfused into the microvascular networks by generating a slight pressure gradient across the gel of the device. In detail, the culture medium in one media channel was first aspirated, followed by the injection of 10 &#x3BC;L of 10 &#x3BC;g/mL Texas red dextran solution. The process was then repeated for the other media channel, before imaging under a confocal microscope. Confocal images were captured with a 5 &#x3BC;m step size at 0 and 10 min, from which permeability was calculated. The detailed permeability measurement protocol and ImageJ Marco for permeability analysis can be found in previous protocol <sup><xref rid="R42" ref-type="bibr">42</xref></sup>. Several regions of interest (ROIs) were captured via time-lapse volumetric imaging for each device.</p>
+      </sec>
+      <sec id="S16">
+        <title>Quantification of mRNA and microRNA by real-time qRT-PCR</title>
+        <p id="P28">Total RNA was isolated from the cells from 2D culture using RNAeasy mini kit (Qiagen) following manufacture protocol. Total RNA was converted to cDNA using a Superscript VILO cDNA syntheses Kit (Thermofisher Scientific). qRT-PCR was performed with Quantstudio 3 (Applied biosystems) using Takara TB Green Premix Ex Taq II (Takara, SYBR Green). The primer sequences are shown in <xref rid="SD1" ref-type="supplementary-material">Table S2</xref>. The mRNA level of glyceraldehyde 3-phosphate dehydrogenase (GAPDH) was used as the internal standard in all experiments.</p>
+        <p id="P29">microRNA was isolated using miRNAeasy mini kit (Qiagen) and further enriched by excluding mRNA and tRNA. microRNA was modified for 3&#x2019; poly(A) tailing and 5&#x2019; ligation of an aptamer sequence by TaqMan Advanced miRNA cDNA Synthesis Kit (Thermo Fisher Scientific) to extend mature microRNAs present in the samples on each end prior to reverse transcription, and converted to cDNA. qRT-PCR was performed using TaqMan Advanced miRNA Assary (Assay ID: 477887_mir, for has-miR-126) and TaqMan Advanced miRNA human endogenous control (Thermo Fisher Scientific) with Quantstudio 3 (Applied biosystems). microRNA levels were normalized by as the combination of endogenous control as internal standard. The RT-PCR experiments were repeated at least three times with cDNAs prepared from separate cell culture along with experimental duplicates. Each reaction was assessed according to Melting curve to exclude abnormal amplification. Differential gene expressions were quantified by delta-delta Ct method. miR-126&#x2013;3p binding domain were simulated by miRDB (<ext-link xlink:href="https://mirdb.org/" ext-link-type="uri">https://mirdb.org/</ext-link>) <sup><xref rid="R34" ref-type="bibr">34</xref></sup>and confirmed by TargetScanHuman <sup><xref rid="R58" ref-type="bibr">58</xref></sup> (<ext-link xlink:href="https://www.targetscan.org/vert_80/" ext-link-type="uri">https://www.targetscan.org/vert_80/</ext-link> ). GC % and PhyloP score were obtained from UCSC Genome Browser (<ext-link xlink:href="https://genome.ucsc.edu/" ext-link-type="uri">https://genome.ucsc.edu/</ext-link>).</p>
+      </sec>
+      <sec id="S17">
+        <title>Characterization of neuronal activity by Ca<sup>2+</sup> imaging</title>
+        <p id="P30">To characterize the direct impact of paracrine signals from iECs to neurons, we performed Ca2+ imaging using a two-photon microscope. At 3 weeks of culture, iPSC-derived NGN2-induced differentiated neurons were infected with rAAV-hSyn-jRGECO1a-WPRE and then cultured for at least 1 week after the infection. Twenty-four hours before the imaging, the culture medium was replaced with BrainPhys imaging optimization medium supplemented with 1% GlutaMAX, 2% B27 plus, 1% NEAA, and 1% Penicillin/Streptomycin. Time-lapse images were acquired using a two-photon microscope (Bruker) with a galvo-resonant scanner and an Insight X3 laser (Spectra-physics, 80 MHz) at 1040 nm for jRGECO1a excitation and a MaiTai laser (Spectra-physics, 80 MHz) at 860 nm for EGFP excitation. Both lasers were aligned with the same light path and were scanned at a sampling frequency of 60 Hz with a resolution of 512 &#xD7; 512. The emission light was initially separated by a primary dichroic short pass filter mirror (890 nm), and then the green signal and red signal were separated by a dichroic mirror (Semrock, 540/50 nm) and further filtered by band pass filters (525/25 nm) and (610/45 nm), respectively. Both signals were detected using GaAsP photomultiplier tubes (H7422A-40, Hamamatsu, Japan). The microscope and laser were controlled by the Prairie View software (Bruker). Time-lapse images were first analyzed using the Suite2p package (Suite2p, python==3.10) to identify the signal neurons and segment them by determining regions of interest (ROIs). For each ROI time series, the baseline fluorescence was defined as the average of the lowest 10% of samples. &#x394;F/F was computed as (F - Faverage) / Faverage, and photobleaching was also normalized by the slope calculated by (Fend - Fstart) / time. The exported data (delta F) were loaded into MATLAB and further computed according to the analysis. To calculate spike frequency, delta F was initially deconvoluted to specify single neuron activity, and then spikes were detected using the &#x201C;findpeaks&#x201D; function in MATLAB. The spike frequency was calculated over a certain unit of time (minute). Correlation matrices were obtained by pairwise correlation among the neurons.</p>
+      </sec>
+      <sec id="S18">
+        <title>Immunostaining and microarray</title>
+        <p id="P31">In 2D monolayer culture, the cells on the glass bottom dish were fixed with 4% paraformaldehyde in Phosphate-Buffer Saline (PBS) for 20 min at room temperature. Then the cells were permeabilized in 0.2% TritonX-100 in PBS for 5 min at room temperature and blocked in 1% BSA in PBS at 4 C overnight. Primary antibody was then incubated with ZO-1 antibody (ThermoFisher, ZO1&#x2013;1A12, 1:1000) at 4 C overnight. After the cells were washed with PBS, secondary antibody was incubated with Goat anti-Rabbit IgG (H+L), Alexa Fluor 488 (1:1000) at 4 C overnight. The cells then were incubated with Rhodamine phalloidin (70 nM) and Hoechst 33342 (1:10000) solution at room temperature for 10 min followed by the 3-time washing with PBS. Fluorescent images were acquired using confocal microscope (Olympus, FV1200) with 20X UPlanSApo objectives (NA: 0.75).</p>
+        <p id="P32">For 3D culture in microfluidic device, PBS were introduced into medium channel of microfluidic device and replaced 3 times for washing and removing the medium from microvascular networks. After removing excess PBS, cells were fixed with 4% paraformaldehyde in PBS for 4 hours at room temperature on rocking shaker. Then, the cells were permeabilized in 0.2% TritonX-100 in PBS for 1 hour at room temperature and blocked in 1% BSA in PBS at 4 C overnight. Primary antibody (anti ZO-1 antibody, ThermoFisher, ZO1&#x2013;1A12, 1:1000; anti-collagen IV mouse antibody, Abcam, ab19808, 1:500) was introduced into the device and incubated at 4 C overnight on rocking shaker. Primary antibodies were carefully removed by washing with PBS for 1 hour and it repeated at least 3 times. Then, secondary antibodies (Goat anti-Rabbit IgG (H+L), Alexa Fluor 555 (1:1000); Goat anti-Mouse IgG (H+L), Alexa Fluor 647 (1:1000) were incubated at 4 C overnight on rocking shaker. The cells then were incubated with Hoechst 33342 (1:10000) solution at room temperature overnight followed by the 3-time gentle washing with PBS. Z-stack images were acquired using confocal microscope (Olympus, FV1200) with 10X or 20X SApo objectives.</p>
+        <p id="P33">To quantify paracrine signals related to MMPs and TIMPs, the culture mediums were collected from cultured microfluidic devices. Then, protein expression in the medium were semi-quantitated by G-Series Human MMP Array 1 with manufacturer protocol.</p>
+      </sec>
+      <sec id="S19">
+        <title>Statistical analysis</title>
+        <p id="P34">The reported values are the means of a minimum of three independent experiments. Data are presented as the mean &#xB1; SD. For equal variances and normality distribution, a Student&#x2019;s t test was performed. To compare groups at multiple conditions, statistical comparisons were performed using one-way analysis of variance (ANOVA), with post hoc pairwise comparisons carried out using the Tukey-Kramer method. Statistical tests were performed using GraphPad Prism 9 (GraphPad Software, San Diego, CA). <italic toggle="yes">p</italic> values &lt;0.05 or p values &lt;0.01 were considered significant in all cases.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="SD1" position="float" content-type="local-data">
+        <label>Supplement 1</label>
+        <caption>
+          <p id="P35">Supplementary Fig. 1: Characterization of Rett syndrome patient-derived iPS cells.</p>
+          <p id="P36">Supplementary Fig. 2: RTT-iEC condition medium negatively impacted neuronal activity</p>
+          <p id="P37">Supplementary Fig. 3: Engieering BBB in vitro with iEC, pericyte and astrocyte</p>
+          <p id="P38">Supplementary Fig. 4: miR profiling and downregulated miR in RTT-iEC</p>
+          <p id="P39">Supplementary Table. 1: Key resources</p>
+          <p id="P40">Supplementary Table. 2: RT-PCR primer</p>
+        </caption>
+        <media xlink:href="media-1.pdf" id="d67e966" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S21">
+      <title>Acknowledgments:</title>
+      <sec id="S22">
+        <title>Funding:</title>
+        <p id="P41">We thank Taylor Johns for technical assistance and editorial assistance, and members of the Sur lab for discussions and advice. This work was supported by NIH grants R01MH085802 and R01NS130361, MURI grant W911NF2110328, the Picower Institute Innovation Fund, and the Simons Foundation Autism Research Initiative through the Simons Center for the Social Brain to M.S. We thank the Koch Institute&#x2019;s Robert A. Swanson (1969) Biotechnology Center for technical support, specifically flowcytometry core.</p>
+      </sec>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement" id="FN2">
+        <p id="P44"><bold>Competing interests:</bold> RDK is a co-founder of AIM Biotech, a company that markets microfluidic technologies and receives research support from Amgen, Abbvie, Boehringer-Ingelheim, Novartis, Daiichi-Sankyo, Roche, Takeda, Eisai, EMD Serono, and Visterra.</p>
+      </fn>
+    </fn-group>
+    <sec sec-type="data-availability" id="S20">
+      <title>Data availability</title>
+      <p id="P42">Read-level data from RNAseq will be deposited at GEO association. The plasmids used in this study will be deposited to Addgene. Any additional information required to re-analyses the data reported in this paper is available from the corresponding author upon request. The MATLAB for calculating pairwise correlation of neuronal activity and R code for RNAseq is available from GitHub.</p>
+    </sec>
+    <sec sec-type="data-availability" id="S23">
+      <title>Data and materials availability:</title>
+      <p id="P43">Read-level data from RNA-seq have been deposited at GEO. Any additional information required to reanalyze the data reported in this paper is available from the corresponding author upon request.</p>
+    </sec>
+    <ref-list>
+      <title>References and Notes</title>
+      <ref id="R1">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Lyst</surname><given-names>M. J.</given-names></name> &amp; <name><surname>Bird</surname><given-names>A</given-names></name>. <article-title>Rett syndrome: a complex disorder with simple roots</article-title>. <source>Nature Reviews Genetics</source>
+<volume>16</volume>, <fpage>261</fpage>&#x2013;<lpage>275</lpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.1038/nrg3897</pub-id></mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Samaco</surname><given-names>R. C.</given-names></name> &amp; <name><surname>Neul</surname><given-names>J. L.</given-names></name>
+<article-title>Complexities of Rett Syndrome and MeCP2</article-title>. <source>The Journal of Neuroscience</source>
+<volume>31</volume>, <fpage>7951</fpage>&#x2013;<lpage>7959</lpage> (<year>2011</year>). <pub-id pub-id-type="doi">10.1523/jneurosci.0169-11.2011</pub-id><pub-id pub-id-type="pmid">21632916</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Chahrour</surname><given-names>M</given-names></name>. &amp; <name><surname>Zoghbi</surname><given-names>H. Y.</given-names></name>
+<article-title>The story of Rett syndrome: from clinic to neurobiology</article-title>. <source>Neuron</source>
+<volume>56</volume>, <fpage>422</fpage>&#x2013;<lpage>437</lpage> (<year>2007</year>). <pub-id pub-id-type="doi">10.1016/j.neuron.2007.10.001</pub-id><pub-id pub-id-type="pmid">17988628</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Sj&#xF6;stedt</surname><given-names>E</given-names></name>. <etal/>
+<article-title>An atlas of the protein-coding genes in the human, pig, and mouse brain</article-title>. <source>Science</source>
+<volume>367</volume>, <fpage>eaay5947</fpage> (<year>2020</year>). <pub-id pub-id-type="doi">10.1126/science.aay5947</pub-id><pub-id pub-id-type="pmid">32139519</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Karlsson</surname><given-names>M</given-names></name>. <etal/>
+<article-title>A single&#x2013;cell type transcriptomics map of human tissues</article-title>. <source>Science Advances</source>
+<volume>7</volume>, <fpage>eabh2169</fpage> (<year>2021</year>). <pub-id pub-id-type="doi">10.1126/sciadv.abh2169</pub-id><pub-id pub-id-type="pmid">34321199</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Lappalainen</surname><given-names>R.</given-names></name>, <name><surname>Liewendahl</surname><given-names>K.</given-names></name>, <name><surname>Sainio</surname><given-names>K.</given-names></name>, <name><surname>Nikkinen</surname><given-names>P</given-names></name>. &amp; <name><surname>Riikonen</surname><given-names>R. S.</given-names></name>
+<article-title>Brain perfusion SPECT and EEG findings in Rett syndrome</article-title>. <source>Acta Neurologica Scandinavica</source>
+<volume>95</volume>, <fpage>44</fpage>&#x2013;<lpage>50</lpage> (<year>1997</year>). <pub-id pub-id-type="doi">10.1111/j.1600-0404.1997.tb00067.x</pub-id><pub-id pub-id-type="pmid">9048985</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Bianciardi</surname><given-names>G</given-names></name>. <etal/>
+<article-title>Microvascular abnormalities in Rett syndrome</article-title>. <source>Clin Hemorheol Microcirc</source>
+<volume>54</volume>, <fpage>109</fpage>&#x2013;<lpage>113</lpage> (<year>2013</year>). <pub-id pub-id-type="doi">10.3233/ch-131707</pub-id><pub-id pub-id-type="pmid">23481597</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Saili</surname><given-names>K. S.</given-names></name>
+<etal/>
+<article-title>Blood-brain barrier development: Systems modeling and predictive toxicology</article-title>. <source>Birth Defects Res</source>
+<volume>109</volume>, <fpage>1680</fpage>&#x2013;<lpage>1710</lpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.1002/bdr2.1180</pub-id><pub-id pub-id-type="pmid">29251840</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Daneman</surname><given-names>R.</given-names></name>, <name><surname>Zhou</surname><given-names>L.</given-names></name>, <name><surname>Kebede</surname><given-names>A. A.</given-names></name> &amp; <name><surname>Barres</surname><given-names>B. A.</given-names></name>
+<article-title>Pericytes are required for blood&#x2013;brain barrier integrity during embryogenesis</article-title>. <source>Nature</source>
+<volume>468</volume>, <fpage>562</fpage>&#x2013;<lpage>566</lpage> (<year>2010</year>). <pub-id pub-id-type="doi">10.1038/nature09513</pub-id><pub-id pub-id-type="pmid">20944625</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Ek</surname><given-names>C. J.</given-names></name>, <name><surname>Dziegielewska</surname><given-names>K. M.</given-names></name>, <name><surname>Habgood</surname><given-names>M. D.</given-names></name> &amp; <name><surname>Saunders</surname><given-names>N. R.</given-names></name>
+<article-title>Barriers in the developing brain and Neurotoxicology</article-title>. <source>Neurotoxicology</source>
+<volume>33</volume>, <fpage>586</fpage>&#x2013;<lpage>604</lpage> (<year>2012</year>). <pub-id pub-id-type="doi">10.1016/j.neuro.2011.12.009</pub-id><pub-id pub-id-type="pmid">22198708</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Saunders</surname><given-names>N. R.</given-names></name>, <name><surname>Joakim Ek</surname><given-names>C</given-names></name>. &amp; <name><surname>Dziegielewska</surname><given-names>K. M.</given-names></name>
+<article-title>The neonatal blood-brain barrier is functionally effective, and immaturity does not explain differential targeting of AAV9</article-title>. <source>Nat Biotechnol</source>
+<volume>27</volume>, <fpage>804</fpage>&#x2013;<lpage>805</lpage>; <comment>author reply 805</comment> (<year>2009</year>). <pub-id pub-id-type="doi">10.1038/nbt0909-804</pub-id><pub-id pub-id-type="pmid">19741632</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Obermeier</surname><given-names>B.</given-names></name>, <name><surname>Daneman</surname><given-names>R</given-names></name>. &amp; <name><surname>Ransohoff</surname><given-names>R. M.</given-names></name>
+<article-title>Development, maintenance and disruption of the blood-brain barrier</article-title>. <source>Nat Med</source>
+<volume>19</volume>, <fpage>1584</fpage>&#x2013;<lpage>1596</lpage> (<year>2013</year>). <pub-id pub-id-type="doi">10.1038/nm.3407</pub-id><pub-id pub-id-type="pmid">24309662</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Aschner</surname><given-names>M</given-names></name>. <etal/>
+<article-title>Reference compounds for alternative test methods to indicate developmental neurotoxicity (DNT) potential of chemicals: example lists and criteria for their selection and use</article-title>. <source>Altex</source>
+<volume>34</volume>, <fpage>49</fpage>&#x2013;<lpage>74</lpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.14573/altex.1604201</pub-id><pub-id pub-id-type="pmid">27452664</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Bal-Price</surname><given-names>A</given-names></name>. <etal/>
+<article-title>Putative adverse outcome pathways relevant to neurotoxicity</article-title>. <source>Crit Rev Toxicol</source>
+<volume>45</volume>, <fpage>83</fpage>&#x2013;<lpage>91</lpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.3109/10408444.2014.981331</pub-id><pub-id pub-id-type="pmid">25605028</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Corada</surname><given-names>M</given-names></name>. <etal/>
+<article-title>The Wnt/beta-catenin pathway modulates vascular remodeling and specification by upregulating Dll4/Notch signaling</article-title>. <source>Dev Cell</source>
+<volume>18</volume>, <fpage>938</fpage>&#x2013;<lpage>949</lpage> (<year>2010</year>). <pub-id pub-id-type="doi">10.1016/j.devcel.2010.05.006</pub-id><pub-id pub-id-type="pmid">20627076</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Weis</surname><given-names>S. M.</given-names></name> &amp; <name><surname>Cheresh</surname><given-names>D. A.</given-names></name>
+<article-title>Pathophysiological consequences of VEGF-induced vascular permeability</article-title>. <source>Nature</source>
+<volume>437</volume>, <fpage>497</fpage>&#x2013;<lpage>504</lpage> (<year>2005</year>). <pub-id pub-id-type="doi">10.1038/nature03987</pub-id><pub-id pub-id-type="pmid">16177780</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Zlokovic</surname><given-names>B. V.</given-names></name>
+<article-title>Neurovascular pathways to neurodegeneration in Alzheimer&#x2019;s disease and other disorders</article-title>. <source>Nature Reviews Neuroscience</source>
+<volume>12</volume>, <fpage>723</fpage>&#x2013;<lpage>738</lpage> (<year>2011</year>). <pub-id pub-id-type="doi">10.1038/nrn3114</pub-id><pub-id pub-id-type="pmid">22048062</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Sweeney</surname><given-names>M. D.</given-names></name>, <name><surname>Sagare</surname><given-names>A. P.</given-names></name> &amp; <name><surname>Zlokovic</surname><given-names>B. V.</given-names></name>
+<article-title>Blood&#x2013;brain barrier breakdown in Alzheimer disease and other neurodegenerative disorders</article-title>. <source>Nature Reviews Neurology</source>
+<volume>14</volume>, <fpage>133</fpage>&#x2013;<lpage>150</lpage> (<year>2018</year>). <pub-id pub-id-type="doi">10.1038/nrneurol.2017.188</pub-id><pub-id pub-id-type="pmid">29377008</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Gray</surname><given-names>M. T.</given-names></name> &amp; <name><surname>Woulfe</surname><given-names>J. M.</given-names></name>
+<article-title>Striatal Blood&#x2013;Brain Barrier Permeability in Parkinson&#x2019;S Disease</article-title>. <source>Journal of Cerebral Blood Flow &amp; Metabolism</source>
+<volume>35</volume>, <fpage>747</fpage>&#x2013;<lpage>750</lpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.1038/jcbfm.2015.32</pub-id><pub-id pub-id-type="pmid">25757748</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Shaltiel-Karyo</surname><given-names>R</given-names></name>. <etal/>
+<article-title>A Blood-Brain Barrier (BBB) Disrupter Is Also a Potent &#x3B1;-Synuclein (&#x3B1;-syn) Aggregation Inhibitor: A NOVEL DUAL MECHANISM OF MANNITOL FOR THE TREATMENT OF PARKINSON DISEASE (PD) *</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>288</volume>, <fpage>17579</fpage>&#x2013;<lpage>17588</lpage> (<year>2013</year>). <pub-id pub-id-type="doi">10.1074/jbc.M112.434787</pub-id><pub-id pub-id-type="pmid">23637226</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>R. L.</given-names></name> &amp; <name><surname>Funk</surname><given-names>K. E.</given-names></name>
+<article-title>Imaging blood-brain barrier disruption in neuroinflammation and Alzheimer&#x2019;s disease</article-title>. <source>Front Aging Neurosci</source>
+<volume>15</volume>, <fpage>1144036</fpage> (<year>2023</year>). <pub-id pub-id-type="doi">10.3389/fnagi.2023.1144036</pub-id><pub-id pub-id-type="pmid">37009464</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Pepe</surname><given-names>G</given-names></name>. et al. <article-title>Blood&#x2013;Brain Barrier Integrity Is Perturbed in a Mecp2-Null Mouse Model of Rett Syndrome</article-title>. <source>Biomolecules</source>
+<volume>13</volume>, <fpage>606</fpage> (<year>2023</year>).<pub-id pub-id-type="pmid">37189354</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Panighini</surname><given-names>A</given-names></name>. <etal/>
+<article-title>Vascular Dysfunction in a Mouse Model of Rett Syndrome and Effects of Curcumin Treatment</article-title>. <source>PLOS ONE</source>
+<volume>8</volume>, <fpage>e64863</fpage> (<year>2013</year>). <pub-id pub-id-type="doi">10.1371/journal.pone.0064863</pub-id><pub-id pub-id-type="pmid">23705018</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Pacheco</surname><given-names>N. L.</given-names></name>
+<etal/>
+<article-title>RNA sequencing and proteomics approaches reveal novel deficits in the cortex of Mecp2-deficient mice, a model for Rett syndrome</article-title>. <source>Molecular Autism</source>
+<volume>8</volume>, <fpage>56</fpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.1186/s13229-017-0174-4</pub-id><pub-id pub-id-type="pmid">29090078</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Lyst</surname><given-names>M. J.</given-names></name>
+<etal/>
+<article-title>Rett syndrome mutations abolish the interaction of MeCP2 with the NCoR/SMRT co-repressor</article-title>. <source>Nat Neurosci</source>
+<volume>16</volume>, <fpage>898</fpage>&#x2013;<lpage>902</lpage> (<year>2013</year>). <pub-id pub-id-type="doi">10.1038/nn.3434</pub-id><pub-id pub-id-type="pmid">23770565</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <mixed-citation publication-type="other"><name><surname>Luo</surname><given-names>A. C.</given-names></name>
+<etal/>
+<article-title>A streamlined method to generate endothelial cells from human pluripotent stem cells via transient doxycycline-inducible ETV2 activation</article-title>. <source>Angiogenesis</source> (<year>2024</year>). <pub-id pub-id-type="doi">10.1007/s10456-024-09937-5</pub-id></mixed-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Palikuqi</surname><given-names>B</given-names></name>. <etal/>
+<article-title>Adaptable haemodynamic endothelial cells for organogenesis and tumorigenesis</article-title>. <source>Nature</source>
+<volume>585</volume>, <fpage>426</fpage>&#x2013;<lpage>432</lpage> (<year>2020</year>). <pub-id pub-id-type="doi">10.1038/s41586-020-2712-z</pub-id><pub-id pub-id-type="pmid">32908310</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Cui</surname><given-names>N.</given-names></name>, <name><surname>Hu</surname><given-names>M</given-names></name>. &amp; <name><surname>Khalil</surname><given-names>R. A.</given-names></name>
+<article-title>Biochemical and Biological Attributes of Matrix Metalloproteinases</article-title>. <source>Prog Mol Biol Transl Sci</source>
+<volume>147</volume>, <fpage>1</fpage>&#x2013;<lpage>73</lpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.1016/bs.pmbts.2017.02.005</pub-id><pub-id pub-id-type="pmid">28413025</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Issler</surname><given-names>O</given-names></name>. &amp; <name><surname>Chen</surname><given-names>A</given-names></name>. <article-title>Determining the role of microRNAs in psychiatric disorders</article-title>. <source>Nature Reviews Neuroscience</source>
+<volume>16</volume>, <fpage>201</fpage>&#x2013;<lpage>212</lpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.1038/nrn3879</pub-id><pub-id pub-id-type="pmid">25790865</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Szulwach</surname><given-names>K. E.</given-names></name>
+<etal/>
+<article-title>Cross talk between microRNA and epigenetic regulation in adult neurogenesis</article-title>. <source>Journal of Cell Biology</source>
+<volume>189</volume>, <fpage>127</fpage>&#x2013;<lpage>141</lpage> (<year>2010</year>). <pub-id pub-id-type="doi">10.1083/jcb.200908151</pub-id><pub-id pub-id-type="pmid">20368621</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Urdinguio</surname><given-names>R. G.</given-names></name>
+<etal/>
+<article-title>Disrupted microRNA expression caused by Mecp2 loss in a mouse model of Rett syndrome</article-title>. <source>Epigenetics</source>
+<volume>5</volume>, <fpage>656</fpage>&#x2013;<lpage>663</lpage> (<year>2010</year>). <pub-id pub-id-type="doi">10.4161/epi.5.7.13055</pub-id><pub-id pub-id-type="pmid">20716963</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Tsujimura</surname><given-names>K</given-names></name>. <etal/>
+<article-title>miR-199a Links MeCP2 with mTOR Signaling and Its Dysregulation Leads to Rett Syndrome Phenotypes</article-title>. <source>Cell Reports</source>
+<volume>12</volume>, <fpage>1887</fpage>&#x2013;<lpage>1901</lpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.1016/j.celrep.2015.08.028</pub-id><pub-id pub-id-type="pmid">26344767</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R33">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>van Solingen</surname><given-names>C</given-names></name>. <etal/>
+<article-title>Antagomir-mediated silencing of endothelial cell specific microRNA-126 impairs ischemia-induced angiogenesis</article-title>. <source>J Cell Mol Med</source>
+<volume>13</volume>, <fpage>1577</fpage>&#x2013;<lpage>1585</lpage> (<year>2009</year>). <pub-id pub-id-type="doi">10.1111/j.1582-4934.2008.00613.x</pub-id><pub-id pub-id-type="pmid">19120690</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R34">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>W</given-names></name>. &amp; <name><surname>Wang</surname><given-names>X</given-names></name>. <article-title>Prediction of functional microRNA targets by integrative modeling of microRNA binding and target expression data</article-title>. <source>Genome Biology</source>
+<volume>20</volume>, <fpage>18</fpage> (<year>2019</year>). <pub-id pub-id-type="doi">10.1186/s13059-019-1629-z</pub-id><pub-id pub-id-type="pmid">30670076</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R35">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Saharinen</surname><given-names>P.</given-names></name>, <name><surname>Eklund</surname><given-names>L</given-names></name>. &amp; <name><surname>Alitalo</surname><given-names>K</given-names></name>. <article-title>Therapeutic targeting of the angiopoietin&#x2013;TIE pathway</article-title>. <source>Nature Reviews Drug Discovery</source>
+<volume>16</volume>, <fpage>635</fpage>&#x2013;<lpage>661</lpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.1038/nrd.2016.278</pub-id><pub-id pub-id-type="pmid">28529319</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R36">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Augustin</surname><given-names>H. G.</given-names></name>, <name><surname>Young Koh</surname><given-names>G.</given-names></name>, <name><surname>Thurston</surname><given-names>G</given-names></name>. &amp; <name><surname>Alitalo</surname><given-names>K</given-names></name>. <article-title>Control of vascular morphogenesis and homeostasis through the angiopoietin&#x2013;Tie system</article-title>. <source>Nature Reviews Molecular Cell Biology</source>
+<volume>10</volume>, <fpage>165</fpage>&#x2013;<lpage>177</lpage> (<year>2009</year>). <pub-id pub-id-type="doi">10.1038/nrm2639</pub-id><pub-id pub-id-type="pmid">19234476</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R37">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>H.</given-names></name>, <name><surname>Yamaguchi</surname><given-names>T.</given-names></name>, <name><surname>Kokubu</surname><given-names>Y</given-names></name>. &amp; <name><surname>Kawabata</surname><given-names>K</given-names></name>. <article-title>Transient ETV2 Expression Promotes the Generation of Mature Endothelial Cells from Human Pluripotent Stem Cells</article-title>. <source>Biological and Pharmaceutical Bulletin</source>
+<volume>45</volume>, <fpage>483</fpage>&#x2013;<lpage>490</lpage> (<year>2022</year>). <pub-id pub-id-type="doi">10.1248/bpb.b21-00929</pub-id><pub-id pub-id-type="pmid">35370273</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R38">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>K</given-names></name>. <etal/>
+<article-title>Robust differentiation of human pluripotent stem cells into endothelial cells via temporal modulation of ETV2 with modified mRNA</article-title>. <source>Science Advances</source>
+<volume>6</volume>, <fpage>eaba7606</fpage>
+<pub-id pub-id-type="doi">10.1126/sciadv.aba7606</pub-id></mixed-citation>
+      </ref>
+      <ref id="R39">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Campisi</surname><given-names>M</given-names></name>. <etal/>
+<article-title>3D self-organized microvascular model of the human blood-brain barrier with endothelial cells, pericytes and astrocytes</article-title>. <source>Biomaterials</source>
+<volume>180</volume>, <fpage>117</fpage>&#x2013;<lpage>129</lpage> (<year>2018</year>). <pub-id pub-id-type="doi">10.1016/j.biomaterials.2018.07.014</pub-id><pub-id pub-id-type="pmid">30032046</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R40">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Osaki</surname><given-names>T.</given-names></name>, <name><surname>Sivathanu</surname><given-names>V</given-names></name>. &amp; <name><surname>Kamm</surname><given-names>R. D.</given-names></name>
+<article-title>Engineered 3D vascular and neuronal networks in a microfluidic platform</article-title>. <source>Scientific Reports</source>
+<volume>8</volume>, <fpage>5168</fpage> (<year>2018</year>). <pub-id pub-id-type="doi">10.1038/s41598-018-23512-1</pub-id><pub-id pub-id-type="pmid">29581463</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R41">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Offeddu</surname><given-names>G. S.</given-names></name>
+<etal/>
+<article-title>An on-chip model of protein paracellular and transcellular permeability in the microcirculation</article-title>. <source>Biomaterials</source>
+<volume>212</volume>, <fpage>115</fpage>&#x2013;<lpage>125</lpage> (<year>2019</year>). <pub-id pub-id-type="doi">10.1016/j.biomaterials.2019.05.022</pub-id><pub-id pub-id-type="pmid">31112823</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R42">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Hajal</surname><given-names>C</given-names></name>. <etal/>
+<article-title>Engineered human blood&#x2013;brain barrier microfluidic model for vascular permeability analyses</article-title>. <source>Nature protocols</source>
+<volume>17</volume>, <fpage>95</fpage>&#x2013;<lpage>128</lpage> (<year>2022</year>). <pub-id pub-id-type="doi">10.1038/s41596-021-00635-w</pub-id><pub-id pub-id-type="pmid">34997242</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R43">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Van den Steen</surname><given-names>P. E.</given-names></name>
+<etal/>
+<article-title>Biochemistry and molecular biology of gelatinase B or matrix metalloproteinase-9 (MMP-9)</article-title>. <source>Crit Rev Biochem Mol Biol</source>
+<volume>37</volume>, <fpage>375</fpage>&#x2013;<lpage>536</lpage> (<year>2002</year>). <pub-id pub-id-type="doi">10.1080/10409230290771546</pub-id><pub-id pub-id-type="pmid">12540195</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R44">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Visse</surname><given-names>R</given-names></name>. &amp; <name><surname>Nagase</surname><given-names>H</given-names></name>. <article-title>Matrix Metalloproteinases and Tissue Inhibitors of Metalloproteinases</article-title>. <source>Circulation Research</source>
+<volume>92</volume>, <fpage>827</fpage>&#x2013;<lpage>839</lpage> (<year>2003</year>). <pub-id pub-id-type="doi">10.1161/01.RES.0000070112.80711.3D</pub-id><pub-id pub-id-type="pmid">12730128</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R45">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Fanjul-Fern&#xE1;ndez</surname><given-names>M.</given-names></name>, <name><surname>Folgueras</surname><given-names>A. R.</given-names></name>, <name><surname>Cabrera</surname><given-names>S</given-names></name>. &amp; <name><surname>L&#xF3;pez-Ot&#xED;n</surname><given-names>C</given-names></name>. <article-title>Matrix metalloproteinases: Evolution, gene regulation and functional analysis in mouse models</article-title>. <source>Biochimica et Biophysica Acta (BBA) - Molecular Cell Research</source>
+<volume>1803</volume>, <fpage>3</fpage>&#x2013;<lpage>19</lpage> (<year>2010</year>). <pub-id pub-id-type="doi">10.1016/j.bbamcr.2009.07.004</pub-id><pub-id pub-id-type="pmid">19631700</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R46">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>S</given-names></name>. <etal/>
+<article-title>The Endothelial-Specific MicroRNA miR-126 Governs Vascular Integrity and Angiogenesis</article-title>. <source>Developmental Cell</source>
+<volume>15</volume>, <fpage>261</fpage>&#x2013;<lpage>271</lpage> (<year>2008</year>). <pub-id pub-id-type="doi">10.1016/j.devcel.2008.07.002</pub-id><pub-id pub-id-type="pmid">18694565</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R47">
+        <label>47</label>
+        <mixed-citation publication-type="other"><name><surname>Wang</surname><given-names>L</given-names></name>. <etal/>
+<article-title>Sensing and guiding cell-state transitions by using genetically encoded endoribonuclease-mediated microRNA sensors</article-title>. <source>Nature Biomedical Engineering</source> (<year>2024</year>). <pub-id pub-id-type="doi">10.1038/s41551-024-01229-z</pub-id></mixed-citation>
+      </ref>
+      <ref id="R48">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Qu</surname><given-names>M.-J.</given-names></name>
+<etal/>
+<article-title>MicroRNA-126 is a prospective target for vascular disease</article-title>. <source>Neuroimmunology and Neuroinflammation</source>
+<volume>5</volume>, <fpage>10</fpage> (<year>2018</year>). <pub-id pub-id-type="doi">10.20517/2347-8659.2018.01</pub-id></mixed-citation>
+      </ref>
+      <ref id="R49">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>Y</given-names></name>. <etal/>
+<article-title>MicroRNA genes are transcribed by RNA polymerase II</article-title>. <source>Embo j</source>
+<volume>23</volume>, <fpage>4051</fpage>&#x2013;<lpage>4060</lpage> (<year>2004</year>). <pub-id pub-id-type="doi">10.1038/sj.emboj.7600385</pub-id><pub-id pub-id-type="pmid">15372072</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R50">
+        <label>50</label>
+        <mixed-citation publication-type="other"><name><surname>Liu</surname><given-names>Y</given-names></name>. <etal/>
+<article-title>MECP2 directly interacts with RNA polymerase II to modulate transcription in human neurons</article-title>. <source>Neuron</source> (<year>2024</year>). <pub-id pub-id-type="doi">10.1016/j.neuron.2024.04.007</pub-id></mixed-citation>
+      </ref>
+      <ref id="R51">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Cheng</surname><given-names>T.-L.</given-names></name>
+<etal/>
+<article-title>MeCP2 Suppresses Nuclear MicroRNA Processing and Dendritic Growth by Regulating the DGCR8/Drosha Complex</article-title>. <source>Developmental Cell</source>
+<volume>28</volume>, <fpage>547</fpage>&#x2013;<lpage>560</lpage> (<year>2014</year>). <pub-id pub-id-type="doi">10.1016/j.devcel.2014.01.032</pub-id><pub-id pub-id-type="pmid">24636259</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R52">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Nakashima</surname><given-names>H</given-names></name>. <etal/>
+<article-title>MeCP2 controls neural stem cell fate specification through miR-199a-mediated inhibition of BMP-Smad signaling</article-title>. <source>Cell Reports</source>
+<volume>35</volume>, <fpage>109124</fpage> (<year>2021</year>). <pub-id pub-id-type="doi">10.1016/j.celrep.2021.109124</pub-id><pub-id pub-id-type="pmid">34010654</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R53">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Di Pardo</surname><given-names>A</given-names></name>. <etal/>
+<article-title>Impairment of blood-brain barrier is an early event in R6/2 mouse model of Huntington Disease</article-title>. <source>Sci Rep</source>
+<volume>7</volume>, <fpage>41316</fpage> (<year>2017</year>). <pub-id pub-id-type="doi">10.1038/srep41316</pub-id><pub-id pub-id-type="pmid">28117381</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R54">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Barisano</surname><given-names>G</given-names></name>. <etal/>
+<article-title>Blood&#x2013;brain barrier link to human cognitive impairment and Alzheimer&#x2019;s disease</article-title>. <source>Nature Cardiovascular Research</source>
+<volume>1</volume>, <fpage>108</fpage>&#x2013;<lpage>115</lpage> (<year>2022</year>). <pub-id pub-id-type="doi">10.1038/s44161-021-00014-4</pub-id></mixed-citation>
+      </ref>
+      <ref id="R55">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Arag&#xF3;n-Gonz&#xE1;lez</surname><given-names>A.</given-names></name>, <name><surname>Shaw</surname><given-names>P. J.</given-names></name> &amp; <name><surname>Ferraiuolo</surname><given-names>L</given-names></name>. <article-title>Blood-Brain Barrier Disruption and Its Involvement in Neurodevelopmental and Neurodegenerative Disorders</article-title>. <source>Int J Mol Sci</source>
+<volume>23</volume> (<year>2022</year>). <pub-id pub-id-type="doi">10.3390/ijms232315271</pub-id></mixed-citation>
+      </ref>
+      <ref id="R56">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Pulido</surname><given-names>R. S.</given-names></name>
+<etal/>
+<article-title>Neuronal Activity Regulates Blood-Brain Barrier Efflux Transport through Endothelial Circadian Genes</article-title>. <source>Neuron</source>
+<volume>108</volume>, <fpage>937</fpage>&#x2013;<lpage>952.e937</lpage> (<year>2020</year>). <pub-id pub-id-type="doi">10.1016/j.neuron.2020.09.002</pub-id><pub-id pub-id-type="pmid">32979312</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R57">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Gan</surname><given-names>Y</given-names></name>. <etal/>
+<article-title>Gut microbes in central nervous system development and related disorders</article-title>. <source>Front Immunol</source>
+<volume>14</volume>, <fpage>1288256</fpage> (<year>2023</year>). <pub-id pub-id-type="doi">10.3389/fimmu.2023.1288256</pub-id><pub-id pub-id-type="pmid">38343438</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="R58">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Agarwal</surname><given-names>V.</given-names></name>, <name><surname>Bell</surname><given-names>G. W.</given-names></name>, <name><surname>Nam</surname><given-names>J.-W.</given-names></name> &amp; <name><surname>Bartel</surname><given-names>D. P.</given-names></name>
+<article-title>Predicting effective microRNA target sites in mammalian mRNAs</article-title>. <source>eLife</source>
+<volume>4</volume>, <fpage>e05005</fpage> (<year>2015</year>). <pub-id pub-id-type="doi">10.7554/eLife.05005</pub-id><pub-id pub-id-type="pmid">26267216</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig position="float" id="F1">
+      <label>Figure 1|</label>
+      <caption>
+        <title>CRISPR-ETV2 knock-in line in Rett syndrome patient-derived iPS cells</title>
+        <p id="P45">(<bold>a</bold>) Schematic illustration of engineering Rett syndrome&#x2019;s microvascular network in the microfluidic device. Rett syndrome patient-derived iPS cells which carry MECP2[R306C] mutations and isogenic control were modified by knocking in ETV2-gene cassette by CRISPR/Cas9 to accelerate the endothelial differentiation. Then, induced endothelial cells (iEC) and fibroblast were introduced to the microfluidic device to form microvascular networks. (<bold>b, c, d</bold>) ETV2 under Tet3G promoter cassette was inserted to AAVS1 safe harbor locus and cells were sorted by mCherry fluorescent marker by FACS to obtain stable iPS cell line (<bold>d</bold>). iECs were obtained in 5 days from iPS cells in the presence of DOX. (<bold>d</bold>) Single cloned iPS cells (Rett syndrome patient-derived and control) with ETV2 gene cassettes (mCherry) and representative images of morphology of endothelial cells after 5 days from the differentiation. (<bold>e</bold>) Endothelial differentiation was confirmed by flow cytometery according to CD31, CD34, VEGFR2, and UEA-1 expression.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0001" position="float"/>
+    </fig>
+    <fig position="float" id="F2">
+      <label>Figure 2|</label>
+      <caption>
+        <title>Characterization of iEndothelial cells in 2D culture.</title>
+        <p id="P46">(<bold>a</bold>) Immunostaining of ZO-1 (green) and F-actin (red) to quantify tight junctions&#x2019; property (<bold>b</bold>) Quantification of ZO-1 area fraction rate. iEC-Mut displayed lower area fractions than iEC-WT. (<bold>c</bold>) Gene expression showed (<bold>d</bold>) iEC-Mut exhibited lower gene expressions related to tight junctions (CLDN5, OCLN, and ZO-1) measured by PCR. n = 3. (<bold>e</bold>) Measurement of TEER indicating endothelial barrier functions. (<bold>f, g</bold>) Differential gene expression by RNAseq. n = 2. (<bold>h</bold>) GO enrichment analysis. Student&#x2019;s t-test, **, <italic toggle="yes">p</italic>&lt;0.01, * <italic toggle="yes">p</italic>&lt;0.05.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0002" position="float"/>
+    </fig>
+    <fig position="float" id="F3">
+      <label>Figure 3.</label>
+      <caption>
+        <title>Imaging enhanced flow cytometry revealed heterogeneity of mutant endothelial cells.</title>
+        <p id="P47"><bold>(a)</bold> Schematic illustration of imaging enhanced flow cytometry. (<bold>b, c</bold>) Single cells gating and CD31 positive cells were determined. (<bold>d</bold>) Cell cycle analysis with DNA staining. (<bold>e</bold>) iEC-RTT had higher population of G0/G1 cycle. (<bold>f</bold>) Representative image of iEC-WT and iEC-Mut according to different cell cycles. Perimeter, psudo-diameter, entropy, and circularity were quantified by images. (<bold>g</bold>) UMAP plot showed the diverse population of endothelial cells. (<bold>h, i</bold>) Feature plot of ZO-1 indicates the unique clusters (cluster 3), which express higher ZO-1. We determined endothelial cell clusters (cluster 2, 4, 5) and ZO-1 high expressed cluster (cluster 3). Clusters were determined by four morphological features (perimeter, psudo-diameter, entropy, and circularity). (<bold>k</bold>) Quantification of number of cells in each cluster. Number of cells in cluster 3 of iEC-WT is higher than iEC-RTT, which expre4ss higher ZO-1.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0003" position="float"/>
+    </fig>
+    <fig position="float" id="F4">
+      <label>Figure 4.</label>
+      <caption>
+        <title>Rett syndrome patient-derived microvascular network exhibited higher permeability along with altered tight junction expression.</title>
+        <p id="P48">(<bold>a</bold>) WT-iEC and RTT-iEC were embedded in fibrin gel with fibroblast and introduced into microfluidic device to form microvascular networks. Regardless of MeCP2 mutation, microvascular networks were formed with in 5 days. (<bold>b</bold>) RTT-iVascular exhibited slightly but significantly smaller diameter of vasculature. (<bold>c</bold>) There is no significant difference of roundness of vasculature. (<bold>d</bold>) Permeability of endothelial layer were quantified by perfusion of 70 kDa of Texas-red conjugated dextran solution. (<bold>e</bold>) RTT-iVascular exhibited higher permeability indicating lower barrier function of endothelial layer. (<bold>f</bold>) Immunostaining of ZO-1 in 3D microvascular networks. ZO-1 intensity in RTT-iVascualr was lower than WT-iVascular. (<bold>g</bold>) Both WT-iVascular and RTT-iVascular produced collagenIV, but no significant difference. (<bold>h</bold>) MMP and TIMP1 levels were quantified from condition medium in 3D microvasculature. RTT-iVacular secreted higher MMP8 and TIMP4 and lower TIMP1, but no significant difference in MMP1 and MMP9. .Student&#x2019;s t-test, **, <italic toggle="yes">p</italic>&lt;0.01, * <italic toggle="yes">p</italic>&lt;0.05.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0004" position="float"/>
+    </fig>
+    <fig position="float" id="F5">
+      <label>Figure 5.</label>
+      <caption>
+        <title>Upregulation of microRNA-126 in RTT-iEC negatively impacted vascular development and permeability.</title>
+        <p id="P49"><bold>(a)</bold> miR-126&#x2013;3p was highly expressed in RTT-iEC compared to isogenic control endothelial cells. (<bold>b</bold>) miRDB predict the target gene of miR126&#x2013;3p. (<bold>c</bold>) Down regulation of gene expressions, which are targeted by miR126&#x2013;3p. (<bold>d</bold>) miRNA-integrated analaysis was performed using RNAseqecing data and predicted gene expression measured by PCR based miR expression analysis along with miRDB prediction. (<bold>e</bold>) Downregualation and upregulation of miRNA of RTT-iEC over WT-iEC. (<bold>f</bold>) 7-upregulated microRNA were determed by the miRNA expression analsysis (<bold>e</bold>) and endothelial cell related. (<bold>g</bold>) GO endrichment analysis (biological process) from predicted downregulated gene set determined by miRDB and miRNA expression analsysis (<bold>e</bold>). Significant down regulated pathway (Regulation of vascular development) were determined. (<bold>h</bold>) Cnet plot suggested that gene involved in these signaling pathway including END1 and TEK1. (<bold>i</bold>) miRNA-RNA integrated analysis revelared 21 overlap downregulated genes including EDN1 and TEK1, which are also consinted with RNAseq analysis (<bold>j</bold>), which potential involved in miR126&#x2013;3p-mediated vascular alternation.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0005" position="float"/>
+    </fig>
+    <fig position="float" id="F6">
+      <label>Figure 6.</label>
+      <caption>
+        <title>Knockdown of miRNA-126 rescues the phenotype and endothelial barrier functions in RTT-iEC.</title>
+        <p id="P50"><bold>(a)</bold> Lentivirus vector to deliver antisense-miR126&#x2013;3p and EGFP to down-regulate miR126 expressions. (<bold>b</bold>) After endothelial differentiation, the cells were transfected with lentivirus, and EGFP-positive cells were sorted. n =5. (<bold>c, d</bold>) Representative images (c) and pearmeability analysis (d) of RTT-iVascular MVNs with or without expressing miR126&#x2013;3p knockout constructs (green) perfused with 70 kDa Dextran (red). n =30. (<bold>e</bold>) RT-PCR revealed that EGFL7, TEK, EDN-1, and CLDN5 were downregulated in RTT-iEC, and knockout of miR126&#x2013;3p recovered TEK and EDN-1 expression along with FOXO1 and CLDN5 rescuing. n =3. (<bold>f</bold>) Gene function prediction involved in Ang/Tie2 signaling and tight junction stabilization based on GeneMANIA algorithm. (<bold>g</bold>) Schematic illustration of altered gene pathway in RTT-iEC. Student&#x2019;s t-test, ****, <italic toggle="yes">p</italic>&lt;0.0001.</p>
+      </caption>
+      <graphic xlink:href="nihpp-2024.10.11.617929v1-f0006" position="float"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>
